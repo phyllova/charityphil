@@ -1,0 +1,10 @@
+(function ($, window, Drupal, drupalSettings) {
+
+    'use strict';
+
+    Drupal.AjaxCommands.prototype.datalayerpush = function (ajax, response, status) {
+        $(document).consoleLogger(response);
+        dataLayer.push(response.data);
+    };
+
+})(jQuery, window, Drupal, drupalSettings);

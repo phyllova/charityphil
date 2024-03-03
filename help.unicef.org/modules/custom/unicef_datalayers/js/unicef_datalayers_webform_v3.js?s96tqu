@@ -1,0 +1,435 @@
+(function ($, window, Drupal, drupalSettings) {
+
+    'use strict';
+
+    window.unicef_datalayers = [];
+    let _this;
+    let payment_success = false;
+    let $donation_form;
+
+    /**
+     * @type {Drupal~behavior}
+     *
+     * @prop {Drupal~behaviorAttach} attach
+     * Adds datalayer field behaviour
+     */
+    Drupal.behaviors.unicef_datalayers_v3 = {
+        //Getters and setters
+        getDefaults: function () {
+            //Get JSON attributes on each page load
+            window.unicef_datalayers.json_attributes = $('.donation-form-json-attributes').data('json') ?? [];
+            //Set defaults
+            var default_settings = {
+                donation_type: '',
+                category: '',
+                donation_amount: String($('.vertical-tabs-active-tab').next().find('input:checked').val()) ?? "",
+                currency_code: $('input[name="donation_amounts[currency_code]"]').val(),
+                donation_interval: '12',
+                other_amount: false,
+                order_payment_method: ''
+            };
+            //Iterate over the default and set window vars if undefined or if json attributes contain data
+            for (const [key, value] of Object.entries(default_settings)) {
+                if (typeof window.unicef_datalayers[key] === "undefined") {
+                    window.unicef_datalayers[key] = value;
+                }
+            }
+        },
+        getPrice: function () {
+            if (window.unicef_datalayers.donation_amount === "undefined") {
+                if (typeof window.unicef_datalayers.json_attributes.donation_amount !== "undefined") {
+                    var price = window.unicef_datalayers.json_attributes.donation_amount;
+                    _this.setPrice(price);
+                    return price;
+                } else {
+                    var price = String($('.vertical-tabs-active-tab').next().find('input:checked').val());
+                    _this.setPrice(price);
+                    return price;
+                }
+            }
+            return window.unicef_datalayers.donation_amount;
+        },
+        setPrice: function (price) {
+            window.unicef_datalayers.donation_amount = price;
+        },
+        getCurrency: function () {
+            return window.unicef_datalayers.currency_code;
+        },
+        setCurrency: function (currency) {
+            window.unicef_datalayers.currency_code = currency;
+        },
+        getDonationInterval: function () {
+            return window.unicef_datalayers.donation_interval;
+        },
+        setDonationInterval: function (val) {
+            window.unicef_datalayers.donation_interval = val;
+        },
+        setPriceFromElement: function ($child_el) {
+            let price = $child_el.val().length > 0 ? $child_el.val() : "0.00";
+            _this.setPrice(price);
+        },
+        getCategory: function () {
+            if (window.unicef_datalayers.category === "") {
+                if (typeof window.unicef_datalayers.json_attributes.donation_type !== "undefined") {
+                    var category = _this.mappingValues('donation_type', window.unicef_datalayers.json_attributes.donation_type);
+                    _this.setCategory(category);
+                    return category;
+                }
+            }
+            return window.unicef_datalayers.category;
+        },
+        setCategory: function (category) {
+            window.unicef_datalayers.category = category;
+        },
+        getOtherBool: function () {
+            return window.unicef_datalayers.other_amount;
+        },
+        setOtherBool: function (other) {
+            window.unicef_datalayers.other_amount = other;
+        },
+        setDonationAmounts: function () {
+            let $child;
+            let $child_el;
+            let $selected_radio = $($donation_form).find('.vertical-tabs-pane.active input:checked');
+            let $other_only_el = $($donation_form).find('.vertical-tabs-pane.active input.other-only');
+            if ($selected_radio.length) {
+                $child = $selected_radio.attr('data-child');
+                _this.setOtherBool(false);
+                if (typeof $child !== "undefined") {
+                    _this.setOtherBool(true);
+                    $child_el = $donation_form.find('input[data-sku="' + $child + '"]');
+                    _this.setPriceFromElement($child_el);
+                }
+            }
+            if ($other_only_el.length) {
+                _this.setOtherBool(true);
+                $child = $other_only_el.attr('data-child');
+                $child_el = $donation_form.find('input[data-sku="' + $child + '"]');
+                _this.setPriceFromElement($child_el);
+            }
+        },
+        getErrorBool: function () {
+            return window.unicef_datalayers.error_bool ?? false;
+        },
+        setErrorBool: function (error_bool) {
+            window.unicef_datalayers.error_bool = error_bool;
+        },
+        getErrorLabel: function () {
+            return window.unicef_datalayers.error_label;
+        },
+        setErrorLabel: function (error_bool) {
+            window.unicef_datalayers.error_label = 'Successful';
+            if (error_bool === true) {
+                window.unicef_datalayers.error_label = 'Unsuccessful';
+            }
+        },
+        getFormattedErrors: function () {
+            return window.unicef_datalayers.formatted_errors;
+        },
+        setFormattedErrors: function (errors) {
+            window.unicef_datalayers.formatted_errors = "";
+            if (errors.length) {
+                window.unicef_datalayers.formatted_errors = errors.join();
+            }
+        },
+        getPaymentMethod: function () {
+            return window.unicef_datalayers.payment_method;
+        },
+        setPaymentMethod: function () {
+            //Payment method type
+            var payment_method = $donation_form.find('input[name="payment_processor_selection[plugin_id]"]');
+            if (payment_method.length > 0) {
+                window.unicef_datalayers.payment_method = _this.mappingValues('payment_method', payment_method.val());
+            }
+        },
+        //HELPERS
+        getStripeErrors: function () {
+            let error_messages = [];
+            let $stripe_elements = $donation_form.find('.commerce-donation-stripe-elements');
+            if ($stripe_elements.length > 0) {
+                if ($stripe_elements.find('.outcome .error.visible').length) {
+                    error_messages.push($stripe_elements.find('.outcome .error.visible').text());
+                }
+            }
+            return error_messages;
+        },
+        getClientSideErrors: function () {
+            let error_messages = [];
+            if (typeof window.unicef_clientside_validation.form_errors !== "undefined") {
+                let errors = window.unicef_clientside_validation.form_errors;
+                if (errors.length) {
+                    for (let error of errors) {
+                        error_messages.push(error.element_error);
+                    }
+                }
+            }
+            return error_messages;
+        },
+        getDrupalErrors: function () {
+            let error_messages = [];
+            if (typeof drupalSettings.unicef_datalayers !== "undefined") {
+                if (typeof drupalSettings.unicef_datalayers.error_messages !== "undefined") {
+                    if (typeof drupalSettings.unicef_datalayers.error_messages.error !== "undefined") {
+                        let messages = drupalSettings.unicef_datalayers.error_messages.error;
+                        if (messages.length) {
+                            for (let message of messages) {
+                                error_messages.push(message);
+                            }
+                        }
+                    }
+                }
+            }
+            return error_messages;
+        },
+        getSubmitErrorMessages: function () {
+            let error_messages = [];
+            error_messages.push(_this.getStripeErrors());
+            error_messages.push(_this.getClientSideErrors());
+            error_messages = _this.flattenArray(error_messages, Infinity);
+            if (error_messages.length <= 0) {
+                error_messages = '';
+            }
+            return error_messages;
+        },
+        getLoadErrorMessages: function () {
+            let error_messages = [];
+            error_messages.push(_this.getDrupalErrors());
+            error_messages = _this.flattenArray(error_messages, Infinity);
+            if (error_messages.length <= 0) {
+                error_messages = '';
+            }
+            return error_messages;
+        },
+        mappingValues: function (key, value) {
+            let mappings = {
+                'donation_type': {
+                    'one-time': 'One time Donation',
+                    'monthly': 'Monthly Donation',
+                    'upgrade': 'Upgrade',
+                },
+                'payment_method': {
+                    'stripe_elements_payment_intent': 'Credit Card',
+                }
+            }
+            return mappings[key][value];
+        },
+        flattenArray: function (arr, d = 1) {
+            return d > 0 ? arr.reduce((acc, val) => acc.concat(Array.isArray(val) ? _this.flattenArray(val, d - 1) : val), [])
+                : arr.slice();
+        },
+        resolveMergeVars: function (objSource) {
+            if (typeof objSource === 'string') {
+                if (objSource.includes('js_merge_var')) {
+                    let method_var = objSource.substring(objSource.indexOf('.') + 1);
+                    if (typeof method_var !== 'undefined') {
+                        if (typeof _this[method_var] === 'function') {
+                            return _this[method_var]();
+                        } else if (typeof method_var !== 'undefined') {
+                            return Function('"use strict";return (' + method_var + ')')();
+                        }
+                    }
+                } else {
+                    return objSource;
+                }
+            }
+            if (typeof objSource === 'object') {
+                if (objSource === null) {
+                    return null;
+                }
+                Object.keys(objSource).forEach(function (property) {
+                    objSource[property] = _this.resolveMergeVars(objSource[property]);
+                });
+                return objSource;
+            }
+            if (typeof objSource !== 'string' && typeof objSource !== 'object') {
+                return objSource;
+            }
+        },
+        //DOM EVENTS - Page ready
+        attach: function (context, settings) {
+            // Hack to get around Drupal attach on multiple contexts
+            let element_type = $(context).prop('nodeName');
+            let allowed_contexts = ['#document', 'FORM'];
+            if (!allowed_contexts.includes(element_type)) {
+                return;
+            }
+            _this = this;
+            _this.getDefaults();
+            //Run script once per donation form
+            //We need to use context with a low level child element in order for once to function correctly
+            //We then traverse back up the DOM to find our form element
+            $('.donate-form-wrapper', context).once('webform_donation_placeholders_datalayer').each(function () {
+                $donation_form = $(this).closest('form');
+                //Donation amounts
+                _this.donationAmountEvents(context);
+                //Form load
+                _this.formLoadEvents();
+                //Check errors
+                _this.checkErrors('load');
+                //Next button clicks
+                let $next_btn_el = $donation_form.find('.form-submit:not(.btn-previous)');
+                $($next_btn_el).on('click', function (e) {
+                    var step_key = $(this).attr('data-step-key');
+                    // Set donation amounts on first step
+                    if (step_key === 'donation_amount') {
+                        _this.setDonationAmounts();
+                    }
+                    _this.setPaymentMethod();
+                    _this.checkErrors('submit');
+                    _this.formSubmitEvents($(this));
+                });
+            });
+        },
+        formLoadEvents: function () {
+            let $datalayer_fields = $donation_form.find('.datalayer-mappings');
+            $datalayer_fields.each(function () {
+                let step_event = $(this).attr('data-step-event');
+                let schema = $(this).attr('data-schema');
+                if (step_event === 'step_load') {
+                    _this.dataLayerPush(JSON.parse(schema));
+                }
+                if (step_event === 'payment_success') {
+                    var $success_element = $('#thank-you-wrapper.payment-success');
+                    if ($success_element.length) {
+                        _this.dataLayerPush(JSON.parse(schema));
+                    }
+                }
+                if (step_event === 'payment_failed') {
+                    var $failure_element = $('#thank-you-wrapper.payment-failed');
+                    if ($failure_element.length) {
+                        _this.dataLayerPush(JSON.parse(schema));
+                    }
+                }
+            });
+        },
+        formSubmitEvents: function ($el) {
+            //Mappings
+            let $datalayer_fields = $donation_form.find('.datalayer-mappings');
+            $datalayer_fields.each(function () {
+                let step_event = $(this).attr('data-step-event');
+                let validation_required = ($(this).attr('data-validation-required') === "1") ?? false;
+                let schema = $(this).attr('data-schema');
+                if (step_event === 'step_submit' && !validation_required) {
+                    _this.dataLayerPush(JSON.parse(schema));
+                }
+                if (step_event === 'step_submit' && validation_required && _this.getErrorBool() !== true) {
+                    _this.dataLayerPush(JSON.parse(schema));
+                }
+            });
+        },
+        donationAmountEvents: function (context) {
+            let $amount_el = $donation_form.find('.donation-tabs *[data-donation-type].form-radio');
+            let $tab_el = $donation_form.find('.donation-tabs a[data-toggle="tab"]');
+            // Tab load and clicks
+            if ($(context).prop('nodeName') === '#document' || $(context).attr('id') === 'donation-form') {
+                _this.productImpressions('pageload', false);
+            }
+            //Hacky fake-click code to get around bootstrap contrib module vertical tabs js using focus and click to show tabs
+            $tab_el.on('click', function (e) {
+                if ($(this).hasClass('fake-click')) {
+                    _this.productImpressions($(this), false);
+                } else {
+                    _this.productImpressions($(this), true);
+                }
+            });
+            // Amount click
+            $($amount_el).on('click', function (e) {
+                _this.productClick(e);
+            });
+        },
+        productImpressions: function ($el, send_data) {
+            let tab = '';
+            if ($el === 'pageload') {
+                tab = $($donation_form).find('.vertical-tab-button.active a[data-toggle]');
+            } else {
+                tab = $el;
+            }
+            //Return if we have no tabs
+            if (tab.length === 0) {
+                return;
+            }
+            _this.setCategory(_this.mappingValues('donation_type', $(tab).attr('data-donation-type')));
+            if (_this.getCategory() === 'one-time') {
+                _this.setDonationInterval('1');
+            } else {
+                _this.setDonationInterval('12');
+            }
+            if (send_data === true) {
+                let data = {
+                    event: 'gaEvent',
+                    eventCategory: 'Form Click',
+                    eventAction: 'Tab',
+                    eventLabel: _this.getCategory() // or 'Give Once' if the Give Once tab is clicked
+                }
+                _this.dataLayerPush(data);
+            }
+        },
+        productClick: function (e) {
+            let $element = $(e.target);
+            let amount = parseInt($element.val());
+            if (!isNaN(amount)) {
+                _this.setPrice(String($element.val()));
+            } else {
+                _this.setPrice('Other');
+            }
+            let data = {
+                event: 'gaEvent',
+                eventCategory: 'Form Click',
+                eventAction: 'Donation Amount',
+                eventLabel: _this.getCurrency() + ' - ' + _this.getPrice() // currency and chosen amount ( or 'USD - 40', 'USD - 30', 'USD - 80', etc. )
+            }
+            _this.dataLayerPush(data);
+        },
+        errorEvents: function (errors) {
+            for (let error of errors) {
+                let error_event_data = {
+                    event: 'gaEvent',
+                    eventCategory: 'Error',
+                    eventAction: 'Form Error',
+                    eventLabel: _this.getCategory(), // here should be passed page subcategory value
+                    errorMessage: error
+                }
+                _this.dataLayerPush(error_event_data);
+            }
+            let error_message_data = {
+                event: 'errorMessage',
+                errorMessage: _this.getFormattedErrors(), // First Name field is required, Last name ...
+                donationAmount: _this.getPrice(), // donation amount i.e. "10" | "20" | "30"
+                donationType: _this.getCategory()  // One time Donation I Monthly Donation I Upgrade
+            }
+            if (_this.getPaymentMethod() !== '') {
+                error_message_data['paymentType'] = _this.getPaymentMethod(); // either Credit Card or Bank Transfer
+            }
+            _this.dataLayerPush(error_message_data);
+        },
+        checkErrors: function (type) {
+            let errors;
+            if (type === 'submit') {
+                errors = _this.getSubmitErrorMessages();
+            } else if (type === 'load') {
+                errors = _this.getLoadErrorMessages();
+            }
+
+            if (errors.length > 0) {
+                _this.setFormattedErrors(errors);
+                _this.setErrorBool(true);
+                _this.setErrorLabel(true);
+                _this.errorEvents(errors);
+            } else {
+                _this.setFormattedErrors('');
+                _this.setErrorBool(false);
+                _this.setErrorLabel(false);
+            }
+        },
+        //DL push and logging function
+        dataLayerPush: function (data) {
+            if (data === null) {
+                $(document).consoleLogger("NULL supplied for data - cannot push to data layer");
+                return;
+            }
+            let merged_data = _this.resolveMergeVars(data);
+            $(document).consoleLogger(merged_data);
+            dataLayer.push(merged_data);
+        }
+    };
+})(jQuery, window, Drupal, drupalSettings);
