@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en-GB" lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" class id="top">
+<head>
+<script src="https://cdn.optimizely.com/js/11097406100.js" async data-cfasync="false"></script>
+<meta charset="utf-8" />
+<meta name="description" content="A conversation with UNICEF Côte d&#039;Ivoire Representative Marc Vincent about building community resilience amid an influx of refugees from Burkina Faso." />
+<link rel="canonical" href="https://www.unicefusa.org/stories/inside-look-unicefs-role-sahel-humanitarian-crisis-nobodys-talking-about" />
+<meta property="og:site_name" content="UNICEF USA" />
+<meta property="og:url" content="https://www.unicefusa.org/stories/inside-look-unicefs-role-sahel-humanitarian-crisis-nobodys-talking-about" />
+<meta property="og:title" content="Inside Look: UNICEF&#039;s Role in the Sahel Humanitarian Crisis Nobody&#039;s Talking About" />
+<meta property="og:description" content="A conversation with UNICEF Côte d&#039;Ivoire Representative Marc Vincent about building community resilience amid an influx of refugees from Burkina Faso." />
+<meta property="og:image" content="https://www.unicefusa.org/sites/default/files/2023-07/UN0613144.JPG" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Inside Look: UNICEF&#039;s Role in the Sahel Humanitarian Crisis Nobody&#039;s Talking About | UNICEF USA" />
+<meta name="twitter:description" content="A conversation with UNICEF Côte d&#039;Ivoire Representative Marc Vincent about building community resilience amid an influx of refugees from Burkina Faso." />
+<meta name="twitter:url" content="https://www.unicefusa.org/stories/inside-look-unicefs-role-sahel-humanitarian-crisis-nobodys-talking-about" />
+<meta name="twitter:image" content="https://www.unicefusa.org/sites/default/files/2023-07/UN0613144.JPG" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon.svg" type="image/svg+xml" />
+<script src="/sites/default/files/google_tag/unicef/google_tag.script.js?s9rgw8" defer type="0c4333c915e0d812bf3a5a2e-text/javascript"></script>
+
+<script async type="0c4333c915e0d812bf3a5a2e-text/javascript">(function(w,d,s,n,a){if(!w[n]){var l='call,catch,on,once,set,then,track'
+      .split(','),i,o=function(n){return'function'==typeof n?o.l.push([arguments])&&o
+      :function(){return o.l.push([n,arguments])&&o}},t=d.getElementsByTagName(s)[0],
+      j=d.createElement(s);j.async=!0;j.src='https://cdn.fundraiseup.com/widget/'+a;
+      t.parentNode.insertBefore(j,t);o.s=Date.now();o.v=4;o.h=w.location.href;o.l=[];
+      for(i=0;i<7;i++)o[l[i]]=o(l[i]);w[n]=o}
+      })(window,document,'script','FundraiseUp','APQJSHGS');
+    </script>
+
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<title>UNICEF&#039;s Role in Sahel Crisis | UNICEF USA</title>
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_HI9ySAvTPpkrXvB74yO_IcWs3OB4Vs4Hgy3DrSze9I8.css?delta=0&amp;language=en&amp;theme=sd&amp;include=eJydUVtuhDAMvBBNjhQZMkC2SUxjA7s9fcMCH1u0qtQfZ_yYkT2RhyiSbUnQdJFEHi84QYQGSNNxgc1cEsXwjWbOoUPvulmUk-UMLRU2K9q-ztjjNVu4FBGRkNV4KIUoRmjBn0PKwxCvY3Sj-1l0K5fPPvIq7mDbtx0jSlrP-g91Dpc1dKwts3v29pTDy93KkBUlUzS3rxnlsTvVQmvVTVS2DV6yZglYxT6jSeznaoZ4l-ADWfEfT3D-WmaPZm_1IVYR09GkgfNGEe4CRSdj1bW_8nMD3CcWeLezxQ7IKBQr3S7Inou7yZaMIH_AIXK7yWg98QdjFeo3" />
+<link rel="stylesheet" media="all" href="/themes/_custom/sd/dist-stage/css/global.css?s9rgw8" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_-Yi-6kvOtMgqcv3GF0tLKHQiA1v20bP3iUEOWtWnUZo.css?delta=2&amp;language=en&amp;theme=sd&amp;include=eJydUVtuhDAMvBBNjhQZMkC2SUxjA7s9fcMCH1u0qtQfZ_yYkT2RhyiSbUnQdJFEHi84QYQGSNNxgc1cEsXwjWbOoUPvulmUk-UMLRU2K9q-ztjjNVu4FBGRkNV4KIUoRmjBn0PKwxCvY3Sj-1l0K5fPPvIq7mDbtx0jSlrP-g91Dpc1dKwts3v29pTDy93KkBUlUzS3rxnlsTvVQmvVTVS2DV6yZglYxT6jSeznaoZ4l-ADWfEfT3D-WmaPZm_1IVYR09GkgfNGEe4CRSdj1bW_8nMD3CcWeLezxQ7IKBQr3S7Inou7yZaMIH_AIXK7yWg98QdjFeo3" />
+<script src="https://cdn.cookielaw.org/consent/6f1c716a-076d-4b2b-b4cc-727c8efd7891/OtAutoBlock.js" type="0c4333c915e0d812bf3a5a2e-text/javascript"></script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-domain-script="6f1c716a-076d-4b2b-b4cc-727c8efd7891" type="0c4333c915e0d812bf3a5a2e-text/javascript"></script>
+<script src="/sites/default/files/js/js_7O2vZ893htVeiAwUEwPzEMrR1DbeIB8kDedSm9H98cQ.js?scope=header&amp;delta=2&amp;language=en&amp;theme=sd&amp;include=eJydUVtuhDAMvBBNjhQZMkC2SUxjA7s9fcMCH1u0qtQfZ_yYkT2RhyiSbUnQdJFEHi84QYQGSNNxgc1cEsXwjWbOoUPvulmUk-UMLRU2K9q-ztjjNVu4FBGRkNV4KIUoRmjBn0PKwxCvY3Sj-1l0K5fPPvIq7mDbtx0jSlrP-g91Dpc1dKwts3v29pTDy93KkBUlUzS3rxnlsTvVQmvVTVS2DV6yZglYxT6jSeznaoZ4l-ADWfEfT3D-WmaPZm_1IVYR09GkgfNGEe4CRSdj1bW_8nMD3CcWeLezxQ7IKBQr3S7Inou7yZaMIH_AIXK7yWg98QdjFeo3" type="0c4333c915e0d812bf3a5a2e-text/javascript"></script>
+<script type="0c4333c915e0d812bf3a5a2e-text/javascript">
+/*!
+ * @splidejs/splide-extension-grid
+ * Version  : 0.4.1
+ * License  : MIT
+ * Copyright: 2022 Naotoshi Fujita
+ */(function(O){typeof define=="function"&&define.amd?define(O):O()})(function(){"use strict";function O(n){n.length=0}function S(n,t,i){return Array.prototype.slice.call(n,t,i)}function T(n){return n.bind.apply(n,[null].concat(S(arguments,1)))}function V(n,t){return typeof t===n}var Q=Array.isArray;T(V,"function"),T(V,"string"),T(V,"undefined");function X(n){return Q(n)?n:[n]}function Z(n,t){X(n).forEach(t)}var hn=Object.keys;function En(n,t,i){if(n){var r=hn(n);r=i?r.reverse():r;for(var f=0;f<r.length;f++){var a=r[f];if(a!=="__proto__"&&t(n[a],a)===!1)break}}return n}function gn(n){return S(arguments,1).forEach(function(t){En(t,function(i,r){n[r]=t[r]})}),n}var j="splide";function mn(){var n=[];function t(u,c,l,v){f(u,c,function(d,g,m){var _="addEventListener"in d,C=_?d.removeEventListener.bind(d,g,l,v):d.removeListener.bind(d,l);_?d.addEventListener(g,l,v):d.addListener(l),n.push([d,g,m,l,C])})}function i(u,c,l){f(u,c,function(v,d,g){n=n.filter(function(m){return m[0]===v&&m[1]===d&&m[2]===g&&(!l||m[3]===l)?(m[4](),!1):!0})})}function r(u,c,l){var v,d=!0;return typeof CustomEvent=="function"?v=new CustomEvent(c,{bubbles:d,detail:l}):(v=document.createEvent("CustomEvent"),v.initCustomEvent(c,d,!1,l)),u.dispatchEvent(v),v}function f(u,c,l){Z(u,function(v){v&&Z(c,function(d){d.split(" ").forEach(function(g){var m=g.split(".");l(v,m[0],m[1])})})})}function a(){n.forEach(function(u){u[4]()}),O(n)}return{bind:t,unbind:i,dispatch:r,destroy:a}}var pn="visible",yn="hidden",H="refresh",wn="updated",_n="destroy";function k(n){var t=n?n.event.bus:document.createDocumentFragment(),i=mn();function r(a,u){i.bind(t,X(a).join(" "),function(c){u.apply(u,Q(c.detail)?c.detail:[])})}function f(a){i.dispatch(t,a,S(arguments,1))}return n&&n.event.on(_n,i.destroy),gn(i,{bus:t,on:r,off:T(i.unbind,t),emit:f})}var Cn=j,$=j+"__slide",An=$+"__container";function nn(n){n.length=0}function I(n,t,i){return Array.prototype.slice.call(n,t,i)}function B(n){return n.bind.apply(n,[null].concat(I(arguments,1)))}function N(n,t){return typeof t===n}function bn(n){return!P(n)&&N("object",n)}var F=Array.isArray;B(N,"function");var G=B(N,"string"),Ln=B(N,"undefined");function P(n){return n===null}function Dn(n){return n instanceof HTMLElement}function U(n){return F(n)?n:[n]}function A(n,t){U(n).forEach(t)}function tn(n,t){return n.push.apply(n,U(t)),n}function rn(n,t,i){n&&A(t,function(r){r&&n.classList[i?"add":"remove"](r)})}function q(n,t){rn(n,G(t)?t.split(" "):t,!0)}function R(n,t){A(t,n.appendChild.bind(n))}function On(n,t){return Dn(n)&&(n.msMatchesSelector||n.matches).call(n,t)}function Tn(n,t){var i=n?I(n.children):[];return t?i.filter(function(r){return On(r,t)}):i}function on(n,t){return t?Tn(n,t)[0]:n.firstElementChild}var en=Object.keys;function un(n,t,i){if(n){var r=en(n);r=i?r.reverse():r;for(var f=0;f<r.length;f++){var a=r[f];if(a!=="__proto__"&&t(n[a],a)===!1)break}}return n}function $n(n){return I(arguments,1).forEach(function(t){un(t,function(i,r){n[r]=t[r]})}),n}function In(n,t){U(t||en(n)).forEach(function(i){delete n[i]})}function J(n,t){A(n,function(i){A(t,function(r){i&&i.removeAttribute(r)})})}function K(n,t,i){bn(t)?un(t,function(r,f){K(n,f,r)}):A(n,function(r){P(i)||i===""?J(r,t):r.setAttribute(t,String(i))})}function fn(n,t,i){var r=document.createElement(n);return t&&(G(t)?q(r,t):K(r,t)),i&&R(i,r),r}function p(n,t,i){if(Ln(i))return getComputedStyle(n)[t];P(i)||(n.style[t]=""+i)}function Nn(n,t){return n&&n.classList.contains(t)}function Rn(n){A(n,function(t){t&&t.parentNode&&t.parentNode.removeChild(t)})}function an(n,t){return t?I(n.querySelectorAll(t)):[]}function cn(n,t){rn(n,t,!1)}function x(n){return G(n)?n:n?n+"px":""}var xn="splide";function Mn(n,t){if(!n)throw new Error("["+xn+"] "+(t||""))}var Sn=Math.min,Un=Math.max,qn=Math.floor,Jn=Math.ceil,Kn=Math.abs;function Vn(n){return n<10?"0"+n:""+n}var sn=$+"__row",z=$+"--col",Hn={rows:1,cols:1,dimensions:[],gap:{}};function Bn(n){function t(){var f=n.rows,a=n.cols,u=n.dimensions;return F(u)&&u.length?u:[[f,a]]}function i(f){var a=t();return a[Sn(f,a.length-1)]}function r(f){for(var a=t(),u,c,l=0,v=0;v<a.length;v++){var d=a[v];if(u=d[0]||1,c=d[1]||1,l+=u*c,f<l)break}return Mn(u&&c,"Invalid dimension"),[u,c]}return{get:i,getAt:r}}function Fn(n,t,i){var r=k(n),f=r.on,a=r.destroy,u=n.Components,c=n.options,l=u.Direction.resolve,v=u.Slides.forEach;function d(){m(),c.slideFocus&&(f(pn,W),f(yn,Y))}function g(){v(function(e){var s=e.slide;D(s,!1),M(s).forEach(function(o){J(o,"style")}),b(s).forEach(function(o){L(o,!0),J(o,"style")})}),a()}function m(){v(function(e){var s=e.slide,o=i.get(e.isClone?e.slideIndex:e.index),h=o[0],E=o[1];_(h,s),C(E,s),b(e.slide).forEach(function(y,w){y.id=e.slide.id+"-col"+Vn(w+1),n.options.cover&&L(y)})})}function _(e,s){var o=t.gap.row,h="calc("+100/e+"%"+(o?" - "+x(o)+" * "+(e-1)/e:"")+")";M(s).forEach(function(E,y,w){p(E,"height",h),p(E,"display","flex"),p(E,"margin","0 0 "+x(o)+" 0"),p(E,"padding",0),y===w.length-1&&p(E,"marginBottom",0)})}function C(e,s){var o=t.gap.col,h="calc("+100/e+"%"+(o?" - "+x(o)+" * "+(e-1)/e:"")+")";b(s).forEach(function(E,y,w){p(E,"width",h),y!==w.length-1&&p(E,l("marginRight"),x(o))})}function L(e,s){var o=on(e,"."+An),h=on(o||e,"img");h&&h.src&&(p(o||e,"background",s?"":'center/cover no-repeat url("'+h.src+'")'),p(h,"display",s?"":"none"))}function M(e){return an(e,"."+sn)}function b(e){return an(e,"."+z)}function D(e,s){b(e).forEach(function(o){K(o,"tabindex",s?0:null)})}function W(e){D(e.slide,!0)}function Y(e){D(e.slide,!1)}return{mount:d,destroy:g}}function Gn(n,t,i){var r=k(n),f=r.on,a=r.off,u=t.Elements,c={},l=Bn(c),v=Fn(n,c,l),d=Cn+"--grid",g=[];function m(){_(),f(wn,_)}function _(){In(c),$n(c,Hn,i.grid||{}),Y()?(C(),tn(g,u.slides),q(n.root,d),R(u.list,b()),a(H),f(H,M),L()):e()&&(C(),L())}function C(){if(e()){var s=u.slides;v.destroy(),g.forEach(function(o){cn(o,z),R(u.list,o)}),Rn(s),cn(n.root,d),nn(s),tn(s,g),nn(g),a(H)}}function L(){n.refresh()}function M(){e()&&v.mount()}function b(){var s=[],o=0,h=0,E,y;return g.forEach(function(w,Pn){var dn=l.getAt(Pn),vn=dn[0],ln=dn[1];h||(o||(E=fn(w.tagName,$),s.push(E)),y=D(vn,w,E)),W(ln,w,y),++h>=ln&&(h=0,o=++o>=vn?0:o)}),s}function D(s,o,h){var E=o.tagName.toLowerCase()==="li"?"ul":"div";return fn(E,sn,h)}function W(s,o,h){return q(o,z),R(h,o),o}function Y(){if(i.grid){var s=c.rows,o=c.cols,h=c.dimensions;return s>1||o>1||F(h)&&h.length>0}return!1}function e(){return Nn(n.root,d)}return{mount:m,destroy:C}}typeof window<"u"&&(window.splide=window.splide||{},window.splide.Extensions=window.splide.Extensions||{},window.splide.Extensions.Grid=Gn)});
+//# sourceMappingURL=splide-extension-grid.min.js.map
+</script> <script src="https://kit.fontawesome.com/a3f85c1e5c.js" crossorigin="anonymous" async type="0c4333c915e0d812bf3a5a2e-text/javascript"></script>
+
+<script type="0c4333c915e0d812bf3a5a2e-text/javascript" src="//cdn.evgnet.com/beacon/unicefusa2/engage/scripts/evergage.min.js"></script>
+
+</head>
+<body class="node-story">
+<div role="navigation" aria-label="skipToMain">
+<a href="#content" class="visually-hidden focusable">
+Skip to main content
+</a>
+</div>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRK8X8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+<div class="region region-admin-area">
+<div data-drupal-messages-fallback class="hidden"></div>
+</div>
+<label class="mobile" for="mobile">Menu</label>
+<input id="mobile" type="checkbox" name="Toggle Menu" tabindex="-1" aria-controls="nav" aria-haspopup="true" aria-expanded="false">
+<header id="js-header" class="header ">
+<div>
+<div class="logo">
+<a href="/">
+<svg viewBox="0 0 147.63 53.44" xmlns="http://www.w3.org/2000/svg">
+<path paint-order="stroke" d="m84.08 53.13 6-14.36h2.13l5.87 14.36h-2.22l-1.55-3.74h-6.66l-1.57 3.74zm4.27-5.45h5.35l-2.62-6.94zm-14.74 1.25c0 2 1.21 2.79 3.14 2.79 1.63 0 3.62-.48 3.62-2.49 0-1.39-1.15-2-2.35-2.21-2.36-.51-6.3-1.05-6.3-4.27s2.84-4.28 5.53-4.28c2.44 0 4.85 1.1 4.85 3.88h-2.09c-.08-1.61-1.43-2.17-2.86-2.17s-3.34.52-3.34 2.23 1.15 1.73 2.4 2.13c2.65.85 6.25.85 6.25 4.47 0 3.26-2.93 4.42-5.83 4.42s-5.19-1.28-5.11-4.5zm-5.35-1.49c.06 3.7-1.89 6-5.79 6s-5.85-2.29-5.79-6v-8.67h2v9.15a3.8 3.8 0 0 0 7.6 0v-9.15h2zm25.36-16.42V12.96h-3.54v-2.73h3.58V5.76C93.79 1.2 97.22 0 100.16 0a17.12 17.12 0 0 1 2.82.41v3.27c-.67 0-1.33-.12-2-.12-2.23 0-3.52.58-3.4 2.86v3.81h4.81v2.73h-4.84v18.06zM74.5 21.37c-.28 3.65 1.21 7.42 5.22 7.42 3.07 0 4.6-1.2 5-4.23h4.15c-.63 4.73-4.27 7.08-9.24 7.08-6.67 0-9.32-4.72-9.32-10.85s3.12-11.18 9.7-11.18c6.21.13 9.15 4.06 9.15 9.82v1.94zm10.52-2.73c.09-3.48-1.49-6.17-5.3-6.17-3.28 0-5.22 2.77-5.22 6.17zM64.49 16.9c-.21-2.59-1.41-4.43-4.27-4.43-3.76 0-5.21 3.27-5.21 8.16s1.45 8.16 5.21 8.16c2.61 0 4.23-1.7 4.43-4.68h3.94c-.33 4.68-3.81 7.53-8.41 7.53-6.66 0-9.31-4.72-9.31-10.85s3.06-11.18 9.65-11.18c4.39 0 7.7 2.78 7.9 7.29zm-38.57-3.59H26a7.26 7.26 0 0 1 6.34-3.71c1.46 0 7.92.38 7.92 7.09v14.42h-4V17.94c0-3.46-1.46-5.33-4.79-5.33a5.43 5.43 0 0 0-3.84 1.54c-.58.58-1.67 1.5-1.67 5.58v11.38h-3.88V10.19h3.88zm-11.84-3.12h4v20.92h-3.95v-3.08h-.05a7.93 7.93 0 0 1-7.2 3.71C2.5 31.74 0 28.4 0 24.19v-14h4v12.38c0 3.62.84 6.29 4.63 6.29a5 5 0 0 0 4.67-3 15.47 15.47 0 0 0 .78-4.92zM43.57 1h4.71v4.31h-4.71zm.38 30.09V10.17h4v20.92zm94.95-7.38-.35.18c-1.2.82-4.61 3.74-4.86 4.74l-.06.23h.23c3.73.32 4.63-2.57 5-4.78v-.2zm-12.12 7a14.78 14.78 0 0 0-4.49 3.67l-.11.14.12.12a1.85 1.85 0 0 0 .58.41h.13l.09-.1c1.63-2 4.44-4.53 7.43-4.84a3.71 3.71 0 0 0 1.51 1 11.33 11.33 0 0 0 7-.66l.55-.23-.57-.16c-5.59-1.44-9.84-.52-12.24.65zM144.55 25l-.42.08c-1.59.25-6.06 2.78-6.75 3.8l-.17.26.31.05c3.69.64 5.65-1.87 6.81-3.81l.11-.19zm-3.21-5.78-.23.32a16.71 16.71 0 0 0-2 6.35v.28l.05.35.27-.16a5 5 0 0 0 2.4-4.24 7.84 7.84 0 0 0-.38-2.52l-.06-.19zm.99-4.35-.12.41a6.38 6.38 0 0 0-.19 1.59 14.15 14.15 0 0 0 .65 5l.16.29.19-.28a4.88 4.88 0 0 0 .88-2.66 7 7 0 0 0-1.33-4l-.12-.18zm.05-4.05v.44a13.34 13.34 0 0 0 1.93 5.85l.23.32.13-.38a5.14 5.14 0 0 0 .24-1.15 6.55 6.55 0 0 0-2.19-4.77l-.16-.16zm-1.22-4.36.15.51a12.86 12.86 0 0 0 3 4.89l.31.27v-.45c.11-2-.86-3.58-3-4.93l-.23-.15zm5.98 12.33-.41.26a18 18 0 0 0-5.12 6.06l-.14.39.4-.13c2.89-.93 4.76-4.13 5.17-6.11v-.23zm.41-6.17-.32.39a17.39 17.39 0 0 0-2.71 6.6V20l.33-.21c2.78-1.83 2.85-5.27 2.76-6.66v-.26zm-1.47-5.6-.2.5a17.15 17.15 0 0 0-.63 6.26l.17.88.14-.17.13-.17a6.24 6.24 0 0 0 1.06-4.76 9.86 9.86 0 0 0-.49-2l-.09-.25zm-3.85-3.52.1.56a8.47 8.47 0 0 0 2.33 4.82l.25.24.09-.42v-.14c.29-2.07-1.56-4-2.37-4.68l-.21-.19zm-26.35 20.4v.2c.35 2.21 1.24 5.1 5 4.78h.24l-.06-.23c-.25-1-3.67-3.92-4.86-4.74l-.36-.18zm-.12 6.23-.58.16.55.23a11.36 11.36 0 0 0 7 .66 3.68 3.68 0 0 0 1.5-1c3 .31 5.8 2.81 7.44 4.84l.09.1h.12a1.78 1.78 0 0 0 .59-.41l.11-.12-.1-.14a14.89 14.89 0 0 0-4.5-3.67c-2.41-1.24-6.65-2.16-12.22-.65zm-5.45-4.94.11.19c1.16 1.94 3.13 4.45 6.82 3.81l.3-.05-.17-.26c-.69-1-5.16-3.55-6.74-3.8l-.43-.08zm3.04-5.78-.06.19a7.55 7.55 0 0 0-.37 2.52 4.94 4.94 0 0 0 2.4 4.24l.26.16v-.63a17.07 17.07 0 0 0-2-6.35l-.24-.32zm-1.05-4.36-.12.18a7 7 0 0 0-1.33 4 5 5 0 0 0 .89 2.66l.19.28.16-.29a14.63 14.63 0 0 0 .65-5 6.81 6.81 0 0 0-.2-1.59l-.12-.41zm-.09-4.08-.16.16a6.55 6.55 0 0 0-2.18 4.77 4.22 4.22 0 0 0 .24 1.15l.13.38.23-.32a13.45 13.45 0 0 0 1.92-5.8v-.44zm1.27-4.3-.23.14c-2.16 1.31-3.16 2.9-3.09 4.87v.45l.32-.26a13 13 0 0 0 3-4.83l.16-.51zm-5.82 12.36v.23c.41 2 2.28 5.18 5.18 6.11l.39.13-.14-.39a18 18 0 0 0-5.12-6.06l-.41-.26zm-.48-6.16v.26c-.1 1.39 0 4.83 2.75 6.66l.34.21v-.39a17.55 17.55 0 0 0-2.71-6.6l-.33-.39zm1.38-5.56-.1.25a9.86 9.86 0 0 0-.49 2 6.28 6.28 0 0 0 1.11 4.75l.13.17.14.17.18-.88a17.37 17.37 0 0 0-.64-6.26l-.19-.5zm3.75-3.62-.22.19c-.81.71-2.65 2.61-2.37 4.68v.14l.09.42.26-.24a8.6 8.6 0 0 0 2.33-4.82l.09-.56zM127.35.02a13.8 13.8 0 1 0 13.79 13.8A13.81 13.81 0 0 0 127.35.02zm10.73 6.1a18.79 18.79 0 0 1-2.22 1.28 14.41 14.41 0 0 0-1.65-2.57 13.38 13.38 0 0 0 1.61-1.15 13.1 13.1 0 0 1 2.26 2.44zm-5.8-4.58a13.26 13.26 0 0 1 3.12 1.77 13.41 13.41 0 0 1-1.52 1.07 14.58 14.58 0 0 0-2.27-2.07 7.14 7.14 0 0 0 .7-.77zm1.07 3.13a12.75 12.75 0 0 1-2.33 1 19.73 19.73 0 0 0-1.15-2.24 6.13 6.13 0 0 0 1.26-.74 14.1 14.1 0 0 1 2.25 1.98zm-1.61-3.36a5.18 5.18 0 0 1-.61.63 13.33 13.33 0 0 0-2.31-1.28 12.38 12.38 0 0 1 2.92.65zm-1.08 1a6 6 0 0 1-1.05.59 21 21 0 0 0-1.33-1.85 13.55 13.55 0 0 1 2.38 1.26zm-3-1.17a20.08 20.08 0 0 1 1.43 2 6.21 6.21 0 0 1-1.43.25zm0 2.77a6 6 0 0 0 1.74-.32 19.83 19.83 0 0 1 1.13 2.2 12.64 12.64 0 0 1-2.87.39zm-.58-2.73v2.18a6 6 0 0 1-1.4-.25 18.56 18.56 0 0 1 1.4-1.93zm-2 1.73a5.75 5.75 0 0 1-1-.6 15 15 0 0 1 2.38-1.26 20 20 0 0 0-1.38 1.86zm.8-2.24a14.22 14.22 0 0 0-2.33 1.28 5.1 5.1 0 0 1-.61-.62 13.33 13.33 0 0 1 2.97-.66zm9.48 23.64a2.83 2.83 0 0 1-1.78-2.91c.1-.52.46-.3.69-.3a5.31 5.31 0 0 0 4-1.95 6.11 6.11 0 0 0-.39-8.4c-2.92-2.81-6-2.32-8 .21a3.08 3.08 0 0 1-2.28.86c-1.28-.05-.47 1-.47 1.18s-.2.35-.31.32c-.44-.12-.26.52-.26.72a.3.3 0 0 1-.28.29c-.54 0-.39.49-.37.62a.5.5 0 0 1-.22.46 1.16 1.16 0 0 0-.37.84c0 .59.54 1 1.43 1.66a2.16 2.16 0 0 1 1 1.76 5.29 5.29 0 0 0 .26 1.68 1.14 1.14 0 0 1-1 1.71 17.35 17.35 0 0 0-4.42 1.35 5.4 5.4 0 0 1-2.87.19 12.72 12.72 0 0 1-1.35-1.1 2.09 2.09 0 0 1 .44-1.7 2.28 2.28 0 0 0 1.67.49 20.8 20.8 0 0 0 2.79-.4.73.73 0 0 1 .6 0 1.57 1.57 0 0 0 2.31-1.14c.44-1.52-.6-1.09-.73-1s-.31 0-.25-.08c.2-.38-.09-.34-.26-.36a2 2 0 0 0-1.15.57.39.39 0 0 1-.42.11c-.57-.28-2.24.13-2.76-.78a30.4 30.4 0 0 0-.66-4.55.63.63 0 0 1 .06-.61c.43-.63 1.6.05 2.23 0a1.15 1.15 0 0 0 1.09-.6c.2-.25.35-.11.46-.18s0-.27.06-.36.1-.05.23-.17 0-.36 0-.45c.19-.28.7-.06.39-.8a1.19 1.19 0 0 1 .3-1.14c.36-.47 1.79-2.48-.72-4.56s-4.82-1.82-6.38-.13-.79 4.17-.62 4.82a1.39 1.39 0 0 1-.85 1.5 12.1 12.1 0 0 0-2.12 1.53 13.16 13.16 0 0 1 8.29-12 6.08 6.08 0 0 0 .71.8 35.9 35.9 0 0 0-1.76 1.48l.32.06.33.1s1.06-.9 1.56-1.26a6 6 0 0 0 1.25.73c-.24.41-.84 1.55-.84 1.55l.26.16a1.25 1.25 0 0 1 .21.16s.66-1.24.9-1.66a5.94 5.94 0 0 0 1.72.32v2.27c-.32 0-1.16 0-1.5-.07h-.21l.12.18a3.07 3.07 0 0 1 .22.38v.05h.06l1.29.06v4.13h.57v-.94c.84 0 1.54-.1 2.39-.18l.74-.66h-.41c-.89.12-1.68.17-2.39.21h-.37V6.76a13.64 13.64 0 0 0 3.1-.44 60 60 0 0 1 .8 2.34l.54-.17s-.52-1.64-.8-2.32a13.92 13.92 0 0 0 2.48-1.06 13.74 13.74 0 0 1 1.63 2.54c-.41.19-1.15.45-1.15.45a5.36 5.36 0 0 1 1 .21l.34-.15.16.35.74.33-.09-.2-.3-.73a18.28 18.28 0 0 0 2.3-1.33 13.23 13.23 0 0 1-2.93 17.73z" />
+</svg>
+UNICEF USA
+</a>
+</div>
+<div class="region region-primary-menu">
+<div class="views-exposed-form bef-exposed-form settings-tray-editable block block-views block-views-exposed-filter-blocksearch-block-1 block-exposedformsearchblock-1" data-drupal-selector="views-exposed-form-search-block-1" id="block-exposedformsearchblock-1" data-drupal-settingstray="editable">
+<form region="primary_menu" action="/search" method="get" id="views-exposed-form-search-block-1" accept-charset="UTF-8">
+<div class="form--inline clearfix">
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-keyword form-item-keyword">
+<label for="edit-keyword">Search</label>
+<div class="search-keyword-wrap">
+<input data-drupal-selector="edit-keyword" type="text" id="edit-keyword" name="keyword" value size="30" maxlength="128" class="form-text" />
+<input type="submit" id="edit-submit-search-testing" value="Apply">
+</div>
+</div>
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-sort-by form-item-sort-by">
+<label for="edit-sort-by">Sort by</label>
+<select data-drupal-selector="edit-sort-by" id="edit-sort-by" name="sort_by" class="form-select"><option value="score" selected="selected">Relevance</option><option value="date-new">Newest</option><option value="date-old">Oldest</option></select>
+</div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-search" type="submit" id="edit-submit-search" value="Apply" class="button js-form-submit form-submit" />
+</div>
+</div>
+</form>
+</div>
+<nav role="navigation" id="block-mainnavigation" class="settings-tray-editable block block-menu navigation menu--main" data-drupal-settingstray="editable" tabindex="-1">
+<ul class="menu">
+<li>
+<input type="radio" name="primary_menu_main_items" id="primary_menu_main_what-unicef-does_1" tabindex="-1" aria-label="What Unicef Does">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_main_what-unicef-does_1" tabindex="-1">What Unicef Does</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_main_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_childrens-education_1" tabindex="-1" aria-label="Children&#039;s Education">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_childrens-education_1" tabindex="-1">Children&#039;s Education</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/what-unicef-does/childrens-education" tabindex="0" class="subitem " aria-label="Children&#039;s Education, for Main Menu">Children&#039;s Education</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-education/every-child-educated" tabindex="0" class="subitem " aria-label="Every Child Educated, under Children&#039;s Education, for Main Menu">Every Child Educated</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-education/child-friendly-schools" tabindex="0" class="subitem " aria-label="Child-Friendly Schools, under Children&#039;s Education, for Main Menu">Child-Friendly Schools</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-education/equity" tabindex="0" class="subitem " aria-label="Equity, under Children&#039;s Education, for Main Menu">Equity</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-education/girls-education" tabindex="0" class="subitem " aria-label="Girls&#039; Education, under Children&#039;s Education, for Main Menu">Girls&#039; Education</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-education/kids-need-desks-kind" tabindex="0" class="subitem " aria-label="Kids In Need of Desks (K.I.N.D.), under Children&#039;s Education, for Main Menu">Kids In Need of Desks (K.I.N.D.)</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-education/learning-passport" tabindex="0" class="subitem " aria-label="Learning Passport, under Children&#039;s Education, for Main Menu">Learning Passport</a>
+</li>
+</ul>
+</li>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_childrens-health_2" tabindex="-1" aria-label="Children&#039;s Health">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_childrens-health_2" tabindex="-1">Children&#039;s Health</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/what-unicef-does/childrens-health" tabindex="0" class="subitem " aria-label="Children&#039;s Health, for Main Menu">Children&#039;s Health</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-health/every-child-healthy" tabindex="0" class="subitem " aria-label="Every Child Healthy, under Children&#039;s Health, for Main Menu">Every Child Healthy</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-health/breastfeeding" tabindex="0" class="subitem " aria-label="Breastfeeding, under Children&#039;s Health, for Main Menu">Breastfeeding</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-health/immunization" tabindex="0" class="subitem " aria-label="Immunization, under Children&#039;s Health, for Main Menu">Immunization</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-health/mental-health" tabindex="0" class="subitem " aria-label="Mental Health, under Children&#039;s Health, for Main Menu">Mental Health</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-health/nutrition" tabindex="0" class="subitem " aria-label="Nutrition, under Children&#039;s Health, for Main Menu">Nutrition</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-health/water" tabindex="0" class="subitem " aria-label="Water, under Children&#039;s Health, for Main Menu">Water</a>
+</li>
+</ul>
+</li>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_childrens-protection_3" tabindex="-1" aria-label="Children&#039;s Protection">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_childrens-protection_3" tabindex="-1">Children&#039;s Protection</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/what-unicef-does/childrens-protection" tabindex="0" class="subitem " aria-label="Children&#039;s Protection, for Main Menu">Children&#039;s Protection</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-protection/every-child-protected" tabindex="0" class="subitem " aria-label="Every Child Protected, under Children&#039;s Protection, for Main Menu">Every Child Protected</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-protection/child-migrants-refugees" tabindex="0" class="subitem " aria-label="Child Migrants &amp; Refugees, under Children&#039;s Protection, for Main Menu">Child Migrants &amp; Refugees</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-protection/child-poverty" tabindex="0" class="subitem " aria-label="Child Poverty, under Children&#039;s Protection, for Main Menu">Child Poverty</a>
+</li>
+<li>
+<a href="/what-unicef-does/childrens-protection/child-trafficking" tabindex="0" class="subitem " aria-label="Child Trafficking, under Children&#039;s Protection, for Main Menu">Child Trafficking</a>
+</li>
+</ul>
+</li>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_respect-children_4" tabindex="-1" aria-label="Respect for Children">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_respect-children_4" tabindex="-1">Respect for Children</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/what-unicef-does/respect-children" tabindex="0" class="subitem " aria-label="Respect for Children, for Main Menu">Respect for Children</a>
+</li>
+<li>
+<a href="/what-unicef-does/respect-children/every-child-respected" tabindex="0" class="subitem " aria-label="Every Child Respected, under Respect for Children, for Main Menu">Every Child Respected</a>
+</li>
+<li>
+<a href="/what-unicef-does/respect-children/child-friendly-cities" tabindex="0" class="subitem " aria-label="Child Friendly Cities, under Respect for Children, for Main Menu">Child Friendly Cities</a>
+</li>
+<li>
+<a href="/what-unicef-does/respect-children/children-disabilities" tabindex="0" class="subitem " aria-label="Children with Disabilities, under Respect for Children, for Main Menu">Children with Disabilities</a>
+</li>
+<li>
+<a href="/what-unicef-does/respect-children/children-rights" tabindex="0" class="subitem " aria-label="Children&#039;s Rights, under Respect for Children, for Main Menu">Children&#039;s Rights</a>
+</li>
+<li>
+<a href="/what-unicef-does/respect-children/gender-equality" tabindex="0" class="subitem " aria-label="Gender Equality, under Respect for Children, for Main Menu">Gender Equality</a>
+</li>
+<li>
+<a href="/what-unicef-does/respect-children/innovation" tabindex="0" class="subitem " aria-label="Innovation, under Respect for Children, for Main Menu">Innovation</a>
+</li>
+</ul>
+</li>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_emergency-response_5" tabindex="-1" aria-label="Emergency Response">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_emergency-response_5" tabindex="-1">Emergency Response</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/what-unicef-does/emergency-response" tabindex="0" class="subitem " aria-label="Emergency Response, for Main Menu">Emergency Response</a>
+</li>
+<li>
+<a href="/what-unicef-does/emergency-response/relief-every-child" tabindex="0" class="subitem " aria-label="Relief for Every Child, under Emergency Response, for Main Menu">Relief for Every Child</a>
+</li>
+<li>
+<a href="/what-unicef-does/emergency-response/climate-change" tabindex="0" class="subitem " aria-label="Climate Change, under Emergency Response, for Main Menu">Climate Change</a>
+</li>
+<li>
+<a href="/what-unicef-does/emergency-response/conflict" tabindex="0" class="subitem " aria-label="Conflict, under Emergency Response, for Main Menu">Conflict</a>
+</li>
+<li>
+<a href="/what-unicef-does/emergency-response/earthquakes" tabindex="0" class="subitem " aria-label="Earthquakes, under Emergency Response, for Main Menu">Earthquakes</a>
+</li>
+<li>
+<a href="/what-unicef-does/emergency-response/food-crises" tabindex="0" class="subitem " aria-label="Food Crises, under Emergency Response, for Main Menu">Food Crises</a>
+</li>
+<li>
+<a href="/what-unicef-does/emergency-response/unicef-supply-division" tabindex="0" class="subitem " aria-label="UNICEF Supply Division, under Emergency Response, for Main Menu">UNICEF Supply Division</a>
+</li>
+<li>
+<a href="/what-unicef-does/emergency-response/weather-disasters" tabindex="0" class="subitem " aria-label="Weather Disasters, under Emergency Response, for Main Menu">Weather Disasters</a>
+</li>
+</ul>
+</li>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_where-unicef-works_6" tabindex="-1" aria-label="Where UNICEF Works">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_where-unicef-works_6" tabindex="-1">Where UNICEF Works</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/what-unicef-does/where-unicef-works" tabindex="0" class="subitem " aria-label="Where UNICEF Works, for Main Menu">Where UNICEF Works</a>
+</li>
+<li>
+<a href="/what-unicef-does/where-unicef-works/africa" tabindex="0" class="subitem " aria-label="Africa, under Where UNICEF Works, for Main Menu">Africa</a>
+</li>
+<li>
+<a href="/what-unicef-does/where-unicef-works/asia" tabindex="0" class="subitem " aria-label="Asia, under Where UNICEF Works, for Main Menu">Asia</a>
+</li>
+<li>
+<a href="/what-unicef-does/where-unicef-works/europe" tabindex="0" class="subitem " aria-label="Europe, under Where UNICEF Works, for Main Menu">Europe</a>
+</li>
+<li>
+<a href="/what-unicef-does/where-unicef-works/middle-east" tabindex="0" class="subitem " aria-label="Middle East, under Where UNICEF Works, for Main Menu">Middle East</a>
+</li>
+<li>
+<a href="/what-unicef-does/where-unicef-works/north-america" tabindex="0" class="subitem " aria-label="North America, under Where UNICEF Works, for Main Menu">North America</a>
+</li>
+<li>
+<a href="/what-unicef-does/where-unicef-works/south-america" tabindex="0" class="subitem " aria-label="South America, under Where UNICEF Works, for Main Menu">South America</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<input type="radio" name="primary_menu_main_items" id="primary_menu_main_about-unicef-usa_2" tabindex="-1" aria-label="About UNICEF USA">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_main_about-unicef-usa_2" tabindex="-1">About UNICEF USA</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_main_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_careers_1" tabindex="-1" aria-label="Careers">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_careers_1" tabindex="-1">Careers</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/about-unicef-usa/careers" tabindex="0" class="subitem " aria-label="Careers, for Main Menu">Careers</a>
+</li>
+<li>
+<a href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=481ab93a-3bc4-40b2-a48e-0aad7520cf59&amp;ccId=19000101_000001&amp;type=JS&amp;lang=en_US" tabindex="0" class="subitem " aria-label="Open Positions, under Careers, for Main Menu">Open Positions</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/about-unicef-usa/diversity-racial-equity-belonging" tabindex="0" class="subitem " aria-label="Diversity, Racial Equity &amp; Belonging, under Careers, for Main Menu">Diversity, Racial Equity &amp; Belonging</a>
+</li>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_finances_3" tabindex="-1" aria-label="Finances">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_finances_3" tabindex="-1">Finances</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/about-unicef-usa/finances" tabindex="0" class="subitem " aria-label="Finances, for Main Menu">Finances</a>
+</li>
+<li>
+<a href="/about-unicef-usa/finances/annual-report" tabindex="0" class="subitem " aria-label="Annual Report, under Finances, for Main Menu">Annual Report</a>
+</li>
+<li>
+<a href="/about-unicef-usa/finances/financial-disclosure" tabindex="0" class="subitem " aria-label="Financial Disclosure, under Finances, for Main Menu">Financial Disclosure</a>
+</li>
+</ul>
+</li>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_leadership_4" tabindex="-1" aria-label="Leadership">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_leadership_4" tabindex="-1">Leadership</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/about-unicef-usa/leadership" tabindex="0" class="subitem " aria-label="Leadership, for Main Menu">Leadership</a>
+</li>
+<li>
+<a href="/about-unicef-usa/leadership/national-board" tabindex="0" class="subitem " aria-label="National Board of Directors, under Leadership, for Main Menu">National Board of Directors</a>
+</li>
+<li>
+<a href="/about-unicef-usa/leadership/national-advisory-council" tabindex="0" class="subitem " aria-label="National Advisory Council, under Leadership, for Main Menu">National Advisory Council</a>
+</li>
+<li>
+<a href="/about-unicef-usa/leadership/leadership-team" tabindex="0" class="subitem " aria-label="Leadership Team, under Leadership, for Main Menu">Leadership Team</a>
+</li>
+<li>
+<a href="/about-unicef-usa/leadership/regional-boards" tabindex="0" class="subitem " aria-label="Regional Boards, under Leadership, for Main Menu">Regional Boards</a>
+</li>
+<li>
+<a href="/about-unicef-usa/leadership/next-gen" tabindex="0" class="subitem " aria-label="Next Gen, under Leadership, for Main Menu">Next Gen</a>
+</li>
+<li>
+<a href="/about-unicef-usa/leadership/youth-leadership" tabindex="0" class="subitem " aria-label="Youth Leadership, under Leadership, for Main Menu">Youth Leadership</a>
+</li>
+</ul>
+</li>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_partnerships_5" tabindex="-1" aria-label="Partnerships">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_partnerships_5" tabindex="-1">Partnerships</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/about-unicef-usa/partnerships" tabindex="0" class="subitem " aria-label="Partnerships, for Main Menu">Partnerships</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/companies" tabindex="0" class="subitem " aria-label="Companies, under Partnerships, for Main Menu">Companies</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/foundations" tabindex="0" class="subitem " aria-label="Foundations, under Partnerships, for Main Menu">Foundations</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations" tabindex="0" class="subitem " aria-label="Humanitarian Organizations, under Partnerships, for Main Menu">Humanitarian Organizations</a>
+<ul>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations" tabindex="0" class="subitem " aria-label="Humanitarian Organizations, for Main Menu">Humanitarian Organizations</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/faith-based-partnerships" tabindex="0" class="subitem " aria-label="Faith Based Partnerships, under Humanitarian Organizations, for Main Menu">Faith Based Partnerships</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/greek-orthodox-ladies-philoptochos-society" tabindex="0" class="subitem " aria-label="Greek Orthodox Ladies Philoptochos Society, Inc., under Humanitarian Organizations, for Main Menu">Greek Orthodox Ladies Philoptochos Society, Inc.</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/SAMA" tabindex="0" class="subitem " aria-label="Sudanese American Medical Association, under Humanitarian Organizations, for Main Menu">Sudanese American Medical Association</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/together-women-rise" tabindex="0" class="subitem " aria-label="Together Women Rise, under Humanitarian Organizations, for Main Menu">Together Women Rise</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/together-girls" tabindex="0" class="subitem " aria-label="Together for Girls, under Humanitarian Organizations, for Main Menu">Together for Girls</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/advanced-remarketing-services" tabindex="0" class="subitem " aria-label="Advanced Remarketing Services, under Humanitarian Organizations, for Main Menu">Advanced Remarketing Services</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/delta-sigma-theta-society" tabindex="0" class="subitem " aria-label="Delta Sigma Theta Society, under Humanitarian Organizations, for Main Menu">Delta Sigma Theta Society</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/diaspora-partnerships" tabindex="0" class="subitem " aria-label="Diaspora Partnerships, under Humanitarian Organizations, for Main Menu">Diaspora Partnerships</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/general-federation-womens-clubs" tabindex="0" class="subitem " aria-label="General Federation of Women&#039;s Clubs, under Humanitarian Organizations, for Main Menu">General Federation of Women&#039;s Clubs</a>
+</li>
+<li>
+<a href="https://www.globalgiving.org/donate/6431/unicef-usa/" tabindex="0" class="subitem " aria-label="Global Giving, under Humanitarian Organizations, for Main Menu">Global Giving</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/islamic-food-and-nutrition-council-america" tabindex="0" class="subitem " aria-label="Islamic Food and Nutrition Council of America, under Humanitarian Organizations, for Main Menu">Islamic Food and Nutrition Council of America</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/kiwanis-international" tabindex="0" class="subitem " aria-label="Kiwanis International, under Humanitarian Organizations, for Main Menu">Kiwanis International</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/national-arab-american-medical-association" tabindex="0" class="subitem " aria-label="National Arab American Medical Association, under Humanitarian Organizations, for Main Menu">National Arab American Medical Association</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/nova-ukraine" tabindex="0" class="subitem " aria-label="Nova Ukraine, under Humanitarian Organizations, for Main Menu">Nova Ukraine</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/rotary-international" tabindex="0" class="subitem " aria-label="Rotary International, under Humanitarian Organizations, for Main Menu">Rotary International</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/sacred-heart-schools-chicago" tabindex="0" class="subitem " aria-label="Sacred Heart Schools Chicago, under Humanitarian Organizations, for Main Menu">Sacred Heart Schools Chicago</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/delta-kappa-gamma-society-international" tabindex="0" class="subitem " aria-label="The Delta Kappa Gamma Society International, under Humanitarian Organizations, for Main Menu">The Delta Kappa Gamma Society International</a>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/humanitarian-organizations/zonta-international" tabindex="0" class="subitem " aria-label="Zonta International, under Humanitarian Organizations, for Main Menu">Zonta International</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/about-unicef-usa/partnerships/our-supporters" tabindex="0" class="subitem " aria-label="Our Supporters, under Humanitarian Organizations, for Main Menu">Our Supporters</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/about-unicef-usa/unicef-usa-and-unicef" tabindex="0" class="subitem " aria-label="UNICEF USA and UNICEF, under Partnerships, for Main Menu">UNICEF USA and UNICEF</a>
+</li>
+</ul>
+</li>
+<li>
+<input type="radio" name="primary_menu_main_items" id="primary_menu_main_how-help_3" tabindex="-1" aria-label="How to Help">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_main_how-help_3" tabindex="-1">How to Help</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_main_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_advocate_1" tabindex="-1" aria-label="Advocate">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_advocate_1" tabindex="-1">Advocate</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/how-help/advocate" tabindex="0" class="subitem " aria-label="Advocate, for Main Menu">Advocate</a>
+</li>
+<li>
+<a href="/how-help/advocate/how-we-work" tabindex="0" class="subitem " aria-label="How We Work, under Advocate, for Main Menu">How We Work</a>
+</li>
+</ul>
+</li>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_donate_2" tabindex="-1" aria-label="Donate">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_donate_2" tabindex="-1">Donate</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/how-help/donate" tabindex="0" class="subitem " aria-label="Donate, for Main Menu">Donate</a>
+</li>
+<li>
+<a href="/how-help/donate/donate-monthly" tabindex="0" class="subitem " aria-label="Donate Monthly, under Donate, for Main Menu">Donate Monthly</a>
+</li>
+<li>
+<a href="/how-help/donate/every-child-fund" tabindex="0" class="subitem " aria-label="Every Child Fund, under Donate, for Main Menu">Every Child Fund</a>
+</li>
+<li>
+<a href="/how-help/donate/impact-fund-children" tabindex="0" class="subitem " aria-label="IMPACT Fund for Children, under Donate, for Main Menu">IMPACT Fund for Children</a>
+</li>
+<li>
+<a href="/how-help/donate/mercury-fund" tabindex="0" class="subitem " aria-label="Mercury Fund, under Donate, for Main Menu">Mercury Fund</a>
+</li>
+<li>
+<a href="/how-help/donate/donors-philanthropists" tabindex="0" class="subitem " aria-label="Donors &amp; Philanthropists, under Donate, for Main Menu">Donors &amp; Philanthropists</a>
+</li>
+<li>
+<a href="/how-help/donate/joint-investment-mechanism" tabindex="0" class="subitem " aria-label="Joint Investment Mechanism, under Donate, for Main Menu">Joint Investment Mechanism</a>
+</li>
+<li>
+<a href="/how-help/donate/donor-advised-funds" tabindex="0" class="subitem " aria-label="Donor-Advised Funds, under Donate, for Main Menu">Donor-Advised Funds</a>
+</li>
+</ul>
+</li>
+<li>
+<input type="radio" name="primary_menu_0_items" id="primary_menu_0_fundraise_3" tabindex="-1" aria-label="Fundraise">
+<span tabindex="0" class="haskids" aria-haspopup="true">
+<label class="item" for="primary_menu_0_fundraise_3" tabindex="-1">Fundraise</label>
+<label tabindex="-1" aria-hidden="true">
+<input type="radio" name="primary_menu_0_items" tabindex="-1">
+</label>
+</span>
+<ul>
+<li>
+<a href="/how-help/fundraise" tabindex="0" class="subitem " aria-label="Fundraise, for Main Menu">Fundraise</a>
+</li>
+<li>
+<a href="/how-help/fundraise/fundraise-event-resources" tabindex="0" class="subitem " aria-label="Fundraiser and Event Resources, under Fundraise, for Main Menu">Fundraiser and Event Resources</a>
+</li>
+<li>
+<a href="/how-help/fundraise/start-online-fundraiser" tabindex="0" class="subitem " aria-label="Start an Online Fundraiser, under Fundraise, for Main Menu">Start an Online Fundraiser</a>
+</li>
+<li>
+<a href="/how-help/fundraise/events" tabindex="0" class="subitem " aria-label="Events, under Fundraise, for Main Menu">Events</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="https://www.unicefusa.org/startaclub" tabindex="0" class="subitem " aria-label="UNICEF Clubs, under Fundraise, for Main Menu">UNICEF Clubs</a>
+</li>
+<li>
+<a href="/how-help/ways-give" tabindex="0" class="subitem " aria-label="Ways To Give, under Fundraise, for Main Menu">Ways To Give</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<div class="region region-utility-menu">
+<nav role="navigation" aria-labelledby="block-utilitymenu-menu" id="block-utilitymenu" class="settings-tray-editable block block-menu navigation menu--utility-menu" data-drupal-settingstray="editable">
+<h2 class="visually-hidden" id="block-utilitymenu-menu">Utility Menu</h2>
+<ul region="utility_menu" class="menu">
+<li class="menu-item">
+<a href="https://market.unicefusa.org/">Shop</a>
+</li>
+<li class="menu-item">
+<a href="https://unicefusa.donorsupport.co/login">Sign In</a>
+</li>
+</ul>
+</nav>
+<div id="block-followbutton" class="settings-tray-editable block block-block-content block-block-content56a9eb7f-9f9f-4615-a48b-dba0d76a6b19 block-followbutton" data-drupal-settingstray="editable">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><a class="donate" href="?form=donate">Donate Now</a>
+<a class="give-monthly" href="/how-help/donate/donate-monthly">Give Monthly</a></div>
+</div>
+</div>
+</div>
+</header>
+<main role="main" id="content">
+<div class="layout-content">
+<div class="region region-content">
+<div id="block-sd-content" class="block block-system block-system-main-block block-sd-content">
+<article class="node node--type-story node--view-mode-full">
+<div class="hero-story left-bottom">
+<div class="field field--name-field-header-image field--type-entity-reference field--label-hidden field__item">
+<figure class="media media--type-image media--view-mode--hero">
+<picture>
+<source srcset="/sites/default/files/styles/hero_width_scale_width_1400_/public/2023-07/UN0613144.JPG?itok=fMxB4DVK 1x" media="all and (min-width: 1250px)" type="image/jpeg" width="1400" height="933" />
+<source srcset="/sites/default/files/styles/full_width/public/2023-07/UN0613144.JPG?itok=k-1ZIAXd 1x" media="all and (min-width: 768px)" type="image/jpeg" width="960" height="640" />
+<source srcset="/sites/default/files/styles/50_percent/public/2023-07/UN0613144.JPG?itok=JLg19lmh 1x" media="(min-width: 480px)" type="image/jpeg" width="458" height="305" />
+<img loading="lazy" src="/sites/default/files/styles/50_percent/public/2023-07/UN0613144.JPG?itok=JLg19lmh" width="458" height="305" alt="Fanta Kone, a UNICEF staff member, with 10-month-old twins Adama and Awa, refugees from Burkina Faso, in Tougbo, in the north of Côte d’Ivoire." />
+</picture>
+</figure>
+</div>
+<div class="hero-story-content-wrap borderless-content">
+<div class="block block-system block-system-breadcrumb-block">
+<nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+<h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+<ol>
+<li>
+<a href="/">Home</a>
+</li>
+<li>
+<a href="/stories">UNICEF in action</a>
+</li>
+</ol>
+</nav>
+</div>
+<div class="hero-story__content">
+<span>Emergency Response</span>
+<h1 class=" "><span class="field field--name-title field--type-string field--label-hidden">Inside Look: UNICEF&#039;s Role in the <strong>Sahel Humanitarian Crisis</strong> Nobody&#039;s Talking About</span>
+</h1>
+<div class="hero-story-info">
+<div class="hero-author-info">
+<div class="field field--name-field-date field--type-datetime field--label-hidden field__item">July 29, 2023</div>
+<div class="authors">
+<div class="field__item"><div id="taxonomy-term-7726" class="taxonomy-term vocabulary-authors">
+<div class="content">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Maryanne Buechner</div>
+</div>
+</div>
+</div>
+<div class="field__item"><div id="taxonomy-term-11827" class="taxonomy-term vocabulary-authors">
+<div class="content">
+<div class="field field--name-name field--type-string field--label-hidden field__item">Brittany E. Taylor</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="block-sdsocialshareblock" class="settings-tray-editable block block-sd-social-share block-sd-social-share-block block-sdsocialshareblock" data-drupal-settingstray="editable">
+<ul class="sd-social-share-links">
+<li class="sd-share-item">
+<a class="sd-share-link sd-facebook-link" rel="nofollow noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.unicefusa.org%2Fstories%2Finside-look-unicefs-role-sahel-humanitarian-crisis-nobodys-talking-about" target="_blank">
+<span class="sd-share-title"><span class="sr-only">Share UNICEF USA | Inside Look: UNICEF&#039;s Role in the &lt;strong&gt;Sahel Humanitarian Crisis&lt;/strong&gt; Nobody&#039;s Talking About on </span>Facebook</span>
+</a>
+</li>
+<li class="sd-share-item">
+<a class="sd-share-link sd-twitter-link" rel="nofollow noopener" href="https://twitter.com/intent/tweet?text=UNICEF+USA+%7C+Inside+Look%3A+UNICEF%27s+Role+in+the+%3Cstrong%3ESahel+Humanitarian+Crisis%3C%2Fstrong%3E+Nobody%27s+Talking+About%0Ahttps%3A%2F%2Fwww.unicefusa.org%2Fstories%2Finside-look-unicefs-role-sahel-humanitarian-crisis-nobodys-talking-about" target="_blank">
+<span class="sd-share-title"><span class="sr-only">Share UNICEF USA | Inside Look: UNICEF&#039;s Role in the &lt;strong&gt;Sahel Humanitarian Crisis&lt;/strong&gt; Nobody&#039;s Talking About on </span>Twitter</span>
+</a>
+</li>
+<li class="sd-share-item">
+<a class="sd-share-link sd-linkedin-link" rel="nofollow noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.unicefusa.org%2Fstories%2Finside-look-unicefs-role-sahel-humanitarian-crisis-nobodys-talking-about" target="_blank">
+<span class="sd-share-title"><span class="sr-only">Share UNICEF USA | Inside Look: UNICEF&#039;s Role in the &lt;strong&gt;Sahel Humanitarian Crisis&lt;/strong&gt; Nobody&#039;s Talking About on </span>LinkedIn</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="node__content">
+<section class="layout-black lb-section lb-section--large">
+<div class="lb-section-row region-body"><div class="lb-region lb-region--main"><div class="block block-layout-builder block-field-blocknodestorybody"><div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><strong><em>Q&amp;A with UNICEF Representative Marc Vincent, who explains how UNICEF is helping Côte d'Ivoire manage a sudden influx of refugees from <a href="/what-unicef-does/where-unicef-works/africa/burkina-faso">Burkina Faso</a> — and ensure that all children, no matter where they are from, can get the health care, nutrition, education and other services they need to survive and thrive. "I do think that the impact we’re already seeing — results from the government’s resilience strategy for strengthening access to social services within the whole region, which we support — will be lasting."</em></strong></p><h3>Q: Before we get into the specifics of the current crisis, please tell us more about your role as a UNICEF country representative.</h3><p>MARC VINCENT: I've been in Côte d'Ivoire since September 2019, just a few months before the pandemic hit. We proceeded to support the government’s response to that emergency, among others, namely, spillover effects from violent conflict, and the drought and <strong><a href="/where-unicef-works/africa/sahel">malnutrition crisis that has gripped the Sahel</a></strong> for some time.</p><figure role="group" class="caption caption-drupal-media align-center"><figure class="media media--type-image media--view-mode--full-width"><img src="/sites/default/files/styles/full_width/public/2023-07/UN0841706.jpg?itok=D2tgJjn9" width="960" height="640" alt="Children receive a nutritious meal after a cooking demonstration, in the village of Tiemekosso, northwest Côte d’Ivoire.  " loading="lazy" class="image-style-full-width" /></figure><figcaption>A child enjoys a meal made during a cooking demonstration in the village of Tiemekosso, northwest Côte d’Ivoire. UNICEF supports the strengthening of community nutrition and early childhood development interventions by setting up local committees to help manage and sustain them. © UNICEF/UN0841706/Dejongh</figcaption></figure><p>As for my role, the Côte d'Ivoire country office has about 120 people on staff, with most people here in the central office in Abidjan and others working out of two subnational offices located in Korhogo in the north and Man in the West.  As country rep I am the overall manager; the country director, or head of office if you will. I provide an orientation and a vision for where we want to go, setting priorities and so forth. I also represent the Executive Director of UNICEF, Catherine Russell, in our interactions with the government and other partners.</p><h3>Q: Côte D’Ivoire has received tens of thousands of refugees from Burkina Faso since January. Was this a surprise to you and the team, or were you anticipating such a sharp increase? Did you have any warning?</h3><p>MARC VINCENT: We're now at 22,000 people who have arrived in Côte d'Ivoire since the beginning of the year, coming in from the north. They have been arriving since last year, and their numbers have increased as the security situation in <strong><a href="/what-unicef-does/where-unicef-works/africa/burkina-faso">Burkina Faso</a></strong> has deteriorated. </p><p>We've definitely seen a big increase in the number of asylum seekers, sometimes linked to specific security incidents involving either extremists or other armed forces and other non-state actors. People are crossing the border because they are anxious about their security and the dangers of being caught in this conflict.</p><blockquote><p>People are opening their doors to strangers. It’s remarkable to see.</p></blockquote><p>These refugees are being hosted by communities in the north. I need to stop here and point out that these communities are among the most vulnerable communities in all of Côte d'Ivoire, in terms of access to social services, access to safe water, health care, nutrition, education etc. </p><p>You can imagine the pressure that having a large and growing refugee population puts on these communities. And it’s individual families who are hosting them. Often families will take in other families from the same ethnic group. The border has always been porous, and many people in Côte d’Ivoire have family connections in Burkina and so that also helps explain this welcoming attitude, but people are also opening their doors to strangers. It’s remarkable to see.</p><h3>Q: How has UNICEF been helping refugee-hosting communities in northern Côte d’Ivoire to prepare, to make sure basic services are available?</h3><p>MARC VINCENT: The government recently launched a new initiative to reinforce access to <strong><a href="/what-unicef-does/childrens-health/water">safe water,</a></strong> <strong><a href="/what-unicef-does/childrens-health">health care</a></strong> and so forth, and we are supporting those efforts, helping to make sure that schools and health care centers are linked to functioning water systems, for example, and helping to build new schools and expand existing ones.</p><figure role="group" class="caption caption-drupal-media align-center"><figure class="media media--type-image media--view-mode--full-width"><img src="/sites/default/files/styles/full_width/public/2023-07/UN0800458.jpg?itok=p-v_xkI_" width="960" height="640" alt="A woman carrying a child collects water from a community tap in the village of Nambekaha, north Côte d’Ivoire. " loading="lazy" class="image-style-full-width" /></figure><figcaption>A new water pumping system running on solar energy, installed with UNICEF financial and technical support, now serves the village of Nambekaha, north Côte d’Ivoire. UNICEF is supporting a new government initiative to reinforce access to safe water, and build capacities to meet local needs. © UNICEF/UN0800458/Dejongh<br/>
+ </figcaption></figure><p>Beyond that we also had a project with the <strong><a href="https://www.un.org/peacebuilding/fund">Peacebuilding Fund</a></strong> where we were working with UNICEF Burkina Faso and UNDP<strong></strong>[United Nations Development Program], and trying to set up parallel programs that would reinforce access to social services in communities on both sides of that northern border. We had 18 mirror villages on either side of the border where we were doing this.</p><p>Unfortunately, the deteriorating security situation has made it harder for our colleagues in Burkina Faso to implement these efforts. So we are looking for other ways of supporting. For example, we have linked women on both sides of the border to exchange and share views and support each other. </p><p>We set up a similar platform for youth, I might add. We see youth — they make up 60 percent of the population of Côte d’Ivoire, by the way — as playing an important, fundamental role in peacebuilding in these areas. We have youth ambassadors we’ve helped train in reconciliation techniques, communication techniques. We've trained them on how to present issues to authorities so that they can be better advocates for themselves. </p><h3>Q: UNICEF often talks about building community resilience to prevent future crises. How are these strategies being applied in this particular context?</h3><p>MARC VINCENT: Building community resilience is about working with the government and with the communities to reinforce critical systems. For example, for health system strengthening, we focus on building a more robust workforce — this includes training community health workers — and making sure essential medical supplies are available in all the health care centers. With the arrival of so many refugees, of course, the need for services is rapidly increasing.</p><blockquote><p>With the arrival of so many refugees, of course, the need for services is rapidly increasing.</p></blockquote><p>During COVID-19, we saw a dip in the number of children who had received their routine vaccinations. So we’re really focused on working with communities to try to bring <strong><a href="/what-unicef-does/childrens-health/immunization">immunization</a></strong> coverage back up, and that requires building up local capacities for delivering immunization services.</p><p>To improve access to safe water in communities, we help install new systems. We also help establish committees of community members — which are 50/50 men and women — to look after the installations and maintain them, which supports the development of sustainable water systems.</p><p>In Lariba, for example, which is on the border of Burkina Faso and Côte d'Ivoire, we managed to put in a solar water pump, an installation that brings water to the school, the local health care center and to the rest of the community.</p><figure role="group" class="caption caption-drupal-media align-center"><figure class="media media--type-image media--view-mode--full-width"><img src="/sites/default/files/styles/full_width/public/2023-07/UN0837369.jpg?itok=LcC5o6Cq" width="960" height="640" alt="A volunteer with the UNICEF-supported village quality improvement committee in Kognin, north Côte d’Ivoire, visits a household to gather information around health care and other needs." loading="lazy" class="image-style-full-width" /></figure><figcaption>In Kognin, north Côte d’Ivoire, Silue Donissingue, father of six and son of the village chief, volunteers with the village quality improvement committee. The information he collects by visiting individual households helps the community uphold its commitments in health, education, water and sanitation, nutrition and child protection, with UNICEF support. © UNICEF/UN0837369/Dejongh</figcaption></figure><p>We are looking to do the same thing in other border locales. We are identifying all schools, health care centers and social workers within six miles of the border to see if there are enough resources to support the refugee influx, and to understand what needs to happen in order to build their capacity.</p><p>It used to be that women from Côte d’Ivoire would go to Burkina Faso to give birth because it was more affordable. Now, of course, you have many more Burkina women coming to give birth in Côte d'Ivoire. So we have definitely tried to strengthen that capacity, by improving the quality of reception and the staff of the health centers.</p><h3><strong>Q: Are you seeing many unaccompanied children, young refugees coming in without parents or caregivers?</strong></h3><p>MARC VINCENT: We have not, thankfully. Mainly families are arriving together. Sometimes it’s just the women coming with their children. Many men prefer to stay behind, look after their property in Burkina Faso.</p><blockquote><p>[T]raversing the frontier has a profound effect ... Children often arrive traumatized from the experience, thirsty and hungry, many malnourished.</p></blockquote><p>But even if the children are traveling with one or both parents, traversing the frontier has a profound effect. The journey is difficult, many families have to flee with nothing but the clothes on their backs. Children often arrive traumatized from the experience, thirsty and hungry, many malnourished from a lack of food during the journey, and sometimes separated from their parents and often weakened by the distance. </p><p>UNICEF is setting up protection committees, whose members are from the community and chosen by the community itself, so that we can identify children who need help and connect them to a social worker. This is absolutely critical, because the social workers are not only providing psychosocial support and counseling to the children, but they're also identifying those that might be malnourished and need <strong><a href="/what-unicef-does/childrens-health/nutrition">nutrition</a></strong> support, or might be sick and need health care services. There may be other medical issues, young mothers or pregnant women who need care. </p><figure role="group" class="caption caption-drupal-media align-center"><figure class="media media--type-image media--view-mode--full-width"><img src="/sites/default/files/styles/full_width/public/2023-07/UN0800403.jpg?itok=cNBbT7oW" width="960" height="640" alt="A baby waiting to be vaccinated at a UNICEF-supported health center Kassirimi, in Korhogo, north Côte d’Ivoire. " loading="lazy" class="image-style-full-width" /></figure><figcaption>A baby waiting to be vaccinated at a UNICEF-supported health center in Kassirimi, Korhogo, northern Côte d’Ivoire. © UNICEF/UN0800403/Dejongh</figcaption></figure><p>Some of the schools in these host communities, they’ve had to adapt and incorporate up to 100 Burkinabé children. And what we’ve seen is that these communities go out of their way to accommodate these children. Quite often they will have two shifts of classroom time to be able to do this. We’re seeing community schools where retired teachers and other educated Ivorians are leading classes. So these schools have been very accommodating.</p><blockquote><p>What you have to remember is that many children coming in from Burkina Faso have been out of school for some time... So they are really happy to once again have access to an education.</p></blockquote><p>What you have to remember is that many children coming in from Burkina Faso have been out of school for some time because of the conflict there. So they are really happy to once again have <strong><a href="/what-unicef-does/childrens-education/every-child-educated">access to an education.</a></strong> It’s really quite powerful seeing teachers so interested in making sure that refugee children have the same opportunities as the local children.</p><p>I was in Ouangolodougou recently, and I saw all of these women, for example, who had just given birth and they were there getting routine vaccinations for their children at the health care center. It was really great to see that they had that kind of access without any problem. </p><h3>Q: How is the government of Côte d’Ivoire responding to this situation?</h3><p>MARC VINCENT: First I’d like to note that the government of Côte d’Ivoire has always been quite welcoming to refugees coming into the country. There are already quite a few people living here who came in from neighboring countries, the borders have always been porous in this part of the Sahel.</p><p>In terms of the current situation that is unfolding, as usual, the government is leading the response, with UNICEF and other international actors present and supporting. UNICEF teams on the ground work very closely with the government.</p><blockquote><p>The government has really taken on board that equity issue and they are really working toward social cohesion. The idea is to avoid tensions between the refugees and members of the host communities.</p></blockquote><p>I should point out that the government’s current position is — and rightly so, I think — that they are capable at this point of supporting and integrating refugees, so they haven’t declared the situation an emergency. Not yet.</p><h3>Q: So it’s mainly capacity building going on?</h3><p>MARC VINCENT: Yes, and resilience building. Recently the government announced a major resilience-building initiative in the north. I think they are quite aware of the need to address inequalities between Abidjan, which is a thriving metropolis and almost middle-income, and the northern region where you're still seeing development challenges. The government has really taken on board that equity issue and they are really working toward social cohesion. The idea is to avoid tensions between the refugees and members of the host communities.</p><p>For example, many of the refugees coming in are herders and so they're coming with their cattle, and basically roaming the area looking for areas for their cattle to graze. This can create tensions with the locals.</p><p>Understanding this, I think, the government has decided to open two relocation sites staffed to assist those who want to move from where they currently are, within Côte d’Ivoire. The government has been very clear with us, assuring us that all relocations would be voluntary. The government is also aware of the need to ensure that these relocation sites have housing, have water pumps and latrines, etc., to ensure that the host communities around these areas are not disadvantaged as a result of the influx of refugees.</p><h3>Q: You mentioned there are others helping to support the government’s response…</h3><p>MARC VINCENT: Yes, we’re seeing many more NGOs operating in the north now, so there are a lot of people from different agencies to coordinate with. We work with local authorities to support that coordination so that we are all working together in a coherent and efficient manner. And I think we all work very well together.</p><h3>Q: Are there security concerns?</h3><p>MARC VINCENT: Yes, there are concerns about warring groups infiltrating the northern areas. For UNICEF, it's always been very important that we keep security issues separate from humanitarian issues. That’s something we are constantly discussing with them, maintaining that separation.</p><figure role="group" class="caption caption-drupal-media align-center"><figure class="media media--type-image media--view-mode--full-width"><img src="/sites/default/files/styles/full_width/public/2023-07/CIV.EMERGENCY.Tougbo.15.03.2022.UNICEF.FrankDejongh.1247.jpg?itok=ut0APHGm" width="960" height="640" alt="A mother with her three children, all refugees from Burkina Faso, feel safe in Côte d'Ivoire but surviving is still a struggle. " loading="lazy" class="image-style-full-width" /></figure><figcaption>Odette Ouedraogo, 40, and her three children, refugees from Burkina Faso, have been living in Tougbo, northern Côte d'Ivoire since early 2022. "We had to flee [Burkina] because there were frequent attacks by ill-intentioned people, and neighbors and friends were killed,” Oedraogo says. “We were too scared to stay. We are welcomed here by a family. The essential [thing] is that we feel safe here. But it is difficult to survive.” © <br/>
+UNICEF/Frank Dejongh</figcaption></figure><p>What we've encouraged or advocated for is a separate system, so that the security issues are dealt with separately from the humanitarian issues, because as you know, the humanitarian issues are governed by principles — humanitarian principles of do no harm, maintaining impartiality and neutrality and so forth — and so finding that compromise is important. </p><p>I think the government listens to us, but ultimately it's their country, they need to make the decisions and we need to provide the best advice that we can.</p><h3>Q: With the emergency in Burkina Faso continuing to deteriorate, with over 2 million displaced in the country, it’s clear that those who are crossing the border into Côte d’Ivoire will not be able to return home anytime soon. Are the capacity-building efforts you’ve described sustainable? Will Côte d’Ivoire be able to accommodate these refugees for an extended period of time?</h3><p>MARC VINCENT: That's an interesting question. Returning to Burkina Faso would have to be voluntary so refugees are likely to stay until they feel it’s time to go back, and that it is safe to go back. </p><p>I do think that the impact we’re already seeing — results from the government’s resilience strategy for strengthening access to social services within the whole region, which we support — will be lasting. The new water wells and new classrooms we’re building, those will stay.</p><p>Obviously, we hope the civil war in Burkina ends soon. But the most important priority right now is to make sure that children have access to education, nutrition, health care <em>now —</em> and that those services are effective. They were forced to flee. We will be here to support the government as long as it takes.</p><h3>Q: Any final thoughts based on what you’ve been seeing firsthand?</h3><p>MARC VINCENT: Recently I was in a village in Tougbo, in the Tchologo region, where the village chief had taken in a group of refugees, moving his extended family out of one building on his property and into his own home to make space. There are a lot of people who have vacated property in order to provide shelter to refugees.</p><p>You can build a house relatively quickly using traditional techniques, if you've got the materials. But it’s powerful to see families giving up their own houses to help others from the other side of the border. </p><blockquote><p>Adolescents, the youth in the country, really want to contribute. It gives them such a sense of accomplishment and fulfillment when they have done something for their communities and for the refugee-hosting areas. Facilitating that contribution is an investment in the long-term future of Côte d'Ivoire. </p></blockquote><p>It’s also powerful to see UNICEF in action. Our mandate is extraordinary, I think, in terms of the many areas we operate in, from water and sanitation to education to child protection and social services. We are the largest UN organization on the ground here, and of course the country office has the support of UNICEF’s West and Central Africa regional office, and the national committees, including UNICEF USA.</p><p>Adolescents, the youth in the country, really want to contribute. It gives them such a sense of accomplishment and fulfillment when they have done something for their communities and for the refugee-hosting areas. Facilitating that contribution is an investment in the long-term future of Côte d'Ivoire. </p><figure role="group" class="caption caption-drupal-media align-center"><figure class="media media--type-image media--view-mode--full-width"><img src="/sites/default/files/styles/full_width/public/2023-07/UN0801789.jpg?itok=IHM39eXY" width="960" height="640" alt="Yao Adjoua Rose, a primary school teacher in Touba, northwestern Côte d'Ivoire, in her classroom surrounded by young students.." loading="lazy" class="image-style-full-width" /></figure><figcaption>Yao Adjoua Rose, a primary school teacher, in her classroom with students in Touba, northwestern Côte d'Ivoire. Many schools in the north are scheduling double shifts to accommodate refugee children from Burkina Faso. © UNICEF/UN0801789/Diarassouba</figcaption></figure><p>MARC VINCENT: All we need, frankly, is money. Côte d'Ivoire is not a country that has its own humanitarian appeal. There is no emergency funding for Côte d'Ivoire.</p><p>I recognize that the world is facing many emergencies, in Ukraine, in Sudan, in Syria and Türkiye, Bangladesh and elsewhere. What is happening in the Sahel is what I would describe as a creeping emergency, with potentially devastating impacts on children, just over a longer period of time. What we don't want to see in the Sahel is an entire generation of children lost. </p><p><em>UNICEF's mission for nearly eight decades has been to provide lifesaving and life-sustaining services and support to the world's most vulnerable children. Unrestricted donations allow UNICEF to allocate resources wherever and whenever they are needed most. <strong><a href="/stories/inside-look-unicefs-role-sahel-humanitarian-crisis-nobodys-talking-about?form=giveprotection">Donate today.</a></strong></em></p><p><a href="#XPEUQTYX">Donate</a></p><p> </p></div></div><div class="block block-layout-builder block-field-blocknodestoryfield-image-caption">
+TOP PHOTO: Fanta Kone, a UNICEF staff member, with 10-month-old twins Adama and Awa, refugees from Burkina Faso, in Tougbo, in the north of Côte d’Ivoire. An estimated 22,000 more people have crossed the border into Côte d&#039;Ivoire since January 2023 as conflict and related crises have escalated in central Sahel. UNICEF is helping to build local capacities in the border towns to absorb the influx and ensure that all children can access health care, nutrition, education and other critical services. © UNICEF/UN0613144/Dejongh
+</div></div></div> </section>
+<section class="layout-grey lb-section lb-section--50-50">
+<div class="lb-section-row region-body"><div class="lb-region lb-region--left"><div class="block block-layout-builder block-inline-blockrelated-missions"><h2>More from UNICEF USA</h2><div class="views-element-container"><div class="view view-related-missions view-id-related_missions view-display-id-missions js-view-dom-id-714f6eb4fc56dc467217c900265fea421877f87fa8caef6cc1364d345d1de753"><div class="view-content"><div class="item-list"><ul><li><div class="views-field views-field-title"><span class="field-content"><a href="/what-unicef-does/where-unicef-works/africa/somalia" hreflang="en">UNICEF in Somalia</a></span></div></li><li><div class="views-field views-field-title"><span class="field-content"><a href="/what-unicef-does/where-unicef-works/asia/india" hreflang="en">UNICEF in India</a></span></div></li><li><div class="views-field views-field-title"><span class="field-content"><a href="/what-unicef-does/parenting/vaccinating-your-child" hreflang="en">Parenting: All About Vaccines</a></span></div></li><li><div class="views-field views-field-title"><span class="field-content"><a href="/what-unicef-does/where-unicef-works/africa/libya" hreflang="en">UNICEF in Libya</a></span></div></li><li><div class="views-field views-field-title"><span class="field-content"><a href="/what-unicef-does/where-unicef-works/africa/morocco" hreflang="en">UNICEF in Morocco</a></span></div></li><li><div class="views-field views-field-title"><span class="field-content"><a href="/what-unicef-does/where-unicef-works/africa/mozambique" hreflang="en">UNICEF in Mozambique</a></span></div></li><li><div class="views-field views-field-title"><span class="field-content"><a href="/what-unicef-does/where-unicef-works/africa/niger" hreflang="en">UNICEF in Niger</a></span></div></li><li><div class="views-field views-field-title"><span class="field-content"><a href="/what-unicef-does/where-unicef-works/south-america/brazil" hreflang="en">UNICEF in Brazil</a></span></div></li></ul></div></div></div></div></div></div><div class="lb-region lb-region--right"><div class="block block-layout-builder block-inline-blockrecommended-stories-mini"><h2>Recommended Stories</h2><div class="teaser-column"><article class="node node--type-story node--view-mode-card"><div class="node__content"><a href="/stories/surge-violence-fuels-humanitarian-crisis-haiti" ref="bookmark"><div class="field field--name-field-header-image field--type-entity-reference field--label-hidden field__item"><figure class="media media--type-image media--view-mode--50-width"><img src="/sites/default/files/styles/50_percent/public/2024-02/UNI516128%20Haiti%20banner.jpg?itok=7rRTknGk" width="458" height="305" alt="Seven-year-old Lovenska of Haiti works on a drawing at a UNICEF-supported child-friendly space in Delmas 6, downtown Port-au-Prince." loading="lazy" class="image-style-_0-percent" /></figure></div><h2><span class="field field--name-title field--type-string field--label-hidden">Surge in Violence Fuels <strong>Humanitarian Crisis in Haiti</strong></span></h2><div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Calling the situation for children "a living nightmare," UNICEF Haiti Representative Bruno Maes urges more support for the emergency response. [VIDEO]</p></div></a></div></article><article class="node node--type-story node--view-mode-card"><div class="node__content"><a href="/stories/rising-malnutrition-puts-childrens-lives-grave-risk-gaza" ref="bookmark"><div class="field field--name-field-header-image field--type-entity-reference field--label-hidden field__item"><figure class="media media--type-image media--view-mode--50-width"><img src="/sites/default/files/styles/50_percent/public/2024-02/UNI519938.jpg?itok=Px5meLsZ" width="458" height="305" alt="In the Gaza Strip on Feb. 15, 2024, a UNICEF-trained screener measures 2-year-old Leen&#039;s mid-upper arm circumference to diagnose severe acute malnutrition." loading="lazy" class="image-style-_0-percent" /></figure></div><h2><span class="field field--name-title field--type-string field--label-hidden">Rising Malnutrition Puts <strong>Children&#039;s Lives at Grave Risk in Gaza</strong></span></h2><div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>An unprecedentedly rapid rise in malnutrition is threatening the lives of children and pregnant and breastfeeding women in the Gaza Strip.</p></div></a></div></article><article class="node node--type-story node--view-mode-card"><div class="node__content"><a href="/stories/children-war-write-poems-peace" ref="bookmark"><div class="field field--name-field-header-image field--type-entity-reference field--label-hidden field__item"><figure class="media media--type-image media--view-mode--50-width"><img src="/sites/default/files/styles/50_percent/public/2024-02/Muzdalifa%20poem%20for%20peace.jpg?itok=Xj4Z4GuY" width="458" height="339" alt="Muzdalifa, 17, of Sudan, wrote a poem for peace expressing her hope for the future." loading="lazy" class="image-style-_0-percent" /></figure></div><h2><span class="field field--name-title field--type-string field--label-hidden">Children in War Write <strong>Poems for Peace</strong></span></h2><div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>UNICEF shares its growing collection of poems by young people — deeply personal works that show resilience, creativity and hope in the face of danger.</p></div></a></div></article></div></div></div></div> </section>
+</div>
+</article>
+</div>
+</div>
+</div></main>
+<aside class="region region-prefooter" role="complementary">
+<div id="block-follow" class="settings-tray-editable block block-block-content block-block-content63822f70-0cdc-4816-9326-8e7b3f5db925 block-follow" data-drupal-settingstray="editable">
+<div id="signup">
+<div class="field field--name-field-form field--type-webform field--label-above">
+<div class="field__label">Be An Active Supporter</div>
+<div class="field__item"><span id="webform-submission-subscribe-block-content-18-form-ajax-content"></span><div id="webform-submission-subscribe-block-content-18-form-ajax" class="webform-ajax-form-wrapper" data-effect="none" data-progress-type="throbber"><form class="webform-submission-form webform-submission-add-form webform-submission-subscribe-form webform-submission-subscribe-add-form webform-submission-subscribe-block_content-18-form webform-submission-subscribe-block_content-18-add-form webform-submission-subscribe-block-content-18-add-form js-webform-details-toggle webform-details-toggle" data-drupal-selector="webform-submission-subscribe-block-content-18-add-form" action="/stories/inside-look-unicefs-role-sahel-humanitarian-crisis-nobodys-talking-about" method="post" id="webform-submission-subscribe-block-content-18-add-form" accept-charset="UTF-8">
+<div id="edit-form-cta" class="js-form-item form-item js-form-type-webform-markup form-type-webform-markup js-form-item-form-cta form-item-form-cta form-no-label">
+<p>Be the first to know about UNICEF&#39;s humanitarian relief efforts in times of emergency.</p>
+</div>
+<div class="js-form-item form-item js-form-type-email form-type-email js-form-item-email-address form-item-email-address">
+<label for="edit-email-address" class="js-form-required form-required">Stay informed:</label>
+<input autocomplete="off" data-webform-required-error="Please enter your email address." data-drupal-selector="edit-email-address" type="email" id="edit-email-address" name="email_address" value size="60" maxlength="254" placeholder="Email address" class="form-email required" required="required" aria-required="true" />
+</div>
+<input autocomplete="off" data-drupal-selector="form-mcpynel1lvxkhtosf-xfyygecdhdvh2yy-9rks6rsn4" type="hidden" name="form_build_id" value="form-mcPyNEL1LvxkHToSf_xfYygecdhDvH2YY-9rks6RSn4" />
+<input data-drupal-selector="edit-webform-submission-subscribe-block-content-18-add-form" type="hidden" name="form_id" value="webform_submission_subscribe_block_content_18_add_form" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input class="webform-button--submit button button--primary js-form-submit form-submit" data-drupal-selector="edit-submit" data-disable-refocus="true" type="submit" id="edit-submit" name="op" value="Submit" />
+</div>
+</form>
+</div></div>
+</div>
+</div>
+</div>
+</aside>
+<footer role="contentinfo">
+<div class="region region-footer">
+<nav role="navigation" aria-labelledby="block-mainnavigation-2-menu" id="block-mainnavigation-2" class="settings-tray-editable block block-menu navigation menu--main" data-drupal-settingstray="editable">
+<h2 class="visually-hidden" id="block-mainnavigation-2-menu">Main navigation</h2>
+<ul region="footer" class="menu">
+<li class="menu-item menu-item--expanded">
+<a href="/what-unicef-does" data-drupal-link-system-path="node/39872">What Unicef Does</a>
+<ul class="menu">
+<li class="menu-item menu-item--expanded">
+<a href="/what-unicef-does/childrens-education" data-drupal-link-system-path="node/39722">Children&#039;s Education</a>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/what-unicef-does/childrens-health" data-drupal-link-system-path="node/39746">Children&#039;s Health</a>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/what-unicef-does/childrens-protection" data-drupal-link-system-path="node/39747">Children&#039;s Protection</a>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/what-unicef-does/respect-children" data-drupal-link-system-path="node/39730">Respect for Children</a>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/what-unicef-does/emergency-response" data-drupal-link-system-path="node/39768">Emergency Response</a>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/what-unicef-does/where-unicef-works" data-drupal-link-system-path="node/39769">Where UNICEF Works</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/about-unicef-usa" data-drupal-link-system-path="node/39751">About UNICEF USA</a>
+<ul class="menu">
+<li class="menu-item menu-item--expanded">
+<a href="/about-unicef-usa/careers" data-drupal-link-system-path="node/39752">Careers</a>
+</li>
+<li class="menu-item">
+<a href="/about-unicef-usa/diversity-racial-equity-belonging" data-drupal-link-system-path="node/39718">Diversity, Racial Equity &amp; Belonging</a>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/about-unicef-usa/finances" data-drupal-link-system-path="node/39754">Finances</a>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/about-unicef-usa/leadership" data-drupal-link-system-path="node/39760">Leadership</a>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/about-unicef-usa/partnerships" data-drupal-link-system-path="node/39807">Partnerships</a>
+</li>
+<li class="menu-item">
+<a href="/about-unicef-usa/unicef-usa-and-unicef" data-drupal-link-system-path="node/39863">UNICEF USA and UNICEF</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/how-help" data-drupal-link-system-path="node/39915">How to Help</a>
+<ul class="menu">
+<li class="menu-item menu-item--expanded">
+<a href="/how-help/advocate" data-drupal-link-system-path="node/39801">Advocate</a>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/how-help/donate" data-drupal-link-system-path="node/40793">Donate</a>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/how-help/fundraise" data-drupal-link-system-path="node/39810">Fundraise</a>
+</li>
+<li class="menu-item">
+<a href="https://www.unicefusa.org/startaclub">UNICEF Clubs</a>
+</li>
+<li class="menu-item menu-item--collapsed">
+<a href="/how-help/ways-give" data-drupal-link-system-path="node/39818">Ways To Give</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+<nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" class="settings-tray-editable block block-menu navigation menu--footer" data-drupal-settingstray="editable">
+<h2 class="visually-hidden" id="block-footer-menu">Footer</h2>
+<ul region="footer" class="menu">
+<li class="menu-item">
+<a href="/press" data-drupal-link-system-path="node/39864">Media Hub</a>
+</li>
+<li class="menu-item">
+<a href="/stories" data-drupal-link-system-path="node/39716">Stories of UNICEF in Action</a>
+</li>
+<li class="menu-item">
+
+<a class="ot-sdk-show-settings" href="#">Manage Cookies</a>
+ </li>
+<li class="menu-item">
+<a href="https://facebook.com/UNICEF-USA">Facebook</a>
+</li>
+<li class="menu-item">
+<a href="https://twitter.com/UNICEFUSA">Twitter</a>
+</li>
+<li class="menu-item">
+<a href="https://linkedin.com/company/unicefusa">LinkedIn</a>
+</li>
+<li class="menu-item">
+<a href="https://youtube.com/UNICEFUSA">Youtube</a>
+</li>
+<li class="menu-item">
+<a href="https://instagram.com/UNICEFUSA">Instagram</a>
+</li>
+<li class="menu-item">
+<a href="https://pinterest.com/UNICEFUSA">Pinterest</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="subfooter">
+<div>
+<div class="logo">
+<a href="/">
+<svg viewBox="0 0 147.63 53.44" xmlns="http://www.w3.org/2000/svg">
+<path paint-order="stroke" d="m84.08 53.13 6-14.36h2.13l5.87 14.36h-2.22l-1.55-3.74h-6.66l-1.57 3.74zm4.27-5.45h5.35l-2.62-6.94zm-14.74 1.25c0 2 1.21 2.79 3.14 2.79 1.63 0 3.62-.48 3.62-2.49 0-1.39-1.15-2-2.35-2.21-2.36-.51-6.3-1.05-6.3-4.27s2.84-4.28 5.53-4.28c2.44 0 4.85 1.1 4.85 3.88h-2.09c-.08-1.61-1.43-2.17-2.86-2.17s-3.34.52-3.34 2.23 1.15 1.73 2.4 2.13c2.65.85 6.25.85 6.25 4.47 0 3.26-2.93 4.42-5.83 4.42s-5.19-1.28-5.11-4.5zm-5.35-1.49c.06 3.7-1.89 6-5.79 6s-5.85-2.29-5.79-6v-8.67h2v9.15a3.8 3.8 0 0 0 7.6 0v-9.15h2zm25.36-16.42V12.96h-3.54v-2.73h3.58V5.76C93.79 1.2 97.22 0 100.16 0a17.12 17.12 0 0 1 2.82.41v3.27c-.67 0-1.33-.12-2-.12-2.23 0-3.52.58-3.4 2.86v3.81h4.81v2.73h-4.84v18.06zM74.5 21.37c-.28 3.65 1.21 7.42 5.22 7.42 3.07 0 4.6-1.2 5-4.23h4.15c-.63 4.73-4.27 7.08-9.24 7.08-6.67 0-9.32-4.72-9.32-10.85s3.12-11.18 9.7-11.18c6.21.13 9.15 4.06 9.15 9.82v1.94zm10.52-2.73c.09-3.48-1.49-6.17-5.3-6.17-3.28 0-5.22 2.77-5.22 6.17zM64.49 16.9c-.21-2.59-1.41-4.43-4.27-4.43-3.76 0-5.21 3.27-5.21 8.16s1.45 8.16 5.21 8.16c2.61 0 4.23-1.7 4.43-4.68h3.94c-.33 4.68-3.81 7.53-8.41 7.53-6.66 0-9.31-4.72-9.31-10.85s3.06-11.18 9.65-11.18c4.39 0 7.7 2.78 7.9 7.29zm-38.57-3.59H26a7.26 7.26 0 0 1 6.34-3.71c1.46 0 7.92.38 7.92 7.09v14.42h-4V17.94c0-3.46-1.46-5.33-4.79-5.33a5.43 5.43 0 0 0-3.84 1.54c-.58.58-1.67 1.5-1.67 5.58v11.38h-3.88V10.19h3.88zm-11.84-3.12h4v20.92h-3.95v-3.08h-.05a7.93 7.93 0 0 1-7.2 3.71C2.5 31.74 0 28.4 0 24.19v-14h4v12.38c0 3.62.84 6.29 4.63 6.29a5 5 0 0 0 4.67-3 15.47 15.47 0 0 0 .78-4.92zM43.57 1h4.71v4.31h-4.71zm.38 30.09V10.17h4v20.92zm94.95-7.38-.35.18c-1.2.82-4.61 3.74-4.86 4.74l-.06.23h.23c3.73.32 4.63-2.57 5-4.78v-.2zm-12.12 7a14.78 14.78 0 0 0-4.49 3.67l-.11.14.12.12a1.85 1.85 0 0 0 .58.41h.13l.09-.1c1.63-2 4.44-4.53 7.43-4.84a3.71 3.71 0 0 0 1.51 1 11.33 11.33 0 0 0 7-.66l.55-.23-.57-.16c-5.59-1.44-9.84-.52-12.24.65zM144.55 25l-.42.08c-1.59.25-6.06 2.78-6.75 3.8l-.17.26.31.05c3.69.64 5.65-1.87 6.81-3.81l.11-.19zm-3.21-5.78-.23.32a16.71 16.71 0 0 0-2 6.35v.28l.05.35.27-.16a5 5 0 0 0 2.4-4.24 7.84 7.84 0 0 0-.38-2.52l-.06-.19zm.99-4.35-.12.41a6.38 6.38 0 0 0-.19 1.59 14.15 14.15 0 0 0 .65 5l.16.29.19-.28a4.88 4.88 0 0 0 .88-2.66 7 7 0 0 0-1.33-4l-.12-.18zm.05-4.05v.44a13.34 13.34 0 0 0 1.93 5.85l.23.32.13-.38a5.14 5.14 0 0 0 .24-1.15 6.55 6.55 0 0 0-2.19-4.77l-.16-.16zm-1.22-4.36.15.51a12.86 12.86 0 0 0 3 4.89l.31.27v-.45c.11-2-.86-3.58-3-4.93l-.23-.15zm5.98 12.33-.41.26a18 18 0 0 0-5.12 6.06l-.14.39.4-.13c2.89-.93 4.76-4.13 5.17-6.11v-.23zm.41-6.17-.32.39a17.39 17.39 0 0 0-2.71 6.6V20l.33-.21c2.78-1.83 2.85-5.27 2.76-6.66v-.26zm-1.47-5.6-.2.5a17.15 17.15 0 0 0-.63 6.26l.17.88.14-.17.13-.17a6.24 6.24 0 0 0 1.06-4.76 9.86 9.86 0 0 0-.49-2l-.09-.25zm-3.85-3.52.1.56a8.47 8.47 0 0 0 2.33 4.82l.25.24.09-.42v-.14c.29-2.07-1.56-4-2.37-4.68l-.21-.19zm-26.35 20.4v.2c.35 2.21 1.24 5.1 5 4.78h.24l-.06-.23c-.25-1-3.67-3.92-4.86-4.74l-.36-.18zm-.12 6.23-.58.16.55.23a11.36 11.36 0 0 0 7 .66 3.68 3.68 0 0 0 1.5-1c3 .31 5.8 2.81 7.44 4.84l.09.1h.12a1.78 1.78 0 0 0 .59-.41l.11-.12-.1-.14a14.89 14.89 0 0 0-4.5-3.67c-2.41-1.24-6.65-2.16-12.22-.65zm-5.45-4.94.11.19c1.16 1.94 3.13 4.45 6.82 3.81l.3-.05-.17-.26c-.69-1-5.16-3.55-6.74-3.8l-.43-.08zm3.04-5.78-.06.19a7.55 7.55 0 0 0-.37 2.52 4.94 4.94 0 0 0 2.4 4.24l.26.16v-.63a17.07 17.07 0 0 0-2-6.35l-.24-.32zm-1.05-4.36-.12.18a7 7 0 0 0-1.33 4 5 5 0 0 0 .89 2.66l.19.28.16-.29a14.63 14.63 0 0 0 .65-5 6.81 6.81 0 0 0-.2-1.59l-.12-.41zm-.09-4.08-.16.16a6.55 6.55 0 0 0-2.18 4.77 4.22 4.22 0 0 0 .24 1.15l.13.38.23-.32a13.45 13.45 0 0 0 1.92-5.8v-.44zm1.27-4.3-.23.14c-2.16 1.31-3.16 2.9-3.09 4.87v.45l.32-.26a13 13 0 0 0 3-4.83l.16-.51zm-5.82 12.36v.23c.41 2 2.28 5.18 5.18 6.11l.39.13-.14-.39a18 18 0 0 0-5.12-6.06l-.41-.26zm-.48-6.16v.26c-.1 1.39 0 4.83 2.75 6.66l.34.21v-.39a17.55 17.55 0 0 0-2.71-6.6l-.33-.39zm1.38-5.56-.1.25a9.86 9.86 0 0 0-.49 2 6.28 6.28 0 0 0 1.11 4.75l.13.17.14.17.18-.88a17.37 17.37 0 0 0-.64-6.26l-.19-.5zm3.75-3.62-.22.19c-.81.71-2.65 2.61-2.37 4.68v.14l.09.42.26-.24a8.6 8.6 0 0 0 2.33-4.82l.09-.56zM127.35.02a13.8 13.8 0 1 0 13.79 13.8A13.81 13.81 0 0 0 127.35.02zm10.73 6.1a18.79 18.79 0 0 1-2.22 1.28 14.41 14.41 0 0 0-1.65-2.57 13.38 13.38 0 0 0 1.61-1.15 13.1 13.1 0 0 1 2.26 2.44zm-5.8-4.58a13.26 13.26 0 0 1 3.12 1.77 13.41 13.41 0 0 1-1.52 1.07 14.58 14.58 0 0 0-2.27-2.07 7.14 7.14 0 0 0 .7-.77zm1.07 3.13a12.75 12.75 0 0 1-2.33 1 19.73 19.73 0 0 0-1.15-2.24 6.13 6.13 0 0 0 1.26-.74 14.1 14.1 0 0 1 2.25 1.98zm-1.61-3.36a5.18 5.18 0 0 1-.61.63 13.33 13.33 0 0 0-2.31-1.28 12.38 12.38 0 0 1 2.92.65zm-1.08 1a6 6 0 0 1-1.05.59 21 21 0 0 0-1.33-1.85 13.55 13.55 0 0 1 2.38 1.26zm-3-1.17a20.08 20.08 0 0 1 1.43 2 6.21 6.21 0 0 1-1.43.25zm0 2.77a6 6 0 0 0 1.74-.32 19.83 19.83 0 0 1 1.13 2.2 12.64 12.64 0 0 1-2.87.39zm-.58-2.73v2.18a6 6 0 0 1-1.4-.25 18.56 18.56 0 0 1 1.4-1.93zm-2 1.73a5.75 5.75 0 0 1-1-.6 15 15 0 0 1 2.38-1.26 20 20 0 0 0-1.38 1.86zm.8-2.24a14.22 14.22 0 0 0-2.33 1.28 5.1 5.1 0 0 1-.61-.62 13.33 13.33 0 0 1 2.97-.66zm9.48 23.64a2.83 2.83 0 0 1-1.78-2.91c.1-.52.46-.3.69-.3a5.31 5.31 0 0 0 4-1.95 6.11 6.11 0 0 0-.39-8.4c-2.92-2.81-6-2.32-8 .21a3.08 3.08 0 0 1-2.28.86c-1.28-.05-.47 1-.47 1.18s-.2.35-.31.32c-.44-.12-.26.52-.26.72a.3.3 0 0 1-.28.29c-.54 0-.39.49-.37.62a.5.5 0 0 1-.22.46 1.16 1.16 0 0 0-.37.84c0 .59.54 1 1.43 1.66a2.16 2.16 0 0 1 1 1.76 5.29 5.29 0 0 0 .26 1.68 1.14 1.14 0 0 1-1 1.71 17.35 17.35 0 0 0-4.42 1.35 5.4 5.4 0 0 1-2.87.19 12.72 12.72 0 0 1-1.35-1.1 2.09 2.09 0 0 1 .44-1.7 2.28 2.28 0 0 0 1.67.49 20.8 20.8 0 0 0 2.79-.4.73.73 0 0 1 .6 0 1.57 1.57 0 0 0 2.31-1.14c.44-1.52-.6-1.09-.73-1s-.31 0-.25-.08c.2-.38-.09-.34-.26-.36a2 2 0 0 0-1.15.57.39.39 0 0 1-.42.11c-.57-.28-2.24.13-2.76-.78a30.4 30.4 0 0 0-.66-4.55.63.63 0 0 1 .06-.61c.43-.63 1.6.05 2.23 0a1.15 1.15 0 0 0 1.09-.6c.2-.25.35-.11.46-.18s0-.27.06-.36.1-.05.23-.17 0-.36 0-.45c.19-.28.7-.06.39-.8a1.19 1.19 0 0 1 .3-1.14c.36-.47 1.79-2.48-.72-4.56s-4.82-1.82-6.38-.13-.79 4.17-.62 4.82a1.39 1.39 0 0 1-.85 1.5 12.1 12.1 0 0 0-2.12 1.53 13.16 13.16 0 0 1 8.29-12 6.08 6.08 0 0 0 .71.8 35.9 35.9 0 0 0-1.76 1.48l.32.06.33.1s1.06-.9 1.56-1.26a6 6 0 0 0 1.25.73c-.24.41-.84 1.55-.84 1.55l.26.16a1.25 1.25 0 0 1 .21.16s.66-1.24.9-1.66a5.94 5.94 0 0 0 1.72.32v2.27c-.32 0-1.16 0-1.5-.07h-.21l.12.18a3.07 3.07 0 0 1 .22.38v.05h.06l1.29.06v4.13h.57v-.94c.84 0 1.54-.1 2.39-.18l.74-.66h-.41c-.89.12-1.68.17-2.39.21h-.37V6.76a13.64 13.64 0 0 0 3.1-.44 60 60 0 0 1 .8 2.34l.54-.17s-.52-1.64-.8-2.32a13.92 13.92 0 0 0 2.48-1.06 13.74 13.74 0 0 1 1.63 2.54c-.41.19-1.15.45-1.15.45a5.36 5.36 0 0 1 1 .21l.34-.15.16.35.74.33-.09-.2-.3-.73a18.28 18.28 0 0 0 2.3-1.33 13.23 13.23 0 0 1-2.93 17.73z" />
+</svg>
+UNICEF USA
+</a>
+</div>
+<div class="region region-subfooter">
+<div id="block-thefineprint" class="settings-tray-editable block block-block-content block-block-content0347ade1-4ef1-4d41-9c36-2e4346650bf8 block-thefineprint" data-drupal-settingstray="editable">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">(800) 367-5437&nbsp; |&nbsp; 125 Maiden Lane, New York, NY 10038.<br>
+©2023 U.S. Fund for UNICEF d/b/a UNICEF USA. All Rights Reserved.<br>
+U.S. Fund for UNICEF d/b/a UNICEF USA is a 501(c)(3) organization.<br>
+Gifts are deductible to the full extent allowable under IRS regulations.</div>
+</div>
+<nav role="navigation" aria-labelledby="block-subfootmenu-menu" id="block-subfootmenu" class="settings-tray-editable block block-menu navigation menu--subfoot-menu" data-drupal-settingstray="editable">
+<h2 class="visually-hidden" id="block-subfootmenu-menu">Subfoot Menu</h2>
+<ul region="subfooter" class="menu">
+<li class="menu-item">
+<a href="/cookie-policy" title="View our Cookie Policy." data-drupal-link-system-path="cookie-policy">Cookie Policy</a>
+</li>
+<li class="menu-item">
+<a href="/privacy-policy" data-drupal-link-system-path="node/39866">Privacy Policy</a>
+</li>
+<li class="menu-item">
+<a href="/sms-privacy-statement" data-drupal-link-system-path="node/39867">SMS Privacy Policy</a>
+</li>
+<li class="menu-item">
+<a href="/terms-use" data-drupal-link-system-path="node/39868">Terms of Use</a>
+</li>
+<li class="menu-item">
+<a href="/linking-agreement" data-drupal-link-system-path="node/39869">Linking Agreement</a>
+</li>
+<li class="menu-item">
+<a href="/faq" data-drupal-link-system-path="node/39870">FAQ</a>
+</li>
+<li class="menu-item">
+<a href="/about-unicef-usa/careers" data-drupal-link-system-path="node/39752">Jobs</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/41243","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"better_exposed_filters\/general,better_parent\/better_parent,classy\/base,classy\/messages,classy\/node,core\/internal.jquery.form,core\/normalize,media\/filter.caption,sd\/global_stage,sd\/head_js,sd\/vendor_js,sd_media\/sd-media,sd_social_share\/sd_social_share,system\/base,unicef_custom\/onetrust,views\/views.module,webform\/webform.ajax,webform\/webform.element.details.save,webform\/webform.element.details.toggle,webform\/webform.element.message,webform\/webform.form,webform\/webform.theme.classy,webform_workflows_element\/webform_workflows_element.states,webform_workflows_element\/webform_workflows_element.ui","theme":"sd","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/stories\/inside-look-unicefs-role-sahel-humanitarian-crisis-nobodys-talking-about?ajax_form=1":true,"\/search":true},"ajax":{"edit-submit":{"callback":"::submitAjaxForm","event":"click","effect":"none","speed":500,"progress":{"type":"throbber","message":""},"disable-refocus":true,"url":"\/stories\/inside-look-unicefs-role-sahel-humanitarian-crisis-nobodys-talking-about?ajax_form=1","httpMethod":"POST","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Submit"}}},"user":{"uid":0,"permissionsHash":"57d268ff54ea1784c15050cfc9a3d894b9f1adddade635bba2a66ba13f99304b"}}</script>
+<script src="/sites/default/files/js/js_1rbaMZPr896U7mTyTTbef-OHt9kv90ImHEwnaZbMdS4.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=sd&amp;include=eJydUVtuhDAMvBBNjhQZMkC2SUxjA7s9fcMCH1u0qtQfZ_yYkT2RhyiSbUnQdJFEHi84QYQGSNNxgc1cEsXwjWbOoUPvulmUk-UMLRU2K9q-ztjjNVu4FBGRkNV4KIUoRmjBn0PKwxCvY3Sj-1l0K5fPPvIq7mDbtx0jSlrP-g91Dpc1dKwts3v29pTDy93KkBUlUzS3rxnlsTvVQmvVTVS2DV6yZglYxT6jSeznaoZ4l-ADWfEfT3D-WmaPZm_1IVYR09GkgfNGEe4CRSdj1bW_8nMD3CcWeLezxQ7IKBQr3S7Inou7yZaMIH_AIXK7yWg98QdjFeo3" type="0c4333c915e0d812bf3a5a2e-text/javascript"></script>
+<script src="/themes/_custom/sd/dist-stage/js/global.js?v=1.42" type="0c4333c915e0d812bf3a5a2e-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="0c4333c915e0d812bf3a5a2e-|49" defer></script></body>
+</html>

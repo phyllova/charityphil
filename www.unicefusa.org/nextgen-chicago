@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8 ie7"  lang="en" dir="ltr" class="no-js"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9 ie8"  lang="en" dir="ltr" class="no-js"><![endif]-->
+<!--[if IE 9]><html class="ie9"  lang="en" dir="ltr" class="no-js"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!-->
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" class="no-js">
+<!--<![endif]-->
+<head>
+
+<script type="61afb20443e2949c84d6f51f-text/javascript">
+    (function (w, d, s, n, a) {
+      if (!w[n]) {
+        var l = 'call,catch,on,once,set,then,track'
+          .split(','),
+          i, o = function (n) {
+            return 'function' == typeof n ? o.l.push([arguments]) && o :
+              function () {
+                return o.l.push([n, arguments]) && o
+              }
+          },
+          t = d.getElementsByTagName(s)[0],
+          j = d.createElement(s);
+        j.async = !0;
+        j.src = 'https://cdn.fundraiseup.com/widget/' + a;
+        t.parentNode.insertBefore(j, t);
+        o.s = Date.now();
+        o.v = 4;
+        o.h = w.location.href;
+        o.l = [];
+        for (i = 0; i < 7; i++) o[l[i]] = o(l[i]);
+        w[n] = o
+      }
+    })(window, document, 'script', 'FundraiseUp', 'APQJSHGS');
+
+  </script>
+
+
+<script src="https://cdn.optimizely.com/js/11097406100.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+
+<meta charset="utf-8" /><script type="61afb20443e2949c84d6f51f-text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"c064680dbb",applicationID:"44757233"};;/*! For license information please see nr-loader-rum-1.252.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,DL:()=>w,OP:()=>S,lF:()=>T,Yu:()=>x,Dg:()=>m,CX:()=>c,GE:()=>_,sU:()=>R});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(h);var r=v(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!A[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return A[e]}function _(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=A[e])}const x=(0,n.mF)().o;var E=r(385),D=r(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(E._A?.performance?.timeOrigin||E._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+E._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof E._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},j={};function S(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!j[e])throw new Error("Runtime for ".concat(e," was never set"));return j[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");j[e]=(0,i.D)(t,k);const r=(0,n.ek)(e);r&&(r.runtime=j[e])}function T(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.252.0",i="PROD",o="CDN"},385:(e,t,r)=>{"use strict";r.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>o,cv:()=>l,iS:()=>a,il:()=>n,ux:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(n&&window.document.documentMode)),d=!!o.navigator?.sendBeacon,l=Math.floor(o?.performance?.timeOrigin||o?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{L:()=>d,R:()=>c});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(u(e),!e||!s[e].get(t)||r)return c(t);s[e].get(t).staged=!0;const a=[...s[e]];function c(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}a.every((e=>{let[t,r]=e;return r.staged}))&&(a.sort(((e,t)=>e[1].priority-t[1].priority)),a.forEach((t=>{let[r]=t;s[e].delete(r),c(r)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},f=!1;try{f=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=p(n),c=v(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var f=b()[s[e]];f&&f.push([g,e,r,a]);return a},get:m,listeners:v,context:p,buffer:function(e,t){const r=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:r,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function h(e,t){n[e]=v(e).concat(t)}function v(e){return n[e]||[]}function m(t){return d[t]=d[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),d=(0,n.fP)();function l(){u.aborted=!0,Object.keys(u.backlog).forEach((e=>{delete u.backlog[e]}))}d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>o,IK:()=>c,oD:()=>i,uT:()=>s,wO:()=>a});const n="NRBA",i=144e5,o=18e5,a={PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},s={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},c={OFF:0,FULL:1,ERROR:2}},7894:(e,t,r)=>{"use strict";function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>d,T:()=>l});var n=r(8325),i=r(5546),o=r(3325),a=r(385);const s="newrelic";const c={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa],sr:[o.D.sessionReplay,o.D.sessionTrace]},u=new Set;function d(e,t){const r=n.ee.get(t);e&&"object"==typeof e&&(u.has(t)||(Object.entries(e).forEach((e=>{let[t,n]=e;c[t]?c[t].forEach((e=>{n?(0,i.p)("feat-"+t,[],void 0,e,r):(0,i.p)("block-"+t,[],void 0,e,r),(0,i.p)("rumresp-"+t,[Boolean(n)],void 0,e,r)})):n&&(0,i.p)("feat-"+t,[],void 0,void 0,r),l[t]=Boolean(n)})),Object.keys(c).forEach((e=>{void 0===l[e]&&(c[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,r))),l[e]=!1)})),u.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{a._A.dispatchEvent(new CustomEvent(s,{detail:e}))}catch(e){}}({loaded:!0})))}const l={}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(7894),i=r(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,n.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},7530:(e,t,r)=>{"use strict";r.d(t,{j:()=>b});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(7894),c=r(8e3),u=r(3960),d=r(385),l=r(50),f=r(3081),g=r(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}var h=r(2825);const v=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:A,info:w,loader_config:_,runtime:x={loaderType:b},exposed:E=!0}=t;const D=(0,g.gG)();w||(A=D.init,w=D.info,_=D.loader_config),(0,i.Dg)(e.agentIdentifier,A||{}),(0,i.GE)(e.agentIdentifier,_||{}),w.jsAttributes??={},d.v6&&(w.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,w);const k=(0,i.P_)(e.agentIdentifier),j=[w.beacon,w.errorBeacon];m||(k.proxy.assets&&(v(k.proxy.assets),j.push(k.proxy.assets)),k.proxy.beacon&&j.push(k.proxy.beacon),p(),(0,g.EZ)("activatedFeatures",h.T)),x.denyList=[...k.ajax.deny_list||[],...k.ajax.block_internal?j:[]],(0,i.sU)(e.agentIdentifier,x),void 0===e.api&&(e.api=function(e,t){t||(0,c.R)(e,"api");const g={};var p=a.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),w(v,n,!0,o||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{g[e]=w(v,e,!0,"api")})),g.addPageAction=w(v,"addPageAction",!0,n.D.pageAction),g.setCurrentRouteName=w(v,"routeName",!0,n.D.spa),g.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,w(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(f.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,p);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.recordReplay=function(){(0,o.p)(f.xS,["API/recordReplay/called"],void 0,n.D.metrics,p),(0,o.p)("recordReplay",[],void 0,n.D.sessionReplay,p)},g.pauseReplay=function(){(0,o.p)(f.xS,["API/pauseReplay/called"],void 0,n.D.metrics,p),(0,o.p)("pauseReplay",[],void 0,n.D.sessionReplay,p)},g.interaction=function(){return(new y).get()};var A=y.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(f.xS,["API/createTracer/called"],void 0,n.D.metrics,p),(0,o.p)(m+"tracer",[(0,s.z)(),e,r],i,n.D.spa,p),function(){if(h.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],r),e}finally{h.emit("fn-end",[(0,s.z)()],r)}}}};function w(e,t,r,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,p),r?void 0:this}}function _(){r.e(75).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>{(0,l.Z)("Downloading runtime APIs failed..."),(0,c.L)(e,"api",!0)}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{A[e]=w(m,e,void 0,n.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,p)},d.il?(0,u.b2)((()=>_()),!0):_(),g}(e.agentIdentifier,y)),void 0===e.exposed&&(e.exposed=E),m=!0}},1926:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.252.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.252.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={75:"sha512-85KXSsv643MTRPulZfmcwj8IKIbJeT9JfNpsSBckCZNUr+o/ILbmpOISx04Ol69WzHRZplUy/y2FaJ3KUChaTw=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.252.0.PROD"]=self["webpackChunk:NRBA-1.252.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(1926);var e=i(50);class t{#e(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...n);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e("recordReplay")}pauseReplay(){return this.#e("pauseReplay")}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}}var r=i(3325),n=i(234);const o=Object.values(r.D);function a(e){const t={};return o.forEach((r=>{t[r]=function(e,t){return!1!==(0,n.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var s=i(7530);var c=i(8e3),u=i(5938),d=i(3960),l=i(385);class f extends u.W{constructor(e,t,r){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,n.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,r)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const r=l.il&&!0===(0,n.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let o;this.onAggregateImported=new Promise((e=>{o=e}));const a=async()=>{let n;try{if(r){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,957));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,n))return(0,c.L)(this.agentIdentifier,this.featureName),void o(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:r}=await e(this.featureName,"aggregate");this.featAggregate=new r(this.agentIdentifier,this.aggregator,t),o(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName,!0),o(!1)}};l.il?(0,d.b2)((()=>a()),!0):a()}shouldImportAgg(e,t){return e!==r.D.sessionReplay||!!n.Yu.MO&&(!1!==(0,n.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplayMode))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,r),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,r){t[e]=b(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,v.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=b(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=b(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=A(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function A(e){return"object"!=typeof e?[]:(0,v.D)(e,w)}function w(e,t){return t}var _=i(8632),x=i(4402),E=i(4351);var D=i(5546),k=i(7956),j=i(3239),S=i(7894),R=i(9251);class T extends f{static featureName=R.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t,r),l.il&&((0,k.N)((()=>(0,D.p)("docHidden",[(0,S.z)()],void 0,R.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,D.p)("winPagehide",[(0,S.z)()],void 0,R.t,this.ee))),this.importAggregator())}}var I=i(3081);class P extends f{static featureName=I.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t9,r),this.importAggregator()}}new class extends t{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=r,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},(0,_.h5)(r,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),(0,s.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,n.C5)(this.agentIdentifier),init:(0,n.P_)(this.agentIdentifier),loader_config:(0,n.DL)(this.agentIdentifier),runtime:(0,n.OP)(this.agentIdentifier)}}run(){try{const t=a(this.agentIdentifier),n=[...this.desiredFeatures];n.sort(((e,t)=>r.p[e.featureName]-r.p[t.featureName])),n.forEach((n=>{if(t[n.featureName]||n.featureName===r.D.pageViewEvent){const i=function(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.sessionReplay:return[r.D.sessionTrace];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}(n.featureName);i.every((e=>t[e]))||(0,e.Z)("".concat(n.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(i),"). This may cause unintended consequences or missing data...")),this.features[n.featureName]=new n(this.agentIdentifier,this.sharedAggregator)}}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}}({features:[p,T,P],loaderType:"lite"})})()})();</script>
+<link rel="shortcut icon" href="https://join.unicefusa.org/sites/all/themes/unicef/favicon.ico" type="image/vnd.microsoft.icon" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="61afb20443e2949c84d6f51f-text/javascript" />
+
+
+<!-- Page-hiding snippet (recommended)  -->
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-P9NX7GM':true});</script>
+<script type="61afb20443e2949c84d6f51f-text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-2499545-1', 'auto', {allowLinker: true});
+  ga('require', 'GTM-P9NX7GM');
+</script>
+<meta name="description" content="Meet the steering committee for UNICEF NextGen Chicago! Meet the board members and find local NextGen events!" />
+<meta name="keywords" content="unicef, nextgen, chicago, steering, committee, students, advisors, voice, registration, community, fundraising" />
+<link rel="image_src" href="https://www.unicefusa.org/sites/default/files/header_chicago.jpg" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://join.unicefusa.org/nextgen-chicago" />
+<link rel="shortlink" href="https://join.unicefusa.org/node/40130" />
+<meta property="fb:app_id" content="230214117148115" />
+<meta property="fb:pages" content="81517275796" />
+<meta property="og:site_name" content="UNICEF USA" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="NextGen Chicago" />
+<meta property="og:url" content="https://join.unicefusa.org/nextgen-chicago" />
+<meta property="og:description" content="Meet the steering committee for UNICEF NextGen Chicago! Meet the board members and find local NextGen events!" />
+<meta property="og:image" content="https://www.unicefusa.org/sites/default/files/header_chicago.jpg" />
+<meta property="og:image:url" content="https://www.unicefusa.org/sites/default/files/header_chicago.jpg" />
+<meta property="og:image:secure_url" content="https://www.unicefusa.org/sites/default/files/header_chicago.jpg" />
+<meta property="og:image:alt" content="A group of children stand with various expressions on their faces in front of a large tent" />
+<meta property="og:image:type" content="image/jpg" />
+<meta property="og:image:width" content="1366px" />
+<meta property="og:image:height" content="675px" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@unicefusa" />
+<meta name="twitter:creator:id" content="7383122" />
+<meta name="twitter:url" content="https://join.unicefusa.org/nextgen-chicago" />
+<meta name="twitter:description" content="Meet the steering committee for UNICEF NextGen Chicago! Meet the board members and find local NextGen events!" />
+<meta name="twitter:title" content="NextGen Chicago" />
+<meta name="twitter:image" content="https://www.unicefusa.org/sites/default/files/header_chicago.jpg" />
+<meta name="twitter:image:width" content="1366px" />
+<meta name="twitter:image:height" content="675px" />
+<meta name="twitter:image:alt" content="A group of children stand with various expressions on their faces in front of a large tent" />
+<title>NextGen Chicago | UNICEF USA</title>
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+<meta http-equiv="cleartype" content="on">
+
+
+<meta name="com.silverpop.brandeddomains" content="www.pages03.net,unicefusa.mkt6339.com,unicefusa.org" />
+
+
+
+<link rel="apple-touch-icon" sizes="120x120" href="/sites/default/files/WEB16_ApplePayUSFLogo_120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/sites/default/files/WEB16_ApplePayUSFLogo_152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="/sites/default/files/WEB16_ApplePayUSFLogo_167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/sites/default/files/WEB16_ApplePayUSFLogo_180.png">
+<link type="text/css" rel="stylesheet" href="https://join.unicefusa.org/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://join.unicefusa.org/sites/default/files/css/css_bYKG9bdFLEIVOU4ZgdnabUC5qkrxphTvCl-cuqtOg3Y.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://join.unicefusa.org/sites/default/files/css/css_hZ53wKpzvrXpfH0cWSYmmolAvYyTWQeNy5uLSYecvIw.css" media="all" />
+<script src="https://join.unicefusa.org/sites/default/files/js/js_6wB7_RH3hNT_viZwOlvXgQ7bvciK-Mir9CVHAkENV64.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<script src="https://join.unicefusa.org/sites/default/files/js/js_qE4KfYgJty9x7gyqzjMp9mcDiG6PQCqqJbfsBu7bK8w.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<script type="61afb20443e2949c84d6f51f-text/javascript">document.createElement( "picture" );</script>
+<script src="https://join.unicefusa.org/sites/default/files/js/js_ooFI-zTaNAuAMgjY3NN27Dxo4fzxDVcYKuEvdN0xIJ0.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<script src="https://join.unicefusa.org/sites/default/files/js/js_GhhkpIA4bWaL4DoRtALXi_YP218yjubSxZKVID-qkWg.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<script defer="defer" src="https://cdn.evgnet.com/beacon/unicefusa2/engage/scripts/evergage.min.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<script src="https://join.unicefusa.org/sites/default/files/js/js_r0pDkO-nuu-AtQ4wCsRKuBG2LagGQWwyg5COD5CBAe0.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<script type="61afb20443e2949c84d6f51f-text/javascript">jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"unicef","theme_token":"0xSGxEobjae4V2feNnJ-q6BNeOBmwAKmpYGMBAcbkHc","js":{"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"https:\/\/s7.addthis.com\/js\/250\/addthis_widget.js":1,"sites\/all\/modules\/custom\/unicef_webform_store\/unicef_webform_store.js":1,"0":1,"sites\/all\/modules\/contrib\/clientside_validation\/clientside_validation.ie8.js":1,"sites\/all\/modules\/contrib\/clientside_validation\/clientside_validation_html5\/clientside_validation_html5.js":1,"sites\/all\/modules\/contrib\/clientside_validation\/clientside_validation.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect.min.js":1,"1":1,"sites\/all\/modules\/custom\/unicef_mobile\/js\/unicef_mobile.js":1,"sites\/all\/modules\/custom\/unicef_tot\/js\/mock-form.js":1,"sites\/all\/modules\/springboard_modules\/webform_goals\/scripts\/webform_goals.drupal_loader.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/springboard_modules\/market_source\/js\/jquery-cookie.js":1,"sites\/all\/modules\/springboard_modules\/market_source\/js\/market_source.js":1,"sites\/all\/libraries\/jstorage\/jstorage.min.js":1,"sites\/all\/modules\/springboard_modules\/secure_prepopulate\/springboard_cookie\/js\/springboard_cookie.cacheable.js":1,"sites\/all\/modules\/custom\/unicef_hooks\/js\/jquery.plugins.js":1,"sites\/all\/modules\/custom\/unicef_message\/unicef_message.js":1,"sites\/all\/modules\/custom\/unicef_share\/js\/unicef_share.js":1,"sites\/all\/modules\/contrib\/webform\/js\/webform.js":1,"sites\/all\/modules\/contrib\/clientside_validation\/jquery-validate\/jquery.validate.js":1,"https:\/\/cdn.evgnet.com\/beacon\/unicefusa2\/engage\/scripts\/evergage.min.js":1,"sites\/all\/themes\/unicef\/js\/jquery.uniform.min.js":1,"sites\/all\/themes\/unicef\/js\/jquery.mmenu.min.js":1,"sites\/all\/themes\/unicef\/js\/actual.min.js":1,"sites\/all\/themes\/unicef\/js\/jquery.visible.min.js":1,"sites\/all\/themes\/unicef\/css\/fonts\/ss-social.js":1,"sites\/all\/themes\/unicef\/js\/blockui.min.js":1,"sites\/all\/themes\/unicef\/js\/jquery.flexslider.min.js":1,"sites\/all\/themes\/unicef\/js\/jquery.jcarousel.min.js":1,"sites\/all\/themes\/unicef\/js\/layout.engine.min.js":1,"sites\/all\/themes\/unicef\/js\/jquery.stickem.js":1,"sites\/all\/themes\/unicef\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/contrib\/columns_filter\/columns_filter.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/custom\/unicef_club_registration_backend\/css\/club-registration-backend.css":1,"sites\/all\/modules\/custom\/unicef_club_registration_backend\/css\/club-registration-backend_resp.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/springboard_modules\/webform_goals\/css\/webform_goals.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/unicef_webform_store\/unicef_webform_store.css":1,"sites\/all\/modules\/features\/unicef_configuration\/plugins\/layouts\/unicef_feature_mixed\/unicef_feature_mixed.css":1,"sites\/all\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/all\/themes\/springboard_themes\/springboard_frontend\/css\/styles.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":false,"mobiledevicewidth":"480px","file_public_path":"\/sites\/default\/files","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"market_source":{"qs_keys":{"ms":{"value":null,"persistence":"off"},"cid":{"value":null,"persistence":"off"},"referrer":{"value":null,"persistence":"direct"},"initial_referrer":{"value":null,"persistence":"direct"},"search_engine":{"value":null,"persistence":"on"},"search_string":{"value":null,"persistence":"on"},"user_agent":{"value":null,"persistence":"on"},"device_type":{"value":null,"persistence":"direct"},"device_name":{"value":null,"persistence":"direct"},"device_os":{"value":null,"persistence":"direct"},"device_browser":{"value":null,"persistence":"direct"},"utm_source":{"value":null,"persistence":"on"},"utm_medium":{"value":null,"persistence":"on"},"utm_term":{"value":null,"persistence":"on"},"utm_content":{"value":null,"persistence":"on"},"utm_campaign":{"value":null,"persistence":"on"},"pcode":{"value":null,"persistence":"direct"},"initialms":{"value":null,"persistence":"on"},"ftouch":{"value":null,"persistence":"on"},"rpcode":{"value":null,"persistence":"direct"},"eml_name":{"value":null,"persistence":"on"},"eml_id":{"value":null,"persistence":"on"},"club_type":{"value":null,"persistence":"on"},"role":{"value":null,"persistence":"on"},"school_id":{"value":null,"persistence":"on"},"ask_amount":{"value":null,"persistence":"on"},"su_cid":{"value":null,"persistence":"on"},"su_rdid":{"value":null,"persistence":"on"},"social_referer_transaction":{"value":null,"persistence":"on"},"mgid":{"value":null,"persistence":true}},"maxlength":255,"cookie_domain":".unicefusa.org","cookie_path":"\/","form_keys":{"webform-client-form-29586":{"ms":"submitted[ms]","cid":"submitted[cid]","referrer":"submitted[referrer]","initial_referrer":"submitted[initial_referrer]","search_engine":"submitted[search_engine]","search_string":"submitted[search_string]","user_agent":"submitted[user_agent]","device_type":"submitted[device_type]","device_name":"submitted[device_name]","device_os":"submitted[device_os]","device_browser":"submitted[device_browser]","utm_source":"submitted[utm_source]","utm_medium":"submitted[utm_medium]","utm_term":"submitted[utm_term]","utm_content":"submitted[utm_content]","utm_campaign":"submitted[utm_campaign]","initialms":"submitted[initialms]","ftouch":"submitted[ftouch]","social_referer_transaction":"submitted[social_referer_transaction]"}}},"springboard":{"cookie_path":"\/"},"springboard_cookie":{"name":"Springboard","domain":""},"unicef_message":{"report_share":false},"unicef_share":{"pubid":"ra-575b0c85d28153eb"},"webform_goals":{"loader_url":"https:\/\/join.unicefusa.org\/webform_goals_jsonp"},"urlIsAjaxTrusted":{"\/form\/sign-updates":true},"clientsideValidation":{"forms":{"webform-client-form-29586":{"errorPlacement":"5","general":{"errorClass":"error","wrapper":"li","validateTabs":0,"scrollTo":1,"scrollSpeed":"1000","disableHtml5Validation":"1","validateOnBlur":"1","validateOnBlurAlways":"1","validateOnKeyUp":"1","validateBeforeAjax":"0","validateOnSubmit":"1","showMessages":"0","errorElement":"span"},"rules":{"submitted[mail]":{"required":true,"messages":{"required":"Stay informed field is required.","email":"The value in Stay informed is not a valid email address."},"email":true}}},"search-block-form":{"errorPlacement":"5","general":{"errorClass":"error","wrapper":"li","validateTabs":0,"scrollTo":1,"scrollSpeed":"1000","disableHtml5Validation":"1","validateOnBlur":"1","validateOnBlurAlways":"1","validateOnKeyUp":"1","validateBeforeAjax":"0","validateOnSubmit":"1","showMessages":"0","errorElement":"span"},"rules":{"search_block_form":{"maxlength":128,"messages":{"maxlength":"Search field has to have maximum 128 values."}}}}},"general":{"usexregxp":0,"months":{"January":1,"Jan":1,"February":2,"Feb":2,"March":3,"Mar":3,"April":4,"Apr":4,"May":5,"June":6,"Jun":6,"July":7,"Jul":7,"August":8,"Aug":8,"September":9,"Sep":9,"October":10,"Oct":10,"November":11,"Nov":11,"December":12,"Dec":12}},"groups":{"webform-client-form-29586":{},"search-block-form":{}}}});</script>
+<!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+
+<script type="61afb20443e2949c84d6f51f-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TRK8X8');</script>
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-40130 node-type-blank-canvas section-nextgen-chicago page-panels non-tablet">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRK8X8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;1,600;1,700&amp;family=Yantramanav:wght@400;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+html body {
+    position: relative;
+    background: #000;
+    margin: 0;
+    overscroll-behavior: none;
+}
+.panel-unicef-mixed-layout .panel-col-body-feature,
+.panel-unicef-mixed-layout .panel-col-body-feature .inside,
+.panel-unicef-mixed-layout .panel-col-top-single,
+.panel-unicef-mixed-layout .panel-col-top-feature {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+input:focus,
+a:focus,
+button:focus {
+    outline: 1px solid #fff;
+}
+.hidden {
+    display: none;
+}
+.desktop-only {
+    display: none;
+}
+@media (min-width: 768px) {
+  .desktop-only {
+    display: block;
+  }
+  .mobile-only {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .panel-unicef-mixed-layout .panel-col-body-feature,
+  .panel-unicef-mixed-layout .panel-col-body-feature .inside,
+  .panel-unicef-mixed-layout .panel-col-top-single {
+    margin: 0;
+    padding: 0;
+  }
+  .panel-unicef-mixed-layout .panel-col-top-feature {
+    margin-bottom: 0;
+  }
+}
+#navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: #21b9f1;
+}
+#navbar .navbar-menu ul {
+    max-height: 40px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    transition: max-height 0.5s ease-out;
+    margin-bottom: 0;
+}
+#navbar .navbar-menu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 0.8rem;
+    margin-bottom: 3px;
+}
+#navbar .navbar-menu li.logo img {
+    width: 80px;
+    height: 26px;
+}
+#navbar .navbar-menu li a {
+    font-family: "Roboto",helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+}
+#navbar .navbar-menu li.navbar-cta a {
+    border-radius: 20px;
+    background: #00365f;
+    padding: 0.5rem 1rem;
+    transition: border-radius 0.5s ease-out;
+}
+#navbar .navbar-menu li.navbar-cta a:hover {
+    text-decoration: underline;
+}
+.navbar-message {
+    display: none;
+}
+#navbar .navbar-notice {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    max-height: 36px; */
+    max-height: 45px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+#navbar .navbar-notice p {
+    margin: 0.3rem;
+    text-transform: uppercase;
+    font-family: 'roboto condensed';
+/*    font-weight: 400;
+    font-size: 0.7rem; */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.15rem;
+    text-align: center;
+}
+#navbar .navbar-notice p a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 700;
+}
+#navbar .navbar-notice.achievement {
+    background: #00365f;
+}
+#navbar .navbar-notice.emergency {
+    background: #ff0000;
+}
+#navbar .navbar-menu.scrunch .navbar-notice {
+    max-height: 0;
+}
+#navbar .navbar-menu.scrunch ul {
+    max-height: 35px;
+    padding-right: 0;
+    overflow: hidden;
+}
+#navbar .navbar-menu.scrunch li.navbar-cta {
+    margin-right: 0;
+}
+#navbar .navbar-menu.scrunch li.logo img {
+    width: 80px;
+    height: 26px;
+}
+#navbar .navbar-menu.scrunch li.navbar-cta a {
+    border-radius: 0;
+    background: #00365f;
+    padding: 0.7rem;
+}
+#navbar .navbar-menu li.navbar-social {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+#navbar .navbar-menu li.navbar-social img {
+    height: 20px;
+}
+#navbar .navbar__breadcrumbs {
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    width: 100%;
+    max-width: 1366px;
+    font-family: 'Barlow';
+    font-size: 1.1rem;
+    line-height: 1;
+    transform: translateX(-50%);
+    visibility: visible;
+    transition: 0.4s all;
+    opacity: 1;
+    text-shadow: #000 0px 0 12px;
+}
+#navbar .navbar__breadcrumbs,
+#navbar .navbar__breadcrumbs a,
+#navbar .navbar__breadcrumbs span {
+    font-family: 'Barlow';
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#navbar .navbar__breadcrumbs a.navbar__breadcrumbs--home {
+    margin-left: 25px;
+}
+#navbar .navbar__breadcrumbs--divider {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#navbar .navbar-menu.scrunch + .navbar__breadcrumbs {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#content {
+    font-family: roboto,helvetica,arial,sans-serif;
+    background: #000;
+}
+#skiplink a {
+  font-size: 1px;
+}
+#skiplink a:focus {
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+    #navbar .navbar-menu ul {
+        max-height: 70px;
+        height: 70px;
+        padding-left: 48px;
+        padding-right: 48px;
+        justify-content: flex-end;
+        max-width: 1366px;
+        margin: 0 auto;
+    }
+    #navbar .navbar-menu li.navbar-btn {
+        position: absolute;
+        left: 10px;
+    }
+    #navbar .navbar-menu li.logo img {
+        width: 125px;
+        height: 45px;
+    }
+    #navbar .navbar-menu li a {
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+    }
+
+    #navbar .navbar-menu li.navbar-cta {
+        margin-left: 20px;
+    }
+
+    #content {
+        max-width: 1366px;
+        position: relative;
+        margin: 0 auto;
+/*        top: 70px;
+        margin: 0 auto 70px;*/
+    }
+}
+
+/* common elements */
+#content h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 0.9;
+  z-index: 3;
+  letter-spacing: 1px;
+  position: relative;
+  margin-bottom: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+#content h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1px;
+    position: relative;
+    margin-bottom: 1rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+a.cta {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #000;
+    font-weight: 600;
+    background: #00aeef;
+    text-decoration: none;
+    border-radius: 2.9rem;
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 3.5rem;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.2s all;
+    padding: 0 2rem 0.2rem;
+}
+a.cta:hover {
+    color: #fff;
+}
+
+
+
+/* Hero: */
+#nextgencities__hero {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+    transition: 0.2s margin-top;
+}
+.hasnavmessage #nextgencities__hero {
+    margin-top: 35px;
+}
+.hasnavmessage.scrunch #nextgencities__hero {
+    margin-top: 25px;
+}
+#nextgencities__hero .nextgencities__hero--background {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#nextgencities__hero .nextgencities__hero--background img {
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#nextgencities__hero .nextgencities__hero--background:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 -100px 100px #000000;
+}
+#nextgencities__hero .nextgencities__hero--intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    padding: 0 1rem 3rem;
+    z-index: 2;
+}
+#nextgencities__hero .nextgencities__hero--intro-city img {
+    height: 75px;
+}
+#nextgencities__hero .nextgencities__hero--intro-ctas {
+    display: flex;
+    flex-direction: column;
+}
+#nextgencities__hero .nextgencities__hero--intro-ctas a.cta {
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: 1rem;
+    margin: 1.5rem auto 0;
+}
+
+@media (min-width: 525px) {
+    #nextgencities__hero .nextgencities__hero:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: inset 0 -300px 300px #000000;
+    }
+    #nextgencities__hero .nextgencities__hero--background {
+        height: 100%;
+    }
+}
+@media (min-width: 640px) {
+    #nextgencities__hero {
+        height: 600px;
+    }
+    #nextgencities__hero .nextgencities__hero--intro-city img {
+        height: 150px;
+        margin-bottom: 1rem;
+    }
+    #nextgencities__hero .nextgencities__hero--intro-ctas {
+        flex-direction: row;
+    }
+    #nextgencities__hero .nextgencities__hero--intro-ctas a.cta {
+        margin: 0.5rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+}
+@media (min-width: 768px) {
+    #nextgencities__hero {
+        margin-top: 45px;
+    }
+    .hasnavmessage #nextgencities__hero {
+        margin-top: 70px;
+    }
+    #content.scrunch #nextgencities__hero {
+        margin-top: 35px;
+    }
+    #nextgencities__hero:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: inset 0 -100px 100px #000000;
+    }
+    #nextgencities__hero .nextgencities__hero--background:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: inset -150px 0 100px #000000;
+    }
+    #nextgencities__hero .nextgencities__hero--background:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: inset 150px 0 100px #000000;
+        z-index: 1;
+    }
+}
+@media (min-width: 810px) {
+    #nextgencities__hero .nextgencities__hero--intro-ctas a.cta {
+        line-height: 1.4;
+        padding: 0.2rem 0.5rem;
+        min-width: 340px;
+    }
+}
+@media (max-height: 400px) and (min-width: 600px) {
+    #nextgencities__hero {
+        height: 400px;
+    }
+}
+
+
+/* Profiles */
+#nextgencities__profiles h2 {
+    margin-bottom: 1rem;
+}
+p.nextgencities__profiles__boards {
+	color: #fff;
+	max-width: 640px;
+	padding: 1rem;
+    margin: 0 auto 5rem;
+}
+p.nextgencities__profiles__boards a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.nextgencities__profiles--profile-container {
+/*  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;*/
+}
+.nextgencities__profiles--profile {
+    background: #262626;
+    border-radius: 10px;
+    width: calc(100% - 3rem);
+    padding: 2rem;
+    margin: 1.5rem 1.5rem 8rem;
+}
+.nextgencities__profiles--sizer {
+    width: calc(100% - 3rem);
+}
+.nextgencities__profiles--profile.primary {
+    border: 1px solid #00aeef;
+}
+
+.nextgencities__profiles--profile-headshot {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: -105px auto 2rem 0;
+    overflow: hidden;
+}
+.nextgencities__profiles--profile-headshot img {
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nextgencities__profiles--profile-headshot.widen img {
+    width: 100%;
+    height: auto;
+}
+.nextgencities__profiles--profile h3 {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.nextgencities__profiles--profile p {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .nextgencities__profiles--profile {
+        width: calc(50% - 3.5rem);
+    }
+}
+
+
+
+/* Footer: */
+
+section#uusa-footer-outer {
+    background: #00aeef;
+    padding: 0 1rem;
+    margin-bottom: -25px;
+}
+footer#uusa-footer {
+    background: #00aeef;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+footer#uusa-footer h3 {
+    font-size: 0.7rem;
+    color: #000;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 900;
+    transform: scale(1, 1.8) skew(-2deg, -5deg);
+    line-height: 0.7rem;
+    position: relative;
+    letter-spacing: 1px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    max-width: 75px;
+}
+footer#uusa-footer h3 span {
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    text-align: left;
+    color: #fff;
+    -webkit-text-stroke-width: 0;
+    display: block;
+}
+.uusa-footer__title {
+    width: 120px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.uusa-footer__info {
+    text-align: right;
+}
+.uusa-footer__company,
+.uusa-footer__nav,
+.uusa-footer__info {
+    display: flex;
+    flex-direction: column;
+}
+.uusa-footer__about,
+.uusa-footer__socials {
+    display: flex;
+    flex-direction: row;
+}
+.uusa-footer__company {
+    order: 2;
+}
+.uusa-footer__nav {
+    order: 1;
+    margin: 0 0 1rem auto;
+}
+.uusa-footer__contact,
+.uusa-footer__copyright,
+.uusa-footer__about,
+.uusa-footer__socials,
+.uusa-footer__company p {
+    font-size: 0.5rem;
+    color: #fff;
+    margin-bottom: 0;
+    justify-content: flex-end;
+}
+.uusa-footer__about a {
+    margin: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.9rem;
+    line-height: 0.9;
+    color: #fff;
+    border-right: 1px solid #fff;
+    margin-left: 0;
+    text-transform: uppercase;
+}
+.uusa-footer__about a:last-of-type {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+.uusa-footer__socials a {
+    margin-left: 1rem;
+}
+.uusa-footer__socials img {
+    width: 1rem;
+    height: 1rem;
+}
+
+@media (min-width: 768px) {
+    section#uusa-footer-outer {
+        padding: 0 2rem;
+    }
+    footer#uusa-footer {
+        padding: 2rem 0;
+        max-width: 1024px;
+        justify-content: space-between;
+    }
+    footer#uusa-footer h3 {
+        font-size: 1rem;
+        line-height: 0.9;
+        max-width: none;
+        width: 110px;
+    }
+    footer#uusa-footer h3 span {
+        font-size: 0.5rem;
+        line-height: 0.7rem;
+    }
+    .uusa-footer__info {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .uusa-footer__nav {
+        flex-direction: column;
+    }
+    .uusa-footer__company,
+    .uusa-footer__socials,
+    .uusa-footer__contact {
+        order: 1;
+    }
+    .uusa-footer__nav,
+    .uusa-footer__copyright,
+    .uusa-footer__about {
+        order: 2;
+    }
+    .uusa-footer__contact,
+    .uusa-footer__copyright,
+    .uusa-footer__about,
+    .uusa-footer__socials,
+    .uusa-footer__company p {
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    .uusa-footer__nav {
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .uusa-footer__company {
+        justify-content: flex-end;
+        align-items: flex-start;
+        line-height: 0.7rem;
+    }
+    .uusa-footer__contact {
+        line-height: 1.5rem;
+    }
+    .uusa-footer__about a {
+        font-size: 0.8rem;
+        line-height: 0.9;
+        border-right: 2px solid #fff;
+        text-transform: none;
+        margin-top: 0.7rem;
+        margin-bottom: 0;
+    }
+    .uusa-footer__socials {
+        margin: 0 auto 0 0;
+    }
+    .uusa-footer__socials a {
+        line-height: 1.7;
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+    .uusa-footer__socials img {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+</style>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<div id="skiplink">
+<a href="#content">Skip to content</a>
+</div>
+<header id="navbar" role="banner" class>
+<nav role="navigation" class="navbar-menu">
+<div class="navbar-notice achievement"></div>
+<div class="navbar-notice emergency"></div>
+<ul>
+<li class="logo navbar-btn pull-left flip"><a href="/" target="_blank" title="UNICEF USA"><img src="/sites/default/files/UNICEFUSA_DIG_wordmark_W.svg" title="UNICEF USA" class="navbar-logo" alt="UNICEF USA" /></a></li>
+<li class="navbar-cta pull-right"><a href="/supporters/donors/nextgen/donate">Join NextGen</a></li>
+</ul>
+</nav>
+<div class="navbar__breadcrumbs"><a class="navbar__breadcrumbs--home" href="/nextgen">Home</a> <span class="navbar__breadcrumbs--divider">/</span> <span id="navbar__breadcrumbs--city"></span></div>
+</header>
+<main role="main" id="content">
+<div class="panel-display panel-unicef-mixed-layout">
+
+
+<div class="panel-panel panel-col-top-single">
+<div class="inside">
+<div class="panel-pane pane-custom pane-1">
+
+</div>
+<div class="panel-pane pane-custom pane-2">
+<section id="nextgencities__hero">
+<div class="nextgencities__hero--background"><img src="https://www.unicefusa.org/sites/default/files/header_chicago.jpg" alt="A group of children stand with various expressions on their faces in front of a large tent " /></div>
+<div class="nextgencities__hero--intro">
+<div class="nextgencities__hero--intro-city"><img src="https://www.unicefusa.org/sites/default/files/chicagocityscape.png" alt="Line art of the Chicago cityscape" /></div>
+<h1>UNICEF NextGen Chicago</h1>
+<div class="nextgencities__hero--intro-ctas">
+<a class="cta" href="https://events.unicefusa.org/categories/nextgen">Attend local events and activities</a>
+
+</div>
+</div>
+</section>
+</div>
+<div class="panel-pane pane-custom pane-3">
+<section id="nextgencities__profiles">
+<h2>Chicago Steering Committee</h2>
+<p class="nextgencities__profiles__boards">NextGen Boards are comprised of 15-20 diverse and exceptional leaders who drive engagement, advocacy and fundraising in their regions. Board members are passionate about children's rights and firmly believe in and work towards UNICEF’s mission. Board members commit to raising and giving critical funds, resources and thought leadership to UNICEF, as they understand that this is the most impactful and effective way to support children globally. Leaders lend their time, voices and voting power to understand and promote child rights on a local and global level. Board members will also create peer engagement opportunities and cultivate strong, lasting partnerships for UNICEF. NextGen leaders relentlessly pursue a more equitable world @foreverychild. Please find <a href="https://unicefusa.app.box.com/file/1239758175368?v=nextgenboardrole">the board commitments</a> and <a href="https://www.surveymonkey.com/r/BoardApp23">application here</a> for your consideration.</p>
+<div class="nextgencities__profiles--profile-container" data-masonry="{ &quot;itemSelector&quot;: &quot;.nextgencities__profiles--profile&quot;, &quot;percentPosition&quot;: &quot;true&quot; }">
+<div class="nextgencities__profiles--sizer"></div>
+<div class="nextgencities__profiles--profile primary">
+<div class="nextgencities__profiles--profile-headshot">
+<img src="https://www.unicefusa.org/sites/default/files/iliana_alvarenga_bio.jpg" alt="profile of Iliana E. Alvarenga" />
+</div>
+<div class="nextgencities__profiles--profile-writeup">
+<h3>Iliana E. Alvarenga, <i>Chair</i></h3>
+<p>Iliana Alvarenga has been involved with UNICEF for 12 years and has served as the Chair of NextGen Chicago for 4.5 years. She recently moved from Chicago to New York City where she is the Assistant Director of Strategic Pricing & Insights Competitive Intelligence at Ernst & Young (EY). At EY, she helps strengthen the organization's competitive positioning and further grow its consulting business in the Americas. Prior to EY, Iliana was Vice President of Competitive Intelligence at JPMorgan Chase. Iliana graduated from Loyola University Chicago with a BA in Political Science and a BBA in Marketing. Iliana's mother is from Cúcuta, a Colombian city at the Venezuelan border. Her grandparents, aunts, and uncles grew up living and migrating between the two countries. Many of her extended family still live in Cúcuta. Her family that lived in Venezuela have fled the country to seek opportunities in Colombia, the U.S., and Chile. Iliana's father is from San Miguel, El Salvador. Her father, grandparents, aunts, and uncles migrated to Washington D.C., seeking refuge during the civil war in the 1980s. Washington D.C. is where her parents met and where Iliana was born. Iliana is passionate about spreading awareness and advocating for migrants in Central and South America. Having had the opportunity to visit UNICEF South Africa, UNICEF Dominican Republic. UNICEF Japan, and UNICEF Colombia, she has seen the level of impact UNICEF has on the communities it operates in. UNICEF creates spaces for children to feel safe, to learn, and to dream. Outside of these spaces, UNICEF is advocating and working endlessly to change the circumstances they live in. She has seen how UNICEF's work is directly changing the life of a child and how it's protecting the lives of many -- all over the world, from Barranquilla to Johannesburg. Iliana is committed to advocating for UNICEF's efforts around the world.</p>
+</div>
+</div>
+<div class="nextgencities__profiles--profile primary">
+<div class="nextgencities__profiles--profile-headshot">
+<img src="https://www.unicefusa.org/sites/default/files/william_h_seibold.jpg" alt="profile of William H. Seibold" />
+</div>
+<div class="nextgencities__profiles--profile-writeup">
+<h3>William H. Seibold, <i>Vice Chair</i></h3>
+<p>William lives in Chicago where he owns a small financial services company. Prior to his current work, he volunteered in Mongolia from 2006-2008. In the summer, he enjoys spending most weekends racing sailboats on Lake Michigan. He is passionate about UNICEF's work and looks forward to learning firsthand about UNICEF's work.</p>
+</div>
+</div>
+<div class="nextgencities__profiles--profile">
+<div class="nextgencities__profiles--profile-headshot">
+<img src="https://www.unicefusa.org/sites/default/files/taylor_bohmann.jpg" alt="profile of Taylor Bohmann" />
+</div>
+<div class="nextgencities__profiles--profile-writeup">
+<h3>Taylor Bohmann</h3>
+<p>Taylor is a Chicago-based brand partnerships manager, entrepreneur, and philanthropist. Holding B.A in Public Relations from the University of Wisconsin-Whitewater, she has 8+ years of experience developing and analyzing brand strategies, managing social media, and handling high-profile client partnerships. Taylor is known amongst her clients for her tangible and earnest ways of communicating while delivering results. In 2019, she founded the NAKD PROJECT, an online media platform, and community, providing women worldwide with a daily dose of wellness inspiration, self-love, and guidance. She was a 4+ year partner of The Salvation Army Echelon and recently supported the Echelon Chicago chapter as the Marketing Committee Chair. When not ambitiously working on brand partnerships or running NAKD PROJECT, you can find Taylor merely spending time with her family back in Wisconsin or volunteering around the Windy City.</p>
+</div>
+</div>
+<div class="nextgencities__profiles--profile">
+<div class="nextgencities__profiles--profile-headshot">
+<img src="https://www.unicefusa.org/sites/default/files/nev_fazlioski.jpg" alt="profile of Nev Fazlioski" />
+</div>
+<div class="nextgencities__profiles--profile-writeup">
+<h3>Nev Fazlioski</h3>
+<p>Nev is currently a Director for Janus Henderson Investors, and covers the Illinois region where his team provides the firms investment insights & services to institutional and retail clients. They are ranked amongst the highest of their peers & currently service over $2.5B in assets. Nev is a lifelong resident of the Chicago area and currently resides in the western suburbs of Chicago with his wife & son. He received a Bachelor of Science degree in Finance from DePaul University. Nev currently sits as a board member on DePaul's Finance Advisory Board where they work in an advisory capacity to the business school. He also remains on the Alumni board for his fraternity of Phi Kappa Psi, whose members pride themselves on “the great joy of serving others” and is also a founding member of the UNICEF steering committee in Chicago. When not in the office, you can find Nev with his wife/son, on the golf course, hunting, or enjoying the outdoors. </p>
+</div>
+</div>
+<div class="nextgencities__profiles--profile">
+<div class="nextgencities__profiles--profile-headshot">
+<img src="https://www.unicefusa.org/sites/default/files/kristin_gudmundsson.jpg" alt="profile of Kristin Gudmundsson" />
+</div>
+<div class="nextgencities__profiles--profile-writeup">
+<h3>Kristin Gudmundsson</h3>
+<p>Kristin Gudmundsson is a sales account manager for the Lufthansa Group Airlines. She oversees a portfolio of international corporations and agencies. Kristin was raised across four countries and has always enjoyed traveling and exploring new places. Kristin also has a passion for fashion and design and fulfilled a dream by creating her own lifestyle brand, Loveknitz. Her desire to start her own business was driven by the goal to create something unique made with expert craftsmanship and of the highest quality. While working with one of her manufacturing teams, based in Nepal, two devastating earthquakes occurred. Driven by her desire to help, Kristin decided to donate a portion of her company’s sales to UNICEF, to help families affected in Nepal. She received her BA in Psychology with a concentration in Human Development from DePaul University. Kristin is dedicated to fundraising for the world’s children and has participated in multiple UNICEF’s fundraisers and projects, including chairing the Cook for Syria fundraiser in Chicago.</p>
+</div>
+</div>
+<div class="nextgencities__profiles--profile">
+<div class="nextgencities__profiles--profile-headshot">
+<img src="https://www.unicefusa.org/sites/default/files/chris_jones.jpg" alt="profile of Chris Jones" />
+</div>
+<div class="nextgencities__profiles--profile-writeup">
+<h3>Chris Jones</h3>
+<p>Chris has helped his clients through the investment management and financial planning process for more than a decade. Chris graduated with a business administration degree from Lindenwood University and completed the Certified Financial Planner program through Northwestern University in 2014. Chris Jones was named by Forbes as Forbes Next Gen Best-In-State Wealth Advisors in 2019. Chris holds the following designations: Certified Financial Planner™ CFP® Accredited Portfolio Management Advisor™ APMA® Behavioral Financial Advisor® BFA™ Chris is also actively involved in the non- profit community, at both the board level and as a volunteer.</p>
+</div>
+</div>
+<div class="nextgencities__profiles--profile">
+<div class="nextgencities__profiles--profile-headshot">
+<img src="https://www.unicefusa.org/sites/default/files/ksm-headshot.jpg" alt="profile of Kara McCarthy" />
+</div>
+<div class="nextgencities__profiles--profile-writeup">
+<h3>Kara McCarthy</h3>
+<p>Working to make an impact across sustainability and public health issues, Kara has steered her career and personal time to work in the most vulnerable communities around the globe. Kara holds a B.S. from The Ohio State University and an M.S. from North Carolina State University and has been with SC Johnson for nearly 7 years. Professionally, she has held several roles within her company including on the user-centered design team, the Base of the Pyramid Group leading partnerships with NGOs and foreign governments, and most recently working towards their 5-year sustainability goals. In her personal time, she enjoys hiking, art, and spending time on her family farm.</p>
+</div>
+</div>
+<div class="nextgencities__profiles--profile">
+<div class="nextgencities__profiles--profile-headshot">
+<img src="https://www.unicefusa.org/sites/default/files/pooja_patel.jpg" alt="profile of Pooja Patel" />
+</div>
+<div class="nextgencities__profiles--profile-writeup">
+<h3>Pooja Patel</h3>
+<p>Pooja graduated from the University of North Carolina at Chapel Hill with a major in Health Policy and Management through the Gillings School of Global Public Health and a minor in Business Administration. She currently works in healthcare to improve hospital operations and patient care delivery. Outside of work, she is a part of the Healthcare Financial Management Association and UNICEF Next Generation. Pooja was drawn to UNICEF because the mission and work perfectly ties together her passion for public health, healthcare delivery, female empowerment, and children’s aid. She has previously volunteered with organizations such as Global Brigades and Project RISHI where she’s traveled to rural villages in Honduras and India to understand the community’s needs, provide education, and build infrastructure. She has also supported Camp Kesem, which supports children through their journey coping with a parent’s cancer.</p>
+</div>
+</div>
+<div class="nextgencities__profiles--profile">
+<div class="nextgencities__profiles--profile-headshot">
+<img src="https://www.unicefusa.org/sites/default/files/khalil_pillai.jpg" alt="profile of Khalil Pillai" />
+</div>
+<div class="nextgencities__profiles--profile-writeup">
+<h3>Khalil Pillai</h3>
+<p>Khalil is currently a Strategy Consultant for Grant Thornton, however a majority of Khalil's experience comes from the market-research and entertainment (Film, TV, Digital, etc) industry. Khalil has been involved with UNICEF since 2010 as he founded his high-school's club and went on to run the UNICEF Campus club at DePaul University where he studied economics and marketing. As one of the newest 2018 steering committee members he is focused on membership attraction/retention and growth. Outside of UNICEF Khalil is an avid crossfitter, amateur polo player, and a motorcycle enthusiast. When he isn't in meetings he can be found jetting off to a new or familiar locations across the globe to help cultivate and improve his ideas and experiences.</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="panel-panel panel-col-body-feature">
+<div class="inside">
+<div class="panel-pane pane-entity-field pane-node-body">
+<div class="navbar-message achievement"><p><a href="/help/events" target="_blank">Sign Up Today For the Next Speaker Series</a></p></div>
+
+<div id="breadcrumb__city">Chicago</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+</div>
+</main>
+<section id="uusa-footer-outer">
+<footer id="uusa-footer">
+<div class="uusa-footer__title">
+<a href="/"><img src="https://www.unicefusa.org/sites/default/files/UNICEFUSA_DIG_wordmark_W.svg" alt="UNICEF USA" /></a>
+</div>
+<div class="uusa-footer__info">
+<div class="uusa-footer__company">
+<p class="uusa-footer__contact">(800) 367-5437 | 125 Maiden Lane, New York, NY 10038.</p>
+<p class="uusa-footer__copyright">&copy; 2022 U.S. Fund for UNICEF d/b/a UNICEF USA. All rights reserved.</p>
+</div>
+<div class="uusa-footer__nav">
+<div class="uusa-footer__about">
+<a href="/about/faq">FAQ</a>
+<a href="/about/contact">Contact</a>
+<a href="/about/site/map">Site Map</a>
+<a href="/about/people/unicef-jobs-and-careers">Job</a>
+</div>
+<div class="uusa-footer__socials">
+<a href="https://www.facebook.com/UNICEF-USA/" target="_blank"><img src="https://www.unicefusa.org/sites/default/files/fb-white.png" alt="Facebook" /></a>
+<a href="https://www.instagram.com/UNICEFUSA/" target="_blank"><img src="https://www.unicefusa.org/sites/default/files/ig-white.png" alt="Instagram" /></a>
+<a href="https://twitter.com/UNICEFUSA" target="_blank"><img src="https://www.unicefusa.org/sites/default/files/tw-white.png" alt="Twitter" /></a>
+<a href="https://www.youtube.com/channel/UCSwwFP8hhA0Spah0ZUKZQVQ" target="_blank"><img src="https://www.unicefusa.org/sites/default/files/yt-white.png" alt="YouTube" /></a>
+<a href="https://www.linkedin.com/company-beta/22762/" target="_blank"><img src="https://www.unicefusa.org/sites/default/files/lkin-white.png" alt="LinkedIn" /></a>
+</div>
+</div>
+</div>
+</footer>
+</section>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<script type="61afb20443e2949c84d6f51f-text/javascript">
+var currentCity = document.getElementById('breadcrumb__city').innerHTML;
+document.getElementById('navbar__breadcrumbs--city').innerHTML = currentCity;
+
+ jQuery(function(){
+
+    var lastScrollTop = 0, delta = 5;
+    jQuery(window).scroll(function(){
+        var nowScrollTop = jQuery(this).scrollTop();
+        if (Math.abs(lastScrollTop - nowScrollTop) >= delta) {
+            if (nowScrollTop > lastScrollTop){
+                jQuery('.navbar-menu, #content').addClass('scrunch');
+            } else {
+                jQuery('.navbar-menu, #content').removeClass('scrunch');
+            }
+            lastScrollTop = nowScrollTop;
+        }
+        if (jQuery(window).scrollTop() < 5) {
+            jQuery('.navbar-menu').removeClass('scrunch');
+        }
+    });
+
+
+    if (jQuery('.navbar-message.achievement').html()) {
+        jQuery('.navbar-notice.achievement').html(jQuery('.navbar-message.achievement').html());
+        jQuery('#content').addClass('hasnavmessage');
+
+    }
+    if (jQuery('.navbar-message.emergency').html()) {
+        jQuery('.navbar-notice.emergency').html(jQuery('.navbar-message.emergency').html());
+        jQuery('#content').addClass('hasnavmessage');
+    }
+
+    // jQuery('.navbar__breadcrumbs--city').html(jQuery('#breadcrumb__city').html());
+
+ });
+</script> <script src="https://join.unicefusa.org/sites/default/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<script src="https://s7.addthis.com/js/250/addthis_widget.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<script src="https://join.unicefusa.org/sites/default/files/js/js_O1N1Auuwb4yPq-3c7SIt40-vjl42mYkimx48q9NdGDw.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<script type="61afb20443e2949c84d6f51f-text/javascript">delete(Drupal.settings.ajaxPageState.css);</script>
+<script src="https://join.unicefusa.org/sites/default/files/js/js_BmrJETtaOJF652MH_7nSv0Fxt3eSrhSX5S-9NqwjDQY.js" type="61afb20443e2949c84d6f51f-text/javascript"></script>
+<script type="61afb20443e2949c84d6f51f-text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c064680dbb","applicationID":"44757233","transactionName":"YwdVNxECCkcEUBYNV1pNdBYQFwtZSkMDA11rD1YNAgQBRjpdDQBdaxReBhQ8FFUCVk0GVFUMXDwAAgpCBEA=","queueTime":0,"applicationTime":996,"atts":"T0BWQVkYGUk=","errorBeacon":"bam.nr-data.net","agent":""}</script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="61afb20443e2949c84d6f51f-|49" defer></script></body>
+</html>

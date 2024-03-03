@@ -1,0 +1,2125 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8 ie7"  lang="en" dir="ltr" class="no-js"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9 ie8"  lang="en" dir="ltr" class="no-js"><![endif]-->
+<!--[if IE 9]><html class="ie9"  lang="en" dir="ltr" class="no-js"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!-->
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" class="no-js">
+<!--<![endif]-->
+<head>
+
+<script type="2fcb6a19460780614d2a3696-text/javascript">
+    (function (w, d, s, n, a) {
+      if (!w[n]) {
+        var l = 'call,catch,on,once,set,then,track'
+          .split(','),
+          i, o = function (n) {
+            return 'function' == typeof n ? o.l.push([arguments]) && o :
+              function () {
+                return o.l.push([n, arguments]) && o
+              }
+          },
+          t = d.getElementsByTagName(s)[0],
+          j = d.createElement(s);
+        j.async = !0;
+        j.src = 'https://cdn.fundraiseup.com/widget/' + a;
+        t.parentNode.insertBefore(j, t);
+        o.s = Date.now();
+        o.v = 4;
+        o.h = w.location.href;
+        o.l = [];
+        for (i = 0; i < 7; i++) o[l[i]] = o(l[i]);
+        w[n] = o
+      }
+    })(window, document, 'script', 'FundraiseUp', 'APQJSHGS');
+
+  </script>
+
+
+<script src="https://cdn.optimizely.com/js/11097406100.js" type="2fcb6a19460780614d2a3696-text/javascript"></script>
+
+<meta charset="utf-8" /><script type="2fcb6a19460780614d2a3696-text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"c064680dbb",applicationID:"44757233"};;/*! For license information please see nr-loader-rum-1.252.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,DL:()=>w,OP:()=>S,lF:()=>T,Yu:()=>x,Dg:()=>m,CX:()=>c,GE:()=>_,sU:()=>R});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(h);var r=v(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!A[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return A[e]}function _(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=A[e])}const x=(0,n.mF)().o;var E=r(385),D=r(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(E._A?.performance?.timeOrigin||E._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+E._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof E._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},j={};function S(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!j[e])throw new Error("Runtime for ".concat(e," was never set"));return j[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");j[e]=(0,i.D)(t,k);const r=(0,n.ek)(e);r&&(r.runtime=j[e])}function T(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.252.0",i="PROD",o="CDN"},385:(e,t,r)=>{"use strict";r.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>o,cv:()=>l,iS:()=>a,il:()=>n,ux:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(n&&window.document.documentMode)),d=!!o.navigator?.sendBeacon,l=Math.floor(o?.performance?.timeOrigin||o?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{L:()=>d,R:()=>c});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(u(e),!e||!s[e].get(t)||r)return c(t);s[e].get(t).staged=!0;const a=[...s[e]];function c(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}a.every((e=>{let[t,r]=e;return r.staged}))&&(a.sort(((e,t)=>e[1].priority-t[1].priority)),a.forEach((t=>{let[r]=t;s[e].delete(r),c(r)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},f=!1;try{f=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=p(n),c=v(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var f=b()[s[e]];f&&f.push([g,e,r,a]);return a},get:m,listeners:v,context:p,buffer:function(e,t){const r=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:r,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function h(e,t){n[e]=v(e).concat(t)}function v(e){return n[e]||[]}function m(t){return d[t]=d[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),d=(0,n.fP)();function l(){u.aborted=!0,Object.keys(u.backlog).forEach((e=>{delete u.backlog[e]}))}d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>o,IK:()=>c,oD:()=>i,uT:()=>s,wO:()=>a});const n="NRBA",i=144e5,o=18e5,a={PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},s={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},c={OFF:0,FULL:1,ERROR:2}},7894:(e,t,r)=>{"use strict";function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>d,T:()=>l});var n=r(8325),i=r(5546),o=r(3325),a=r(385);const s="newrelic";const c={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa],sr:[o.D.sessionReplay,o.D.sessionTrace]},u=new Set;function d(e,t){const r=n.ee.get(t);e&&"object"==typeof e&&(u.has(t)||(Object.entries(e).forEach((e=>{let[t,n]=e;c[t]?c[t].forEach((e=>{n?(0,i.p)("feat-"+t,[],void 0,e,r):(0,i.p)("block-"+t,[],void 0,e,r),(0,i.p)("rumresp-"+t,[Boolean(n)],void 0,e,r)})):n&&(0,i.p)("feat-"+t,[],void 0,void 0,r),l[t]=Boolean(n)})),Object.keys(c).forEach((e=>{void 0===l[e]&&(c[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,r))),l[e]=!1)})),u.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{a._A.dispatchEvent(new CustomEvent(s,{detail:e}))}catch(e){}}({loaded:!0})))}const l={}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(7894),i=r(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,n.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},7530:(e,t,r)=>{"use strict";r.d(t,{j:()=>b});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(7894),c=r(8e3),u=r(3960),d=r(385),l=r(50),f=r(3081),g=r(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}var h=r(2825);const v=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:A,info:w,loader_config:_,runtime:x={loaderType:b},exposed:E=!0}=t;const D=(0,g.gG)();w||(A=D.init,w=D.info,_=D.loader_config),(0,i.Dg)(e.agentIdentifier,A||{}),(0,i.GE)(e.agentIdentifier,_||{}),w.jsAttributes??={},d.v6&&(w.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,w);const k=(0,i.P_)(e.agentIdentifier),j=[w.beacon,w.errorBeacon];m||(k.proxy.assets&&(v(k.proxy.assets),j.push(k.proxy.assets)),k.proxy.beacon&&j.push(k.proxy.beacon),p(),(0,g.EZ)("activatedFeatures",h.T)),x.denyList=[...k.ajax.deny_list||[],...k.ajax.block_internal?j:[]],(0,i.sU)(e.agentIdentifier,x),void 0===e.api&&(e.api=function(e,t){t||(0,c.R)(e,"api");const g={};var p=a.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),w(v,n,!0,o||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{g[e]=w(v,e,!0,"api")})),g.addPageAction=w(v,"addPageAction",!0,n.D.pageAction),g.setCurrentRouteName=w(v,"routeName",!0,n.D.spa),g.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,w(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(f.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,p);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.recordReplay=function(){(0,o.p)(f.xS,["API/recordReplay/called"],void 0,n.D.metrics,p),(0,o.p)("recordReplay",[],void 0,n.D.sessionReplay,p)},g.pauseReplay=function(){(0,o.p)(f.xS,["API/pauseReplay/called"],void 0,n.D.metrics,p),(0,o.p)("pauseReplay",[],void 0,n.D.sessionReplay,p)},g.interaction=function(){return(new y).get()};var A=y.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(f.xS,["API/createTracer/called"],void 0,n.D.metrics,p),(0,o.p)(m+"tracer",[(0,s.z)(),e,r],i,n.D.spa,p),function(){if(h.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],r),e}finally{h.emit("fn-end",[(0,s.z)()],r)}}}};function w(e,t,r,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,p),r?void 0:this}}function _(){r.e(75).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>{(0,l.Z)("Downloading runtime APIs failed..."),(0,c.L)(e,"api",!0)}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{A[e]=w(m,e,void 0,n.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,p)},d.il?(0,u.b2)((()=>_()),!0):_(),g}(e.agentIdentifier,y)),void 0===e.exposed&&(e.exposed=E),m=!0}},1926:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.252.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.252.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={75:"sha512-85KXSsv643MTRPulZfmcwj8IKIbJeT9JfNpsSBckCZNUr+o/ILbmpOISx04Ol69WzHRZplUy/y2FaJ3KUChaTw=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.252.0.PROD"]=self["webpackChunk:NRBA-1.252.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(1926);var e=i(50);class t{#e(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...n);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e("recordReplay")}pauseReplay(){return this.#e("pauseReplay")}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}}var r=i(3325),n=i(234);const o=Object.values(r.D);function a(e){const t={};return o.forEach((r=>{t[r]=function(e,t){return!1!==(0,n.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var s=i(7530);var c=i(8e3),u=i(5938),d=i(3960),l=i(385);class f extends u.W{constructor(e,t,r){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,n.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,r)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const r=l.il&&!0===(0,n.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let o;this.onAggregateImported=new Promise((e=>{o=e}));const a=async()=>{let n;try{if(r){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,957));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,n))return(0,c.L)(this.agentIdentifier,this.featureName),void o(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:r}=await e(this.featureName,"aggregate");this.featAggregate=new r(this.agentIdentifier,this.aggregator,t),o(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName,!0),o(!1)}};l.il?(0,d.b2)((()=>a()),!0):a()}shouldImportAgg(e,t){return e!==r.D.sessionReplay||!!n.Yu.MO&&(!1!==(0,n.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplayMode))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,r),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,r){t[e]=b(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,v.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=b(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=b(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=A(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function A(e){return"object"!=typeof e?[]:(0,v.D)(e,w)}function w(e,t){return t}var _=i(8632),x=i(4402),E=i(4351);var D=i(5546),k=i(7956),j=i(3239),S=i(7894),R=i(9251);class T extends f{static featureName=R.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t,r),l.il&&((0,k.N)((()=>(0,D.p)("docHidden",[(0,S.z)()],void 0,R.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,D.p)("winPagehide",[(0,S.z)()],void 0,R.t,this.ee))),this.importAggregator())}}var I=i(3081);class P extends f{static featureName=I.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t9,r),this.importAggregator()}}new class extends t{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=r,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},(0,_.h5)(r,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),(0,s.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,n.C5)(this.agentIdentifier),init:(0,n.P_)(this.agentIdentifier),loader_config:(0,n.DL)(this.agentIdentifier),runtime:(0,n.OP)(this.agentIdentifier)}}run(){try{const t=a(this.agentIdentifier),n=[...this.desiredFeatures];n.sort(((e,t)=>r.p[e.featureName]-r.p[t.featureName])),n.forEach((n=>{if(t[n.featureName]||n.featureName===r.D.pageViewEvent){const i=function(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.sessionReplay:return[r.D.sessionTrace];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}(n.featureName);i.every((e=>t[e]))||(0,e.Z)("".concat(n.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(i),"). This may cause unintended consequences or missing data...")),this.features[n.featureName]=new n(this.agentIdentifier,this.sharedAggregator)}}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}}({features:[p,T,P],loaderType:"lite"})})()})();</script>
+<link rel="shortcut icon" href="https://join.unicefusa.org/sites/all/themes/unicef/favicon.ico" type="image/vnd.microsoft.icon" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="2fcb6a19460780614d2a3696-text/javascript" />
+
+
+<!-- Page-hiding snippet (recommended)  -->
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-P9NX7GM':true});</script>
+<script type="2fcb6a19460780614d2a3696-text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-2499545-1', 'auto', {allowLinker: true});
+  ga('require', 'GTM-P9NX7GM');
+</script>
+<meta name="description" content="Even those who are privileged enough to have the resources to change the world still need the right partners to translate that desire into tangible global impact. If you’re someone who has the resources to shape the future, even if you don’t know exactly how yet, let’s talk, and see how impactful your legacy could be." />
+<meta name="keywords" content="partner, legacy, global, impact, child, fund, unicef, flexible, effective, worldwide, urgent" />
+<meta name="news_keywords" content="partner, legacy, global, impact, child, fund, unicef, flexible, effective, worldwide, urgent" />
+<link rel="image_src" href="https://www.unicefusa.org/sites/default/files/2023-08/herogirlstudent_0.jpg" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://join.unicefusa.org/about-unicef-usa/partnerships" />
+<link rel="shortlink" href="https://join.unicefusa.org/node/41052" />
+<meta property="fb:app_id" content="230214117148115" />
+<meta property="fb:pages" content="81517275796" />
+<meta property="og:site_name" content="UNICEF USA" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Shape the Future with UNICEF" />
+<meta property="og:url" content="https://join.unicefusa.org/about-unicef-usa/partnerships" />
+<meta property="og:description" content="Even those who are privileged enough to have the resources to change the world still need the right partners to translate that desire into tangible global impact. If you’re someone who has the resources to shape the future, even if you don’t know exactly how yet, let’s talk, and see how impactful your legacy could be." />
+<meta property="og:image" content="https://www.unicefusa.org/sites/default/files/2023-08/herogirlstudent_0.jpg" />
+<meta property="og:image:url" content="https://www.unicefusa.org/sites/default/files/2023-08/herogirlstudent_0.jpg" />
+<meta property="og:image:secure_url" content="https://www.unicefusa.org/sites/default/files/2023-08/herogirlstudent_0.jpg" />
+<meta property="og:image:alt" content="A female student in a headscarf smiles while holding a blue UNICEF workbook up to the side of her face." />
+<meta property="og:image:type" content="image/jpg" />
+<meta property="og:image:width" content="806px" />
+<meta property="og:image:height" content="626px" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@unicefusa" />
+<meta name="twitter:creator:id" content="7383122" />
+<meta name="twitter:url" content="https://join.unicefusa.org/about-unicef-usa/partnerships" />
+<meta name="twitter:description" content="Even those who are privileged enough to have the resources to change the world still need the right partners to translate that desire into tangible global impact. If you’re someone who has the" />
+<meta name="twitter:title" content="Shape the Future with UNICEF" />
+<meta name="twitter:image" content="https://www.unicefusa.org/sites/default/files/2023-08/herogirlstudent_0.jpg" />
+<meta name="twitter:image:width" content="806px" />
+<meta name="twitter:image:height" content="626px" />
+<meta name="twitter:image:alt" content="A female student in a headscarf smiles while holding a blue UNICEF workbook up to the side of her face." />
+<title>Shape the Future with UNICEF | UNICEF USA</title>
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+<meta http-equiv="cleartype" content="on">
+
+
+<meta name="com.silverpop.brandeddomains" content="www.pages03.net,unicefusa.mkt6339.com,unicefusa.org" />
+
+
+
+<link rel="apple-touch-icon" sizes="120x120" href="/sites/default/files/WEB16_ApplePayUSFLogo_120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/sites/default/files/WEB16_ApplePayUSFLogo_152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="/sites/default/files/WEB16_ApplePayUSFLogo_167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/sites/default/files/WEB16_ApplePayUSFLogo_180.png">
+<link type="text/css" rel="stylesheet" href="https://join.unicefusa.org/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://join.unicefusa.org/sites/default/files/css/css_bYKG9bdFLEIVOU4ZgdnabUC5qkrxphTvCl-cuqtOg3Y.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://join.unicefusa.org/sites/default/files/css/css_hZ53wKpzvrXpfH0cWSYmmolAvYyTWQeNy5uLSYecvIw.css" media="all" />
+<script src="https://join.unicefusa.org/sites/default/files/js/js_6wB7_RH3hNT_viZwOlvXgQ7bvciK-Mir9CVHAkENV64.js" type="2fcb6a19460780614d2a3696-text/javascript"></script>
+<script src="https://join.unicefusa.org/sites/default/files/js/js_qE4KfYgJty9x7gyqzjMp9mcDiG6PQCqqJbfsBu7bK8w.js" type="2fcb6a19460780614d2a3696-text/javascript"></script>
+<script type="2fcb6a19460780614d2a3696-text/javascript">document.createElement( "picture" );</script>
+<script src="https://join.unicefusa.org/sites/default/files/js/js_ooFI-zTaNAuAMgjY3NN27Dxo4fzxDVcYKuEvdN0xIJ0.js" type="2fcb6a19460780614d2a3696-text/javascript"></script>
+<script src="https://join.unicefusa.org/sites/default/files/js/js_GhhkpIA4bWaL4DoRtALXi_YP218yjubSxZKVID-qkWg.js" type="2fcb6a19460780614d2a3696-text/javascript"></script>
+<script defer="defer" src="https://cdn.evgnet.com/beacon/unicefusa2/engage/scripts/evergage.min.js" type="2fcb6a19460780614d2a3696-text/javascript"></script>
+<script src="https://join.unicefusa.org/sites/default/files/js/js_r0pDkO-nuu-AtQ4wCsRKuBG2LagGQWwyg5COD5CBAe0.js" type="2fcb6a19460780614d2a3696-text/javascript"></script>
+<script type="2fcb6a19460780614d2a3696-text/javascript">jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"unicef","theme_token":"dd825JmQXEDss3lhcidWxTyXmO0bNv7Z8Xbmf07H_0k","js":{"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"https:\/\/s7.addthis.com\/js\/250\/addthis_widget.js":1,"sites\/all\/modules\/custom\/unicef_webform_store\/unicef_webform_store.js":1,"0":1,"sites\/all\/modules\/contrib\/clientside_validation\/clientside_validation.ie8.js":1,"sites\/all\/modules\/contrib\/clientside_validation\/clientside_validation_html5\/clientside_validation_html5.js":1,"sites\/all\/modules\/contrib\/clientside_validation\/clientside_validation.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect.min.js":1,"1":1,"sites\/all\/modules\/custom\/unicef_mobile\/js\/unicef_mobile.js":1,"sites\/all\/modules\/custom\/unicef_tot\/js\/mock-form.js":1,"sites\/all\/modules\/springboard_modules\/webform_goals\/scripts\/webform_goals.drupal_loader.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/springboard_modules\/market_source\/js\/jquery-cookie.js":1,"sites\/all\/modules\/springboard_modules\/market_source\/js\/market_source.js":1,"sites\/all\/libraries\/jstorage\/jstorage.min.js":1,"sites\/all\/modules\/springboard_modules\/secure_prepopulate\/springboard_cookie\/js\/springboard_cookie.cacheable.js":1,"sites\/all\/modules\/custom\/unicef_hooks\/js\/jquery.plugins.js":1,"sites\/all\/modules\/custom\/unicef_message\/unicef_message.js":1,"sites\/all\/modules\/custom\/unicef_share\/js\/unicef_share.js":1,"sites\/all\/modules\/contrib\/webform\/js\/webform.js":1,"sites\/all\/modules\/contrib\/clientside_validation\/jquery-validate\/jquery.validate.js":1,"https:\/\/cdn.evgnet.com\/beacon\/unicefusa2\/engage\/scripts\/evergage.min.js":1,"sites\/all\/themes\/unicef\/js\/jquery.uniform.min.js":1,"sites\/all\/themes\/unicef\/js\/jquery.mmenu.min.js":1,"sites\/all\/themes\/unicef\/js\/actual.min.js":1,"sites\/all\/themes\/unicef\/js\/jquery.visible.min.js":1,"sites\/all\/themes\/unicef\/css\/fonts\/ss-social.js":1,"sites\/all\/themes\/unicef\/js\/blockui.min.js":1,"sites\/all\/themes\/unicef\/js\/jquery.flexslider.min.js":1,"sites\/all\/themes\/unicef\/js\/jquery.jcarousel.min.js":1,"sites\/all\/themes\/unicef\/js\/layout.engine.min.js":1,"sites\/all\/themes\/unicef\/js\/jquery.stickem.js":1,"sites\/all\/themes\/unicef\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/contrib\/columns_filter\/columns_filter.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/custom\/unicef_club_registration_backend\/css\/club-registration-backend.css":1,"sites\/all\/modules\/custom\/unicef_club_registration_backend\/css\/club-registration-backend_resp.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/springboard_modules\/webform_goals\/css\/webform_goals.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/unicef_webform_store\/unicef_webform_store.css":1,"sites\/all\/modules\/features\/unicef_configuration\/plugins\/layouts\/unicef_feature_mixed\/unicef_feature_mixed.css":1,"sites\/all\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/all\/themes\/springboard_themes\/springboard_frontend\/css\/styles.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":false,"mobiledevicewidth":"480px","file_public_path":"\/sites\/default\/files","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"market_source":{"qs_keys":{"ms":{"value":null,"persistence":"off"},"cid":{"value":null,"persistence":"off"},"referrer":{"value":null,"persistence":"direct"},"initial_referrer":{"value":null,"persistence":"direct"},"search_engine":{"value":null,"persistence":"on"},"search_string":{"value":null,"persistence":"on"},"user_agent":{"value":null,"persistence":"on"},"device_type":{"value":null,"persistence":"direct"},"device_name":{"value":null,"persistence":"direct"},"device_os":{"value":null,"persistence":"direct"},"device_browser":{"value":null,"persistence":"direct"},"utm_source":{"value":null,"persistence":"on"},"utm_medium":{"value":null,"persistence":"on"},"utm_term":{"value":null,"persistence":"on"},"utm_content":{"value":null,"persistence":"on"},"utm_campaign":{"value":null,"persistence":"on"},"pcode":{"value":null,"persistence":"direct"},"initialms":{"value":null,"persistence":"on"},"ftouch":{"value":null,"persistence":"on"},"rpcode":{"value":null,"persistence":"direct"},"eml_name":{"value":null,"persistence":"on"},"eml_id":{"value":null,"persistence":"on"},"club_type":{"value":null,"persistence":"on"},"role":{"value":null,"persistence":"on"},"school_id":{"value":null,"persistence":"on"},"ask_amount":{"value":null,"persistence":"on"},"su_cid":{"value":null,"persistence":"on"},"su_rdid":{"value":null,"persistence":"on"},"social_referer_transaction":{"value":null,"persistence":"on"},"mgid":{"value":null,"persistence":true}},"maxlength":255,"cookie_domain":".unicefusa.org","cookie_path":"\/","form_keys":{"webform-client-form-41056":{"ms":"submitted[ms]"},"webform-client-form-29586":{"ms":"submitted[ms]","cid":"submitted[cid]","referrer":"submitted[referrer]","initial_referrer":"submitted[initial_referrer]","search_engine":"submitted[search_engine]","search_string":"submitted[search_string]","user_agent":"submitted[user_agent]","device_type":"submitted[device_type]","device_name":"submitted[device_name]","device_os":"submitted[device_os]","device_browser":"submitted[device_browser]","utm_source":"submitted[utm_source]","utm_medium":"submitted[utm_medium]","utm_term":"submitted[utm_term]","utm_content":"submitted[utm_content]","utm_campaign":"submitted[utm_campaign]","initialms":"submitted[initialms]","ftouch":"submitted[ftouch]","social_referer_transaction":"submitted[social_referer_transaction]"}}},"springboard":{"cookie_path":"\/"},"springboard_cookie":{"name":"Springboard","domain":""},"unicef_message":{"report_share":false},"unicef_share":{"pubid":"ra-575b0c85d28153eb"},"webform_goals":{"loader_url":"https:\/\/join.unicefusa.org\/webform_goals_jsonp"},"urlIsAjaxTrusted":{"\/about-unicef-usa\/partnerships":true,"\/form\/sign-updates":true},"clientsideValidation":{"forms":{"webform-client-form-41056":{"errorPlacement":"5","general":{"errorClass":"error","wrapper":"li","validateTabs":0,"scrollTo":1,"scrollSpeed":"1000","disableHtml5Validation":"1","validateOnBlur":"1","validateOnBlurAlways":"1","validateOnKeyUp":"1","validateBeforeAjax":"0","validateOnSubmit":"1","showMessages":"0","errorElement":"span"},"rules":{"submitted[first_name]":{"required":true,"messages":{"required":"First Name field is required.","maxlength":"First Name field has a max length of 128 characters."},"maxlength":128},"submitted[last_name]":{"required":true,"messages":{"required":"Last Name field is required.","maxlength":"Last Name field has a max length of 128 characters."},"maxlength":128},"submitted[title]":{"maxlength":128,"messages":{"maxlength":"Title field has a max length of 128 characters."}},"submitted[state_location]":{"maxlength":128,"messages":{"maxlength":"State location field has a max length of 128 characters."}},"submitted[mail]":{"required":true,"messages":{"required":"E-mail address field is required.","email":"The value in E-mail address is not a valid email address."},"email":true}}},"webform-client-form-29586":{"errorPlacement":"5","general":{"errorClass":"error","wrapper":"li","validateTabs":0,"scrollTo":1,"scrollSpeed":"1000","disableHtml5Validation":"1","validateOnBlur":"1","validateOnBlurAlways":"1","validateOnKeyUp":"1","validateBeforeAjax":"0","validateOnSubmit":"1","showMessages":"0","errorElement":"span"},"rules":{"submitted[mail]":{"required":true,"messages":{"required":"Stay informed field is required.","email":"The value in Stay informed is not a valid email address."},"email":true}}},"search-block-form":{"errorPlacement":"5","general":{"errorClass":"error","wrapper":"li","validateTabs":0,"scrollTo":1,"scrollSpeed":"1000","disableHtml5Validation":"1","validateOnBlur":"1","validateOnBlurAlways":"1","validateOnKeyUp":"1","validateBeforeAjax":"0","validateOnSubmit":"1","showMessages":"0","errorElement":"span"},"rules":{"search_block_form":{"maxlength":128,"messages":{"maxlength":"Search field has to have maximum 128 values."}}}}},"general":{"usexregxp":0,"months":{"January":1,"Jan":1,"February":2,"Feb":2,"March":3,"Mar":3,"April":4,"Apr":4,"May":5,"June":6,"Jun":6,"July":7,"Jul":7,"August":8,"Aug":8,"September":9,"Sep":9,"October":10,"Oct":10,"November":11,"Nov":11,"December":12,"Dec":12}},"groups":{"webform-client-form-41056":{},"webform-client-form-29586":{},"search-block-form":{}}}});</script>
+<!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+
+<script type="2fcb6a19460780614d2a3696-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TRK8X8');</script>
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-41052 node-type-blank-canvas section-about-unicef-usa page-panels non-tablet">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRK8X8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400;600;700&amp;family=Yantramanav:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<style>
+html body {
+    position: relative;
+    background: #000;
+    margin: 0;
+    overscroll-behavior: none;
+}
+.panel-unicef-mixed-layout .panel-col-body-feature,
+.panel-unicef-mixed-layout .panel-col-body-feature .inside,
+.panel-unicef-mixed-layout .panel-col-top-single,
+.panel-unicef-mixed-layout .panel-col-top-feature {
+    margin: 0;
+    padding: 0;
+}
+.desktop-only {
+    display: none;
+}
+@media (min-width: 768px) {
+  .desktop-only {
+    display: block;
+  }
+  .mobile-only {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .panel-unicef-mixed-layout .panel-col-body-feature,
+  .panel-unicef-mixed-layout .panel-col-body-feature .inside,
+  .panel-unicef-mixed-layout .panel-col-top-single {
+    margin: 0;
+    padding: 0;
+  }
+  .panel-unicef-mixed-layout .panel-col-top-feature {
+    margin-bottom: 0;
+  }
+}
+#navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#navbar .navbar-menu ul {
+    max-height: 40px;
+    height: 40px;
+    background: #21b9f1;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: max-height 0.5s ease-out;
+}
+#navbar .navbar-menu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 0.8rem;
+    margin-bottom: 3px;
+}
+#navbar .navbar-menu li.logo img {
+    width: 80px;
+    height: 26px;
+}
+#navbar .navbar-menu li a {
+    font-family: "Roboto",helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+}
+#navbar .navbar-menu li.navbar-cta a {
+    border-radius: 20px;
+    background: #00365f;
+    padding: 0.5rem;
+    transition: border-radius 0.5s ease-out;
+}
+#navbar .navbar-menu li.navbar-cta a:hover {
+    text-decoration: underline;
+}
+.navbar-message {
+    display: none;
+}
+#navbar .navbar-notice {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    max-height: 36px; */
+    max-height: 45px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+#navbar .navbar-notice p {
+    margin: 0.3rem;
+    text-transform: uppercase;
+    font-family: 'roboto condensed';
+/*    font-weight: 400;
+    font-size: 0.7rem; */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.15rem;
+    text-align: center;
+}
+#navbar .navbar-notice p a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 700;
+}
+#navbar .navbar-notice.achievement {
+    background: #00365f;
+}
+#navbar .navbar-notice.emergency {
+    background: #ff0000;
+}
+#navbar .navbar-menu.scrunch .navbar-notice {
+    max-height: 0;
+}
+#navbar .navbar-menu.scrunch ul {
+    max-height: 35px;
+    padding-right: 0;
+    overflow: hidden;
+}
+#navbar .navbar-menu.scrunch li.navbar-cta {
+    margin-right: 0;
+}
+#navbar .navbar-menu.scrunch li.logo img {
+    width: 80px;
+    height: 26px;
+}
+#navbar .navbar-menu.scrunch li.navbar-cta a {
+    border-radius: 0;
+    background: #00365f;
+    padding: 0.7rem;
+}
+#content {
+    font-family: roboto,helvetica,arial,sans-serif;
+    background: #000;
+}
+#skiplink {
+    position: absolute;
+}
+#skiplink a {
+  font-size: 1px;
+}
+#skiplink a:focus {
+  font-size: 1rem;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  background: #000;
+  text-decoration: underline;
+}
+.desktop-only {
+    display: none;
+}
+@media (min-width: 768px) {
+    nav.navbar-menu {
+        background: #21b9f1;
+    }
+    #navbar .navbar-menu ul {
+        max-height: 70px;
+        height: 70px;
+        padding-left: 48px;
+        padding-right: 48px;
+        justify-content: flex-end;
+        max-width: 1510px;
+        margin: 0 auto;
+        position: relative;
+    }
+    #navbar .navbar-menu li {
+        margin: 0 18px;
+    }
+    #navbar .navbar-menu li.navbar-btn {
+        position: absolute;
+        left: 42px;
+    }
+    #navbar .navbar-menu li.logo img {
+        width: 125px;
+        height: 45px;
+    }
+    #navbar .navbar-menu li a {
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+    }
+    #content {
+        max-width: 1366px;
+        position: relative;
+        top: 70px;
+        margin: 0 auto;
+    }
+    .mobile-only {
+        display: none;
+    }
+    .desktop-only {
+        display: inline-block;
+    }
+}
+
+
+/* Footer: */
+
+section#canvas-footer-outer {
+    background: #00aeef;
+    padding: 0 1rem;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+}
+footer#canvas-footer {
+    background: #00aeef;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+footer#canvas-footer h3 {
+    font-size: 0.7rem;
+    color: #000;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 900;
+    transform: scale(1, 1.8) skew(-2deg, -5deg);
+    line-height: 0.7rem;
+    position: relative;
+    letter-spacing: 1px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    max-width: 75px;
+}
+footer#canvas-footer h3 span {
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    text-align: left;
+    color: #fff;
+    -webkit-text-stroke-width: 0;
+    display: block;
+}
+.canvas-footer__title {
+    width: 120px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.canvas-footer__info {
+    text-align: right;
+}
+.canvas-footer__company,
+.canvas-footer__nav,
+.canvas-footer__info {
+    display: flex;
+    flex-direction: column;
+}
+.canvas-footer__about,
+.canvas-footer__socials {
+    display: flex;
+    flex-direction: row;
+}
+.canvas-footer__company {
+    order: 2;
+}
+.canvas-footer__nav {
+    order: 1;
+    margin: 0 0 1rem auto;
+}
+.canvas-footer__contact,
+.canvas-footer__copyright,
+.canvas-footer__about,
+.canvas-footer__socials,
+.canvas-footer__company p {
+    font-size: 0.5rem;
+    color: #fff;
+    margin-bottom: 0;
+    justify-content: flex-end;
+}
+.canvas-footer__nonprofit {
+    order: 3;
+    padding: 0.5rem 0;
+    line-height: 1.2;
+}
+.canvas-footer__about a {
+    margin: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.9rem;
+    line-height: 0.9;
+    color: #fff;
+    border-right: 1px solid #fff;
+    margin-left: 0;
+    text-transform: uppercase;
+}
+.canvas-footer__about a:last-of-type {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+.canvas-footer__socials a {
+    margin-left: 1rem;
+}
+.canvas-footer__socials img {
+    width: 1rem;
+    height: 1rem;
+}
+
+@media (min-width: 768px) {
+    section#canvas-footer-outer {
+        padding: 0 2rem;
+        max-width: none;
+    }
+    footer#canvas-footer {
+        padding: 2rem 0;
+        max-width: 1024px;
+        justify-content: space-between;
+    }
+    footer#canvas-footer h3 {
+        font-size: 1rem;
+        line-height: 0.9;
+        max-width: none;
+        width: 110px;
+    }
+    footer#canvas-footer h3 span {
+        font-size: 0.5rem;
+        line-height: 0.7rem;
+    }
+    .canvas-footer__info {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .canvas-footer__nav {
+        flex-direction: column;
+    }
+    .canvas-footer__company,
+    .canvas-footer__socials,
+    .canvas-footer__contact {
+        order: 1;
+    }
+    .canvas-footer__nav,
+    .canvas-footer__copyright,
+    .canvas-footer__about {
+        order: 2;
+    }
+    .canvas-footer__contact,
+    .canvas-footer__copyright,
+    .canvas-footer__about,
+    .canvas-footer__socials,
+    .canvas-footer__nonprofit,
+    .canvas-footer__company p {
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    .canvas-footer__nonprofit {
+        padding-right: 1rem;
+    }
+    .canvas-footer__nav {
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .canvas-footer__company {
+        justify-content: flex-end;
+        align-items: flex-start;
+        line-height: 0.7rem;
+    }
+    .canvas-footer__contact {
+        line-height: 1.5rem;
+    }
+    .canvas-footer__about a {
+        font-size: 0.8rem;
+        line-height: 0.9;
+        border-right: 2px solid #fff;
+        text-transform: none;
+        margin-top: 0.7rem;
+        margin-bottom: 0;
+    }
+    .canvas-footer__socials {
+        margin: 0 auto 0 0;
+    }
+    .canvas-footer__socials a {
+        line-height: 1.7;
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+    .canvas-footer__socials img {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+</style>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+<header id="navbar" role="banner" class>
+<div id="skiplink">
+<a href="#content">Skip to content</a>
+</div>
+<nav role="navigation" class="navbar-menu">
+<div class="navbar-notice achievement"></div>
+<div class="navbar-notice emergency"></div>
+<ul>
+<li class="logo navbar-btn pull-left flip"><a href="/" target="_blank" title="UNICEF USA"><img src="/sites/default/files/UNICEFUSA_DIG_wordmark_W.svg" title="UNICEF USA" class="navbar-logo" alt="UNICEF USA" /></a></li>
+
+
+<li class="navbar-cta pull-right"><a href="?form=donate">Donate</a></li>
+</ul>
+</nav>
+</header>
+<main role="main" id="content">
+<div class="panel-display panel-unicef-mixed-layout">
+
+<div class="panel-panel panel-col-top-feature">
+<div class="inside">
+<div class="panel-pane pane-custom pane-1">
+<style>
+#content h1 {
+    font-size: 4rem;
+    font-family: "barlow condensed";
+    font-weight: 100;
+    line-height: 1;
+    text-align: left;
+    text-transform: uppercase;
+    color: #00bdf2;
+    margin-bottom: 1rem;
+}
+#content p {
+    font-size: 1.25rem;
+    font-family: 'yantramanav';
+    font-weight: 100;
+    line-height: 1.5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+section {
+    margin: 0.5rem;
+    max-width: 1366px;
+}
+
+
+.partner__cta {
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    font-size: 1.6rem;
+    line-height: 1;
+    margin: 0.5rem auto 0;
+    font-family: 'barlow condensed';
+    padding: 0.5rem 2rem 0.7rem;
+    background: #00bdf2;
+    display: inline-block;
+    border-radius: 2rem;
+    transition: 0.5s all;
+    font-weight: 600;
+}
+.partner__cta:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+
+#partner__hero {
+    border: 1px solid #00bdf2;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+#partner__hero .partner__hero--imagery {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#partner__hero .partner__hero--imagery:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 -50px 50px #000000;
+    z-index: 1;
+}
+#partner__hero .partner__hero--imagery img {
+    min-width: 100%;
+}
+#partner__hero .partner__hero--messaging {
+    margin-top: -3rem;
+    padding: 1rem;
+    position: relative;
+    z-index: 1;
+}
+#partner__hero .partner__hero--messaging p,
+#partner__hero .partner__hero--messaging h1 {
+    text-align: center;
+}
+@media (min-width: 640px) {
+    #partner__hero {
+        display: flex;
+        height: 626px;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+    }
+    #partner__hero .partner__hero--imagery {
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    #partner__hero .partner__hero--imagery:before {
+        box-shadow: inset 400px 0 450px #000000;
+    }
+    #partner__hero .partner__hero--messaging p,
+    #partner__hero .partner__hero--messaging h1 {
+        text-align: left;
+    }
+    #partner__hero .partner__hero--messaging {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 1.5rem;
+        max-width: 445px;
+    }
+}
+@media (min-width: 1070px) {
+    #partner__hero .partner__hero--imagery:before {
+        box-shadow: inset 100px 0 150px #000000;
+    }
+}
+@media (min-width: 1215px) {
+    section {
+        margin: 0.5rem auto;
+        max-width: 1215px;
+    }
+}
+</style>
+<section id="partner__hero">
+<div class="partner__hero--imagery"><img src="https://www.unicefusa.org/sites/default/files/2023-08/herogirlstudent_0.jpg" alt="A female student in a headscarf smiles while holding a blue UNICEF workbook up to the side of her face." /></div>
+<div class="partner__hero--messaging">
+<h1>Shape the Future <br/>with UNICEF</h1>
+<p>Even those who are privileged enough to have the resources to change the world still need the right partners to translate that desire into tangible global impact. If you’re someone who has the resources to shape the future, even if you don’t know exactly how yet, let’s talk, and see how impactful your legacy could be.</p>
+<p><a href="#partner__joinus" class="partner__cta">Join Us</a></p>
+</div>
+</section>
+</div>
+<div class="panel-pane pane-custom pane-2">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<style>
+#partner__transformational {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+#content h2 {
+    font-size: 2.5rem;
+    font-family: "barlow condensed";
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00bdf2;
+    margin-bottom: 2rem;
+}
+
+.partner__transformational--modules {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.partner__transformational--module-container {
+    margin: 1rem;
+}
+.partner__transformational--module {
+    width: 385px;
+    max-width: 100%;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    background: #000;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    position: relative;
+    margin: 0 auto;
+}
+.partner__transformational--module:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 -100px 50px rgb(0 0 0 / 80%);
+}
+.partner__transformational--module-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partner__transformational--module img {
+    height: auto;
+    min-height: 100%;
+    width: auto;
+}
+.partner__transformational--module-messaging {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 2;
+}
+.partner__transformational--module h3 {
+    margin: 0 auto;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 1rem;
+    line-height: 1.1;
+    color: #fff;
+    position: relative;
+}
+.partner__transformational--module h3 span {
+    margin: 0 auto 5px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    display: block;
+}
+@media (min-width: 768px) {
+    .partner__transformational--modules {
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+    .partner__transformational--module-container {
+        width: 30.7%;
+    }
+}
+@media (min-width: 1215px) {
+    #partner__transformational {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* Slick Slider */
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-next {
+    right: 15px;
+}
+.slick-prev {
+    left: 15px;
+}
+.slick-list {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.slick-prev, .slick-next {
+    width: 50px;
+    height: 50px;
+    top: auto;
+    bottom: -95px;
+    z-index: 1;
+}
+.slick-next:before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    right: 0;
+    width: 5px;
+    height: 45px;
+    border-radius: 5px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+.slick-next:after {
+    content: '';
+    position: absolute;
+    top: -28px;
+    right: 0;
+    width: 5px;
+    height: 45px;
+    border-radius: 5px;
+    background: #fff;
+    transform: rotate(315deg);
+}
+.slick-prev:before {
+    content: '';
+    position: absolute;
+    top: -28px;
+    left: 1px;
+    width: 5px;
+    height: 45px;
+    border-radius: 5px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+.slick-prev:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 5px;
+    height: 45px;
+    border-radius: 5px;
+    background: #fff;
+    transform: rotate(315deg);
+}
+.partner__transformational--modules {
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .partner__transformational--modules {
+        padding-bottom: 40px;
+    }
+    .slick-prev, .slick-next {
+        top: 100%;
+        bottom: auto;
+        height: 100%;
+        width: 60px;
+    }
+    .slick-prev:before,
+    .slick-prev:after {
+        left: 25px;
+    }
+    .slick-next:before,
+    .slick-next:after {
+        right: 25px;
+    }
+    .slick-prev:before,
+    .slick-prev:after,
+    .slick-next:before,
+    .slick-next:after {
+        height: 35px;
+        background: #fff;
+    }
+    .slick-prev:before,
+    .slick-next:after {
+        top: 50%;
+    }
+    .slick-prev:after,
+    .slick-next:before {
+        top: calc(50% + 22px);
+    }
+}
+</style>
+<section id="partner__transformational">
+<h2>Our partners Helped deliver
+transformational results in 2022</h2>
+<div class="partner__transformational--modules">
+<div class="partner__transformational--module-container">
+<div class="partner__transformational--module">
+<div class="partner__transformational--module-image">
+<img src="https://www.unicefusa.org/sites/default/files/2023-08/UN0702841.jpg" alt="A classroom full of young female students displaying their blue UNICEF backpacks while smiling." />
+</div>
+<div class="partner__transformational--module-messaging">
+<h3><span>37.9 Million</span> Out-of-school children offered access to educational opportunities</h3>
+</div>
+</div>
+</div>
+<div class="partner__transformational--module-container">
+<div class="partner__transformational--module">
+<div class="partner__transformational--module-image">
+<img src="https://www.unicefusa.org/sites/default/files/2023-08/UN0412581.jpg" alt="An infant held by a parent, eats a biscuit." />
+</div>
+<div class="partner__transformational--module-messaging">
+<h3><span>356 million</span> Children reached with programs
+to prevent malnutrition</h3>
+</div>
+</div>
+</div>
+<div class="partner__transformational--module-container">
+<div class="partner__transformational--module">
+<div class="partner__transformational--module-image">
+<img src="https://www.unicefusa.org/sites/default/files/2023-08/UN0517031.jpg" alt="A girl squats in front of a water pipe opening, where she collects water in a container as it flows out." />
+</div>
+<div class="partner__transformational--module-messaging">
+<h3><span>2 Billion</span> People who gained access to safe drinking water in the last two decades</h3>
+</div>
+</div>
+</div>
+<div class="partner__transformational--module-container">
+<div class="partner__transformational--module">
+<div class="partner__transformational--module-image">
+<img src="https://www.unicefusa.org/sites/default/files/2023-08/UN0724414_0.jpg" alt="A UNICEF worker in scrubs, gloves, and mask, delivers an inoculation to a smiling girl." />
+</div>
+<div class="partner__transformational--module-messaging">
+<h3><span>977.8 million</span> COVID-19 vaccines delivered to 92 countries by UNICEF through COVAX</h3>
+</div>
+</div>
+</div>
+<div class="partner__transformational--module-container">
+<div class="partner__transformational--module">
+<div class="partner__transformational--module-image">
+<img src="https://www.unicefusa.org/sites/default/files/2023-08/UNI364657.jpg" alt="A smiling woman in a hard hat carries a small container in a large warehouse" />
+</div>
+<div class="partner__transformational--module-messaging">
+<h3><span>100 million</span> Young people in more than 80 countries supported with skills training</h3>
+</div>
+</div>
+</div>
+<div class="partner__transformational--module-container">
+<div class="partner__transformational--module">
+<div class="partner__transformational--module-image">
+<img src="https://www.unicefusa.org/sites/default/files/2023-08/UNI421843.jpg" alt="A boy sits in a wheelchair, while two girls stand smiling next to and behind him." />
+</div>
+<div class="partner__transformational--module-messaging">
+<h3><span>4.5 million</span> Children with disabilities offered inclusive programming in 142 countries</h3>
+</div>
+</div>
+</div>
+</section>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" type="2fcb6a19460780614d2a3696-text/javascript"></script>
+<script type="2fcb6a19460780614d2a3696-text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="2fcb6a19460780614d2a3696-text/javascript">
+jQuery(function(){
+
+    /* Carousel */
+    if (window.innerWidth < 768) {
+        jQuery('.partner__transformational--modules').slick({
+            arrows: true,
+            dots: false,
+            focusOnChange: true,
+            mobileFirst: true,
+            accessible: true
+        });
+    }
+    
+    jQuery( window ).on( "resize", function() {
+        if (window.innerWidth > 767) {
+            jQuery('.partner__transformational--modules').slick('unslick');
+        } else if (!(jQuery('.partner__transformational--modules.slick-initialized').length)) {
+            jQuery('.partner__transformational--modules').slick({
+                arrows: true,
+                dots: false,
+                focusOnChange: true,
+                mobileFirst: true,
+                accessible: true
+            });
+        }
+    });
+
+});
+</script>
+</div>
+<div class="panel-pane pane-custom pane-3">
+<style>
+#partner__whytalk {
+    background: #4B4B4B;
+    margin-top: 7rem;
+    padding: 4rem 0.5rem;
+    border-radius: 1rem;
+}
+
+.partner__whytalk--bites {
+    max-width: 700px;
+    margin: 2rem auto;
+}
+.partner__whytalk--bite {
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #626262;
+    margin: 0 auto;
+}
+@media (min-width: 640px) {
+    #partner__whytalk {
+        padding: 4rem;
+    }
+}
+@media (min-width: 768px) {
+    #partner__whytalk {
+        margin-top: 0;
+    }
+}
+</style>
+<section id="partner__whytalk">
+<h2>Why talk to UNICEF?</h2>
+<div class="partner__whytalk--bites">
+<p class="partner__whytalk--bite">We work with governments and world leaders to operate at a global scale, bringing positive change to entire countries and continents for generations.</p>
+<p class="partner__whytalk--bite">We offer multi-year relationships that can create transformational, lasting change, with ongoing guidance and support to ensure continuing alignment with your goals.</p>
+<p class="partner__whytalk--bite">We are the curators and data-owners of seven of the UN’s Sustainable Development Goals, providing inside-the-room access to the world’s metrics for progress.</p>
+<p class="partner__whytalk--bite">Through the UN, we offer unique access to a global community of
+leaders, experts, innovators and influencers.</p>
+<p class="partner__whytalk--bite">We have more than 75 years of proven experience and, from it, a strong confidence in the ability of partnerships to create sustainable impact.</p>
+<p class="partner__whytalk--bite">We focus on the world’s biggest problems, affecting the world’s most vulnerable children, and have a proven track record of success.</p>
+</div>
+<p><center><a href="#partner__joinus" class="partner__cta">Join Us</a></center></p>
+</section>
+</div>
+<div class="panel-pane pane-custom pane-4">
+<style>
+#partner__with {
+    margin: 4rem auto;
+}
+.partner__with--modules {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem;
+}
+.partner__with--module {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    background: #000;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    position: relative;
+    margin: 1rem auto;
+}
+.partner__with--module:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 -100px 50px rgb(0 0 0 / 80%);
+}
+.partner__with--module-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partner__with--module img {
+    height: auto;
+    min-height: 100%;
+    width: auto;
+}
+.partner__with--module:last-of-type img {
+    margin-top: 70px;
+}
+.partner__with--module-messaging {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+#content .partner__with--module p {
+    margin: 0 auto 5px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+}
+#content .partner__with--module:hover p {
+    text-decoration: underline;
+}
+@media (min-width: 768px) {
+    .partner__with--modules {
+        flex-direction: row;
+    }
+    .partner__with--module {
+        margin: 0.5rem;
+    }
+}
+</style>
+<section id="partner__with">
+<h2>We Partner With</h2>
+<div class="partner__with--modules">
+<div class="partner__with--module">
+<a href="https://www.unicefusa.org/about-unicef-usa/partnerships/companies">
+<div class="partner__with--module-image"><img src="https://www.unicefusa.org/sites/default/files/2023-08/UNI-1_0.jpg" alt="Three kids sit together wearing colorful tank tops, smiling at the camera" /></div>
+<div class="partner__with--module-messaging"><p>Companies</p></div>
+</a>
+</div>
+<div class="partner__with--module">
+<a href="https://www.unicefusa.org/about-unicef-usa/partnerships/foundations">
+<div class="partner__with--module-image"><img src="https://www.unicefusa.org/sites/default/files/2023-08/UN-1.jpg" alt="Three girls in school uniform overalls stand smiling at a stone outdoor water station, with their hands under its metal faucets." /></div>
+<div class="partner__with--module-messaging"><p>Foundations</p></div>
+</a>
+</div>
+<div class="partner__with--module">
+<a href="https://www.unicefusa.org/how-help/donate/donors-philanthropists">
+<div class="partner__with--module-image"><img src="https://www.unicefusa.org/sites/default/files/2023-08/partner_hero_child_and_worker.jpeg" alt="A child and aid worker smile at the camera standing together in a field" /></div>
+<div class="partner__with--module-messaging"><p>Philanthropists</p></div>
+</a>
+</div>
+</div>
+</section>
+</div>
+<div class="panel-pane pane-custom pane-5">
+<style>
+#partner__testimonials {
+    background: #4B4B4B;
+    margin-top: 7rem;
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+}
+
+.partner__testimonials--bites {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.partner__testimonials--bite {
+    padding: 2rem 1rem 0;
+    margin: 0 auto;
+}
+.partner__testimonials--bite-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.partner__testimonials--bite-imagery {
+    width: 70px;
+    min-width: 70px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1rem;
+}
+.partner__testimonials--bite-messaging {
+    margin-left: 1rem;
+}
+.partner__testimonials--bite-messaging blockquote {
+    font-size: 1.3rem;
+    font-family: 'yantramanav';
+    font-weight: 100;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.partner__testimonials--bite-messaging b {
+    font-weight: 600;
+}
+#partner__testimonials .slick-slide .desktop-only {
+    display: none;
+}
+#partner__testimonials .slick-slide .mobile-only {
+    display: inline;
+}
+#partner__testimonials .slick-prev, 
+#partner__testimonials .slick-next {
+    bottom: -60px;
+}
+#partner__testimonials ul.slick-dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 1rem;
+}
+#partner__testimonials ul.slick-dots li {
+    position: relative;
+}
+#partner__testimonials ul.slick-dots li button {
+    opacity: 0;
+}
+#partner__testimonials ul.slick-dots li:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #000;
+}
+#partner__testimonials ul.slick-dots li.slick-active:before {
+    background: #fff;
+    outline: 1px solid #000;
+}
+.partner__testimonials--bite-sigs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.partner__testimonials--bite-sigs b {
+    display: block;
+}
+@media (min-width: 640px) {
+    #partner__testimonials {
+        padding: 1rem;
+    }
+    .partner__testimonials--bite-imagery {
+        min-width: 170px;
+        width: 170px;
+    }
+}
+@media (min-width: 768px) {
+    #partner__testimonials {
+        max-width: 840px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .partner__testimonials--bite-sigs b {
+        display: inline;
+    }
+    #partner__testimonials .slick-slide .desktop-only {
+        display: inline-block;
+    }
+    #partner__testimonials .slick-slide .mobile-only {
+        display: none;
+    }
+    #partner__testimonials .slick-prev, 
+    #partner__testimonials .slick-next {
+        top: calc(50% - 30px);
+        width: 60px;
+    }
+    #partner__testimonials .slick-prev {
+        left: -30px;
+    }
+    #partner__testimonials .slick-next {
+        right: -30px;
+    }
+}
+@media (min-width: 850px) {
+    #partner__testimonials .slick-prev {
+        left: -70px;
+    }
+    #partner__testimonials .slick-next {
+        right: -70px;
+    }
+}
+</style>
+<section id="partner__testimonials">
+<div class="partner__testimonials--bites">
+<div class="partner__testimonials--bite">
+<div class="partner__testimonials--bite-inner">
+<img src="https://www.unicefusa.org/sites/default/files/2023-09/Jenny-Lewis_Kimberly-Clark-Foundation.jpg" alt="Bust portrait of Jenny Lewis, a shoulder length blonde woman in a white jacket" class="partner__testimonials--bite-imagery desktop-only" />
+<div class="partner__testimonials--bite-messaging">
+<blockquote>“UNICEF’s holistic approach generates sustainable impact and true systems change. Our partnership with UNICEF, which spans 18 countries, enables us to tap into the power of our 45,000 employees and iconic brands to help build stronger families and healthier communities. Kimberly-Clark is proud to support UNICEF’s work to provide families around the globe with resources and critical services so their children don’t just survive but thrive.”</blockquote>
+<div class="partner__testimonials--bite-sigs">
+<img src="https://www.unicefusa.org/sites/default/files/2023-09/Jenny-Lewis_Kimberly-Clark-Foundation.jpg" alt="Bust portrait of Jenny Lewis, a shoulder length blonde woman in a white jacket" class="partner__testimonials--bite-imagery mobile-only" />
+<p><b>- Jenny Lewis,</b> Vice President of the Kimberly-Clark Foundation</p>
+</div>
+</div>
+</div>
+</div>
+<div class="partner__testimonials--bite">
+<div class="partner__testimonials--bite-inner">
+<img src="https://www.unicefusa.org/sites/default/files/2023-09/Kate-Behncken_Microsoft.jpg" alt="bust portrait of Katie Behncken, a woman with blonde hair draped over her shoulders, wearing a black jacket" class="partner__testimonials--bite-imagery desktop-only" />
+<div class="partner__testimonials--bite-messaging">
+<blockquote>“We have been able to focus on the outcome of expanding skilling and livelihood opportunities for young people, especially those most disadvantaged. Through our partnership, we have been able to bring together a number of Microsoft’s assets and combine them with the experience, resources, scale and influence of UNICEF to create impact globally.”</blockquote>
+<div class="partner__testimonials--bite-sigs">
+<img src="https://www.unicefusa.org/sites/default/files/2023-09/Kate-Behncken_Microsoft.jpg" alt="bust portrait of Katie Behncken, a woman with blonde hair draped over her shoulders, wearing a black jacket" class="partner__testimonials--bite-imagery mobile-only" />
+<p><b>- Katie Behncken,</b> Corporate Vice President of Microsoft Philanthropies</p>
+</div>
+</div>
+</div>
+</div>
+<div class="partner__testimonials--bite">
+<div class="partner__testimonials--bite-inner">
+<img src="https://www.unicefusa.org/sites/default/files/2023-09/Alexander-Lacik_Pandora.jpg" alt="bust portrait photo of Alexander Lacik, a close cropped brunette man in a suit with no tie" class="partner__testimonials--bite-imagery desktop-only" />
+<div class="partner__testimonials--bite-messaging">
+<blockquote>“With the right resources and opportunities, all children have a chance to pursue their dreams and even become the next generation of entrepreneurs, innovators or leaders. For many, especially girls, this remains a distant dream. Our partnership with UNICEF has helped provide education, life skills and emergency relief to the most vulnerable children around the world, and together we will continue to help children and young people fulfill their potential.”</blockquote>
+<div class="partner__testimonials--bite-sigs">
+<img src="https://www.unicefusa.org/sites/default/files/2023-09/Alexander-Lacik_Pandora.jpg" alt="bust portrait photo of Alexander Lacik, a close cropped brunette man in a suit with no tie" class="partner__testimonials--bite-imagery mobile-only" />
+<p><b>- Alexander Lacik,</b> CEO of Pandora</p>
+</div>
+</div>
+</div>
+</div>
+<div class="partner__testimonials--bite">
+<div class="partner__testimonials--bite-inner">
+<img src="https://www.unicefusa.org/sites/default/files/2023-09/Maria-Ahlstro%CC%88m-Bondestam_International-Council.jpg" alt="Bust portrait of Maria Ahlström-Bondestam, a woman with close cropped blonde hair, wearing a blue jacket over a white shirt, standing in a UNICEF warehouse." class="partner__testimonials--bite-imagery desktop-only" />
+<div class="partner__testimonials--bite-messaging">
+<blockquote>“Investing in children for the next generation of families, consumers, employees and investors, allows my family to show that taking a stand—again and again—is how we will shape the future into an equitable society.”</blockquote>
+<div class="partner__testimonials--bite-sigs">
+<img src="https://www.unicefusa.org/sites/default/files/2023-09/Maria-Ahlstro%CC%88m-Bondestam_International-Council.jpg" alt="Bust portrait of Maria Ahlström-Bondestam, a woman with close cropped blonde hair, wearing a blue jacket over a white shirt, standing in a UNICEF warehouse." class="partner__testimonials--bite-imagery mobile-only" />
+<p><b>- Maria Ahlström-Bondestam,</b> Co-founder of Eva Ahlström Foundation and Chair of UNICEF International Council</p>
+</div>
+</div>
+</div>
+</div>
+<div class="partner__testimonials--bite">
+<div class="partner__testimonials--bite-inner">
+<img src="https://www.unicefusa.org/sites/default/files/2023-09/Rita-Skj%C3%A6rvik%2C-EVP-People%2C-Sustainability-and-External-Relations-at-Telenor.jpg" alt="Bust portrait of Rita Skjaervik, a woman with brunette hair draped over her shoulders, wearing a dark blue jacket over a colorful scarf" class="partner__testimonials--bite-imagery desktop-only" />
+<div class="partner__testimonials--bite-messaging">
+<blockquote>“I am proud of the work UNICEF and Telenor have done in creating a safe space and advancing the rights of children and youth in the digital world. By leveraging our respective core competencies and fostering mutual trust and respect, we are able to achieve our collective mission of enabling children and young people to gain skills for a digital future and creating positive impact for societies.”</blockquote>
+<div class="partner__testimonials--bite-sigs">
+<img src="https://www.unicefusa.org/sites/default/files/2023-09/Rita-Skj%C3%A6rvik%2C-EVP-People%2C-Sustainability-and-External-Relations-at-Telenor.jpg" alt="Bust portrait of Rita Skjaervik, a woman with brunette hair draped over her shoulders, wearing a dark blue jacket over a colorful scarf" class="partner__testimonials--bite-imagery mobile-only" />
+<p><b>- Rita Skjaervik,</b> EVP People, Sustainability and External Relations at Telenor</p>
+</div>
+</div>
+</div>
+</div>
+<div class="partner__testimonials--bite">
+<div class="partner__testimonials--bite-inner">
+<img src="https://www.unicefusa.org/sites/default/files/2023-09/Christian-Klein_SAP.jpg" alt="bust portrait of Christian Klein, a close cropped brunette man in a blue sportscoat over a white t-shirt" class="partner__testimonials--bite-imagery desktop-only" />
+<div class="partner__testimonials--bite-messaging">
+<blockquote>“Building a future-ready workforce is essential to the prosperity of nations and organizations all over the world. We are helping to create a world where every young person has the skills and opportunities they need to reach their full potential and thrive in the digital and green economy.”</blockquote>
+<div class="partner__testimonials--bite-sigs">
+<img src="https://www.unicefusa.org/sites/default/files/2023-09/Christian-Klein_SAP.jpg" alt="bust portrait of Christian Klein, a close cropped brunette man in a blue sportscoat over a white t-shirt" class="partner__testimonials--bite-imagery mobile-only" />
+<p><b>- Christian Klein,</b> CEO and Member of the Executive Board of SAP SE</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script type="2fcb6a19460780614d2a3696-text/javascript">
+jQuery(function(){
+
+    /* Carousel */
+    jQuery('.partner__testimonials--bites').slick({
+        arrows: true,
+        dots: true,
+        focusOnChange: true,
+        mobileFirst: true,
+        accessible: true
+    });
+
+});
+</script>
+</div>
+<div class="panel-pane pane-custom pane-6">
+<style>
+#partner__learnmores {
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+.partner__learnmore {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background: #4B4B4B;
+}
+.partner__learnmore--imagery {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 107%;
+}
+.partner__learnmore--imagery img {
+    width: 100%;
+}
+.partner__learnmore--messaging {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+#content .partner__learnmore--messaging h2,
+#content .partner__learnmore--messaging p {
+    text-align: left;
+    margin: 0.5rem auto;
+    width: 100%;
+    color: #fff;
+}
+@media (min-width: 640px) {
+    .partner__learnmore {
+        margin: 2rem auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .partner__learnmore--imagery {
+        width: 33%;
+        height: auto;
+    }
+    .partner__learnmore--imagery img {
+        height: 100%;
+        width: auto;
+    }
+    .partner__learnmore--messaging {
+        width: 67%;
+    }
+}
+</style>
+<section id="partner__learnmores">
+<div class="partner__learnmore">
+<div class="partner__learnmore--imagery">
+<img src="https://www.unicefusa.org/sites/default/files/2023-08/UN0827518.jpg" alt="A smiling toddler holding a teddy bear walks holding her parent's hand." />
+</div>
+<div class="partner__learnmore--messaging">
+<h2>The Impact Fund for Children</h2>
+<p>UNICEF USA’s impact investing arm puts the power of financial markets to work for children. If you’re a believer in what capital can do, see what it can do for the world. </p>
+<p><a href="https://www.unicefusa.org/how-help/donate/impact-fund-children" class="partner__cta">Learn More</a></p>
+</div>
+</div>
+<div class="partner__learnmore">
+<div class="partner__learnmore--imagery">
+<img src="https://www.unicefusa.org/sites/default/files/2023-08/thumbnail_Low-res_BR_0437.jpg" alt="Overhead view of a large group of smiling people, members of the international council" />
+</div>
+<div class="partner__learnmore--messaging">
+<h2>UNICEF International Council</h2>
+<p>The International Council convenes
+a community of leading business families and global influencers who work directly with UNICEF to support future generations. </p>
+<p><a href="https://join.unicefusa.org/international-council" class="partner__cta">Learn More</a></p>
+</div>
+</div>
+</section>
+</div>
+<div class="panel-pane pane-custom pane-7">
+<style>
+#partner__joinus__interested {
+    margin: 4rem auto;
+    padding: 1rem;
+}
+#partner__joinus__creating {
+    padding: 2rem;
+    background: #4B4B4B;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 720px;
+    margin: 0 auto;
+}
+#partner__joinus__creating img {
+    margin-right: 2rem;
+}
+#partner__joinus__creating .partner__joinus__creating--writeup h2,
+#partner__joinus__creating .partner__joinus__creating--writeup p {
+    text-align: left;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+@media (max-width: 460px) {
+    #partner__joinus__creating {
+        flex-direction: column;
+        align-items: center;
+        max-width: 310px;
+        height: 398px;
+        padding-top: 4rem;
+    }
+    #partner__joinus__creating img {
+        margin-right: 0;
+    }
+    #partner__joinus__creating .partner__joinus__creating--writeup h2, 
+    #partner__joinus__creating .partner__joinus__creating--writeup p:first-of-type {
+        display: none;
+    }
+    #partner__joinus__creating .partner__joinus__creating--writeup p {
+        text-align: center;
+    }
+}
+@media (min-width: 1024px) {
+    #partner__joinus__interested {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        max-width: 1170px;
+    }
+    #partner__joinus__creating {
+        flex-direction: column;
+        align-items: center;
+        max-width: 310px;
+        height: 398px;
+        padding-top: 4rem;
+    }
+    #partner__joinus__creating img {
+        margin-right: 0;
+    }
+    #partner__joinus__creating .partner__joinus__creating--writeup h2, 
+    #partner__joinus__creating .partner__joinus__creating--writeup p:first-of-type {
+        display: none;
+    }
+    #partner__joinus__creating .partner__joinus__creating--writeup p {
+        text-align: center;
+    }
+}
+
+#partner__joinus {
+    background: #03BDF2;
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 768px;
+    margin: 2rem auto;
+}
+#partner__joinus h2 {
+    color: #000;
+    font-weight: 100;
+}
+#partner__joinus h2 span {
+    color: #fff;
+}
+#content #partner__joinus p {
+    color: #000;
+}
+.partner__joinus--writeup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 540px;
+    margin: 0 auto 2rem;
+}
+.partner__joinus--writeup img {
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+#content .partner__joinus--writeup p {
+    margin-bottom: 0;
+}
+.partner__joinus--writeup b {
+    font-weight: 600;
+}
+#content p.partner__joinus__form--mailto {
+    text-align: center;
+    font-size: 1rem;
+}
+#content p.partner__joinus__form--mailto a {
+    color: #000;
+    font-weight: 600;
+}
+@media (max-width: 439px) {
+    #partner__joinus {
+        padding: 1rem;
+    }
+    #partner__joinus h2 {
+        font-size: 2rem;
+    }
+    .partner__joinus--writeup {
+        flex-direction: column;
+    }
+    #partner__joinus__form .form-item {
+        display: block;
+    }
+}
+@media (min-width: 1024px) {
+    #partner__joinus {
+        margin: 0 auto 2rem;
+    }
+}
+
+#partner__joinus__form {
+    max-width: 350px;
+    margin: 0 auto 2rem;
+}
+#partner__joinus__form header,
+#partner__joinus__form #edit-captcha {
+	display: none;
+}
+#partner__joinus__form .form-item {
+	width: 200px;
+	display: inline;
+}
+
+#partner__joinus__form .form-item.error {
+	background: transparent;
+}
+#partner__joinus__form .form-item.error input {
+	border: 2px solid #ff6b6b;
+}
+#partner__joinus__form #edit-actions {
+	display: inline;
+	margin-left: 5px;
+}
+#partner__joinus__form #edit-actions input.form-submit {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    background: #000;
+    text-decoration: none;
+    border-radius: 2.9rem;
+    font-size: 1.6rem;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.2s all;
+    padding: 0 2rem 0.2rem;
+    margin-bottom: 4px;
+}
+#partner__joinus__form #edit-actions input.form-submit:focus {
+	outline: 2px solid #fff;
+	outline-offset: 1px;
+}
+#partner__joinus__form #edit-actions input.form-submit:hover {
+	text-decoration: underline;
+}
+#partner__joinus__form label {
+	font-size: 0;
+}
+#partner__joinus__form input {
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    display: inline;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+#partner__joinus__form textarea {
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    display: inline;
+    padding-left: 1rem;
+}
+#partner__joinus__form #edit-submitted-title,
+#partner__joinus__form #edit-submitted-first-name,
+#partner__joinus__form #edit-submitted-last-name,
+#partner__joinus__form #edit-submitted-message,
+#partner__joinus__form #edit-submitted-state-location,
+#partner__joinus__form #edit-submitted-mail {
+    width: 290px;
+    max-width: 100%;
+}
+#partner__joinus__form #edit-submitted-message {
+    margin-bottom: 1rem;
+}
+#content #partner__joinus__form p.partner__joinus__form--error {
+	color: #ff6b6b;
+	margin: 1rem 0;
+    background: #000;
+	display: none;
+}
+#partner__joinus__form .form-text.error {
+    border: 5px solid #ff6b6b;
+}
+#partner__joinus__form p.partner__joinus__form--error.active {
+	display: inline-block;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  	color: #878c92;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 1.4rem;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  	color: #878c92;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 1.4rem;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  	color: #878c92;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 1.4rem;
+}
+:-moz-placeholder { /* Firefox 18- */
+  	color: #878c92;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 1.4rem;
+}
+@media (max-width: 299px) {
+	#ifyouhave-partner__joinus__form #edit-actions input.form-submit {
+		margin-top: 0.5rem;
+	}
+}
+
+
+
+
+#partner__joinussignup-message-lightbox {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 19999;
+  display: none;
+}
+.panel-pane .partner__joinussignup__form-entrance__modal,
+.partner__joinussignup-message {
+  display: none;
+}
+#partner__joinussignup-message-lightbox.overlay {
+  display: block;
+}
+#partner__joinussignup-message-lightbox.partner__joinussignup-message-lightbox-hidden,
+#partner__joinussignup-message-lightbox.overlay.partner__joinussignup-message-lightbox-hidden {
+  display: none;
+}
+#partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__modal + .partner__joinussignup__form-entrance__modal,
+.block > .partner__joinussignup__form-entrance__modal {
+  display: none;
+}
+#partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__modal {
+  background: #fff;
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  max-width: 80%;
+  border-radius: 1rem;
+}
+.partner__joinussignup__form-entrance__copy a {
+    color: #00aeef;
+}
+#partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__button {
+  background: #EE3224;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 18px;
+  margin-top: 10px;
+  padding: 16px 24px;
+  text-transform: uppercase;
+}
+#partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__button:focus {
+  outline: none;
+}
+#partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__content {
+  display: flex;
+  flex-direction: column;
+  /*min-height: 350px;*/
+}
+#partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__content .partner__joinussignup__form-entrance__content-inner {
+  color: #000;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  padding: 28px;
+}
+#partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__content .partner__joinussignup__form-entrance__content-inner h2 {
+    font-weight: 2rem;
+    line-height: 1;
+    color: #00aeef;
+    font-weight: 700;
+    font-family: 'roboto condensed';
+    text-transform: uppercase;
+}
+#partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__content .partner__joinussignup__form-entrance__content-inner p {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+#partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__close {
+  cursor: pointer;
+  color: #000;
+  font-family: Verdana,Tahoma,"DejaVu Sans",sans-serif;
+  font-size: 100%;
+}
+#partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__close:before {
+  content: 'X';
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  line-height: 10px;
+  font-size: 20px;
+}
+/*
+@media only screen and (min-width: 640px) {
+*/
+  #partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__content {
+    flex-direction: row;
+  }
+  #partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__content .partner__joinussignup__form-entrance__content-inner {
+    width: 350px;
+  }
+  #partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__content .partner__joinussignup__form-entrance__content-inner h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  #partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__content .partner__joinussignup__form-entrance__content-inner p {
+    margin: 0;
+  }
+  #partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__close:before {
+    color: #000;
+  }
+/*
+}
+*/
+@media only screen and (max-height: 415px) {
+    #partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__modal {
+        bottom: 10px;
+        top: auto;
+        transform: translate(-50%, 0);
+    }
+    #partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__modal,
+    #partner__joinussignup-message-lightbox .partner__joinussignup__form-entrance__content .partner__joinussignup__form-entrance__content-inner {
+        width: 550px;
+    }
+}
+</style>
+<section id="partner__joinus__interested">
+<div id="partner__joinus">
+<h2><span>Yes,</span> I am interested in exploring
+a potential collaboration with UNICEF.</h2>
+<div class="partner__joinus--writeup">
+<p>Please provide some information about the nature of your potential partnership. This information will help us channel you to the right person. You may use the Message field for any comments or questions.</p>
+</div>
+<div class="partner__joinus__form--container">
+<div id="partner__joinus__form">
+<article class="node-41056 node node-webform view-mode-full clearfix" about="/form/partner-us-modal" typeof="sioc:Item foaf:Document">
+<header>
+<h2 class="node__title node-title"><a href="/form/partner-us-modal">Partner with Us Modal</a></h2>
+<span property="dc:title" content="Partner with Us Modal" class="rdf-meta element-hidden"></span>
+<p class="submitted">
+<span property="dc:date dc:created" content="2023-09-05T11:01:50-04:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang about="/users/todemko" typeof="sioc:UserAccount" property="foaf:name" datatype>todemko</span> on <time pubdate datetime="2023-09-05T11:01:50-04:00">Tue, 2023-09-05 11:01</time></span> </p>
+</header>
+<form class="webform-client-form" enctype="multipart/form-data" action="/about-unicef-usa/partnerships" method="post" id="webform-client-form-41056" accept-charset="UTF-8"><div><div class="form-item webform-component webform-component-textfield" id="webform-component-first-name">
+<label for="edit-submitted-first-name">First Name <span class="form-required" title="This field is required.">*</span></label>
+<input class=" form-text required" type="text" id="edit-submitted-first-name" name="submitted[first_name]" value size="60" maxlength="128" />
+</div>
+<div class="form-item webform-component webform-component-textfield" id="webform-component-last-name">
+<label for="edit-submitted-last-name">Last Name <span class="form-required" title="This field is required.">*</span></label>
+<input class=" form-text required" type="text" id="edit-submitted-last-name" name="submitted[last_name]" value size="60" maxlength="128" />
+</div>
+<div class="form-item webform-component webform-component-textfield" id="webform-component-title">
+<label for="edit-submitted-title">Title </label>
+<input class=" form-text" type="text" id="edit-submitted-title" name="submitted[title]" value size="60" maxlength="128" />
+</div>
+<div class="form-item webform-component webform-component-textarea" id="webform-component-message">
+<label for="edit-submitted-message">Message </label>
+<div class="form-textarea-wrapper"><textarea class=" form-textarea" id="edit-submitted-message" name="submitted[message]" cols="60" rows="5"></textarea></div>
+</div>
+<div class="form-item webform-component webform-component-textfield" id="webform-component-state-location">
+<label for="edit-submitted-state-location">State location </label>
+<input class=" form-text" type="text" id="edit-submitted-state-location" name="submitted[state_location]" value size="60" maxlength="128" />
+</div>
+<div class="form-item webform-component webform-component-email" id="webform-component-mail">
+<label for="edit-submitted-mail">E-mail address <span class="form-required" title="This field is required.">*</span></label>
+<input class="email  form-text form-email required" type="email" id="edit-submitted-mail" name="submitted[mail]" size="60" />
+</div>
+<input class type="hidden" name="submitted[ms]" value="default_ms" />
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-j33zKQpQf51E-JnvB5jnw9CBG-UC5qOk0qXc5J43sfM" />
+<input type="hidden" name="form_id" value="webform_client_form_41056" />
+<div class="form-actions form-wrapper" id="edit-actions"><input class="btn form-submit" type="submit" id="edit-submit" name="op" value="Submit" /></div></div></form>
+</article>
+<p class="partner__joinus__form--error" aria-live="assertive"></p>
+</div>
+</div>
+<p class="partner__joinus__form--mailto">By sharing your contact details via submission of this form, you consent to be contacted by UNICEF USA. Your details will not be shared outside of UNICEF, UNICEF national committee offices, or incorporated into any mailing list. For more information, please see our privacy policy (link provided below).</p>
+</div>
+<div id="partner__joinus__creating">
+<img src="https://www.unicefusa.org/sites/default/files/2023-08/Image%201.jpg" alt="The cover to the Creating Impact Together report. A child sits among learning and exercise tools like protractors and hula hoops and balls." />
+<div class="partner__joinus__creating--writeup">
+<h2>Creating Impact Together </h2>
+<p>With less than 10 years before the deadline to achieve the Sustainable Development Goals (SDGs) – it has become clear that the private sector, with its vast resources and expertise, plays a crucial role in addressing issues such as climate change, poverty and inequality. UNICEF’s report highlights several contributors who are building a safer, more sustainable world for children. </p>
+<p><a href="https://www.unicef.org/media/140201/file/Creating%20impact%20together%20.pdf" class="partner__cta">Download Report</a></p>
+</div>
+</div>
+</section>
+<div class="partner__joinussignup-message">
+<div class="partner__joinussignup-message-lightbox">
+<div class="partner__joinussignup__form-entrance__modal">
+<div class="partner__joinussignup__form-entrance__content">
+<div class="partner__joinussignup__form-entrance__content-inner">
+<h2 class="partner__joinussignup__form-entrance__header">Thank You!</h2>
+<p class="partner__joinussignup__form-entrance__copy">Thank you for your interest in helping UNICEF shape the future. Your submission has been received, and our team will be in touch shortly.</p>
+</div>
+</div>
+<div class="partner__joinussignup__form-entrance__close"></div>
+</div>
+</div>
+</div>
+<script type="2fcb6a19460780614d2a3696-text/javascript">
+jQuery(function(){
+    /* Recognition Lightbox */
+    if (window.location.href.indexOf("?confirm=true") > -1) {
+        var openModal = jQuery('.partner__joinussignup-message').find('.partner__joinussignup__form-entrance__modal');
+        jQuery('.partner__joinussignup-message').addClass('current-modal');
+        jQuery('body').prepend('<div id="partner__joinussignup-message-lightbox" class="overlay"><' + '/div' + '>');
+        jQuery('#partner__joinussignup-message-lightbox').append(openModal);
+        jQuery('.partner__joinussignup__form-entrance__button, .partner__joinussignup__form-entrance__close').on('click', function() {
+          var closingModal = jQuery('#partner__joinussignup-message-lightbox').children('.partner__joinussignup__form-entrance__modal');
+          jQuery('.partner__joinussignup-message.current-modal').find('.partner__joinussignup-message-lightbox').append(closingModal);
+          jQuery('.partner__joinussignup-message.current-modal').removeClass('current-modal');
+          jQuery('#partner__joinussignup-message-lightbox').remove();
+        });
+    }
+
+    /* Form validation */
+    function ValidateEmail(mailVal) {
+        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mailVal)) {
+            jQuery('.partner__joinus__form--container form').submit();
+            jQuery('.partner__joinus__form--error').html('Thank you! Form submitting').addClass('active');
+            return (true)
+        }
+        jQuery('.partner__joinus__form--error').html('We are sorry, you did not enter a valid email. Please retry above.').addClass('active');
+        jQuery('#partner__joinus .form-item').addClass('error');
+        jQuery('#partner__joinus .form-item').focus();
+        return (false)
+    }
+    jQuery('#partner__joinus input.email').attr('placeholder','Email Address');
+    jQuery('#edit-submitted-title').attr('placeholder','Company Title (optional)');
+    jQuery('#edit-submitted-first-name').attr('placeholder','First Name');
+    jQuery('#edit-submitted-last-name').attr('placeholder','Last Name');
+    jQuery('#edit-submitted-message').attr('placeholder','Message (optional)');
+    jQuery('#edit-submitted-state-location').attr('placeholder','State where you reside');
+    jQuery('#partner__joinus #edit-actions input.form-submit').on('click', function(e) {
+        e.preventDefault();
+        var emailVal = jQuery('#partner__joinus input.email').val();
+        ValidateEmail(emailVal);
+    });
+
+    if (jQuery('.form-text.error').length) {
+        jQuery('.partner__joinus__form--error').html('Please address the form errors above and resubmit.');
+        jQuery('.partner__joinus__form--error').show();
+        var distancefromTop = window.innerHeight + jQuery('.partner__joinus__form--error').offset().top;
+        jQuery([document.documentElement, document.body]).animate({
+            scrollTop: distancefromTop
+        }, 2000);
+    }
+
+});
+</script>
+</div>
+</div>
+</div>
+
+<div class="panel-panel panel-col-top-single">
+<div class="inside">
+<div class="panel-pane pane-custom pane-8">
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</main>
+<section id="canvas-footer-outer">
+<footer id="canvas-footer">
+<div class="canvas-footer__title">
+<a href="/"><img src="https://www.unicefusa.org/sites/default/files/UNICEFUSA_DIG_wordmark_W.svg" alt="UNICEF USA"></a>
+</div>
+<div class="canvas-footer__info">
+<div class="canvas-footer__company">
+<p class="canvas-footer__contact">(800) 367-5437 | 125 Maiden Lane, New York, NY 10038.</p>
+<p class="canvas-footer__copyright">© 2023 U.S. Fund for UNICEF d/b/a UNICEF USA. All rights reserved.</p>
+<p class="canvas-footer__nonprofit">UNICEF USA is a 501(c)(3) not-for-profit organization. Gifts are deductible to the full extent allowable under IRS regulations.</p>
+</div>
+<div class="canvas-footer__nav">
+<div class="canvas-footer__about">
+<a href="https://www.unicefusa.org/faq">FAQ</a>
+<a href="https://www.unicefusa.org/cookie-policy">Cookie Policy</a>
+<a href="https://www.unicefusa.org/privacy-policy">Privacy Policy</a>
+<a href="https://www.unicefusa.org/about-unicef-usa/careers">Job</a>
+</div>
+<div class="canvas-footer__socials">
+<a href="https://www.facebook.com/UNICEF-USA/" target="_blank"><img src="https://www.unicefusa.org/sites/default/files/fb-white.png" alt="Facebook"></a>
+<a href="https://www.instagram.com/UNICEFUSA/" target="_blank"><img src="https://www.unicefusa.org/sites/default/files/ig-white.png" alt="Instagram"></a>
+<a href="https://twitter.com/UNICEFUSA" target="_blank"><img src="https://www.unicefusa.org/sites/default/files/tw-white.png" alt="Twitter"></a>
+<a href="https://www.youtube.com/channel/UCSwwFP8hhA0Spah0ZUKZQVQ" target="_blank"><img src="https://www.unicefusa.org/sites/default/files/yt-white.png" alt="YouTube"></a>
+<a href="https://www.linkedin.com/company-beta/22762/" target="_blank"><img src="https://www.unicefusa.org/sites/default/files/lkin-white.png" alt="LinkedIn"></a>
+</div>
+</div>
+</div>
+</footer>
+</section>
+<style>
+        /* Design tweaks */
+        .ig__herocontainer--cta {
+            padding: 0.5rem 1.5rem 0.7rem;
+        }
+        #ig__herotranscript {
+            position: relative;
+            margin-bottom: 6rem;
+            left: calc(50% - 94px);
+        }
+        #ig__herotranscript--box {
+            background: none;
+            max-width: 220px;
+        }
+        #ig__herotranscript--box p {
+            color: #fff;
+        }
+        @media (min-width: 640px) {
+            .ig__herocarousel {
+                max-width: 635px;
+            }
+            .ig__herocarousel--carousel--nav {
+                width: 132px;
+            }
+        }
+        @media (min-width: 768px) {
+            #ig__herotranscript {
+                margin-top: -2rem;
+                left: calc(50% - 190px);
+            }
+            #ig__herotranscript--box {
+                max-width: 480px;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 1525px) {
+            #ig_breadcrumbs {
+                margin-left: 75px;
+            }
+        }
+        @media (min-width: 1024px) {
+            .ig__herocontainer--hero .ig__herocontainer--hero-writeup {
+                margin-left: 1.5rem;
+            }
+        }
+        </style>
+<script type="2fcb6a19460780614d2a3696-text/javascript">
+ jQuery(function(){
+
+   var lastScrollTop = 0, delta = 5;
+   jQuery(window).scroll(function(){
+
+     var nowScrollTop = jQuery(this).scrollTop();
+     if (Math.abs(lastScrollTop - nowScrollTop) >= delta) {
+      if (nowScrollTop > lastScrollTop){
+        jQuery('.navbar-menu').addClass('scrunch');
+      } else {
+        jQuery('.navbar-menu').removeClass('scrunch');
+      }
+     lastScrollTop = nowScrollTop;
+     }
+                 if (jQuery(window).scrollTop() < 5) {
+                   jQuery('.navbar-menu').removeClass('scrunch');
+                 }
+   });
+
+    if (!(jQuery('.navbar-message.achievement').is(':empty'))) {
+        jQuery('.navbar-notice.achievement').html(jQuery('.navbar-message.achievement').html());
+    }
+    if (!(jQuery('.navbar-message.emergency').is(':empty'))) {
+        jQuery('.navbar-notice.emergency').html(jQuery('.navbar-message.emergency').html());
+    }
+
+ });
+</script> <script src="https://join.unicefusa.org/sites/default/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js" type="2fcb6a19460780614d2a3696-text/javascript"></script>
+<script src="https://s7.addthis.com/js/250/addthis_widget.js" type="2fcb6a19460780614d2a3696-text/javascript"></script>
+<script src="https://join.unicefusa.org/sites/default/files/js/js_O1N1Auuwb4yPq-3c7SIt40-vjl42mYkimx48q9NdGDw.js" type="2fcb6a19460780614d2a3696-text/javascript"></script>
+<script type="2fcb6a19460780614d2a3696-text/javascript">delete(Drupal.settings.ajaxPageState.css);</script>
+<script src="https://join.unicefusa.org/sites/default/files/js/js_BmrJETtaOJF652MH_7nSv0Fxt3eSrhSX5S-9NqwjDQY.js" type="2fcb6a19460780614d2a3696-text/javascript"></script>
+<script type="2fcb6a19460780614d2a3696-text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c064680dbb","applicationID":"44757233","transactionName":"YwdVNxECCkcEUBYNV1pNdBYQFwtZSkMDA11rD1YNAgQBRjpdDQBdaxReBhQ8FFUCVk0GVFUMXDwAAgpCBEA=","queueTime":0,"applicationTime":908,"atts":"T0BWQVkYGUk=","errorBeacon":"bam.nr-data.net","agent":""}</script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="2fcb6a19460780614d2a3696-|49" defer></script></body>
+</html>
